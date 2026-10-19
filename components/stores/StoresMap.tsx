@@ -29,7 +29,8 @@ function Controller({ stores, activeId, interactive }: Pick<Props, 'stores' | 'a
     if (!s) return;
     if (first.current) {
       first.current = false;
-      map.fitBounds(L.latLngBounds(stores.map((x) => [x.lat, x.lng])), { padding: [48, 48], maxZoom: 13 });
+      // снизу запас под подсказку «нажмите, чтобы управлять картой» и атрибуцию
+      map.fitBounds(L.latLngBounds(stores.map((x) => [x.lat, x.lng])), { paddingTopLeft: [56, 56], paddingBottomRight: [40, 110], maxZoom: 13 });
       return;
     }
     map.flyTo([s.lat, s.lng], Math.min(14, siteConfig.map.maxZoom), { duration: 1.1 });
