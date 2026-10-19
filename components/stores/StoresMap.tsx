@@ -32,7 +32,7 @@ function Controller({ stores, activeId, interactive }: Pick<Props, 'stores' | 'a
       map.fitBounds(L.latLngBounds(stores.map((x) => [x.lat, x.lng])), { padding: [48, 48], maxZoom: 13 });
       return;
     }
-    map.flyTo([s.lat, s.lng], 14, { duration: 1.1 });
+    map.flyTo([s.lat, s.lng], Math.min(14, siteConfig.map.maxZoom), { duration: 1.1 });
   }, [activeId, map, stores]);
   useEffect(() => {
     const handlers = [map.dragging, map.touchZoom, map.doubleClickZoom, map.boxZoom, map.keyboard];
@@ -42,7 +42,7 @@ function Controller({ stores, activeId, interactive }: Pick<Props, 'stores' | 'a
   return null;
 }
 
-/** Карта: тёмные тайлы (CARTO Dark Matter по ключу или затемнённый OSM) и золотые маркеры */
+/** Карта: тёмная подложка (Esri Dark Gray или свой источник) и золотые маркеры */
 export default function StoresMap({ stores, activeId, onSelect, interactive }: Props) {
   const icons = useMemo(
     () => ({
@@ -58,9 +58,11 @@ export default function StoresMap({ stores, activeId, onSelect, interactive }: P
       zoomControl
       scrollWheelZoom={false}
       attributionControl
-      className={`h-full w-full ${siteConfig.map.darkFilter ? 'nm-dark-tiles' : ''}`}
+      className="h-full w-full"
     >
-      <TileLayer url={siteConfig.map.tileUrl} attribution={siteConfig.map.attribution} maxZoom={19} />
+      {/* база слегка затемнена под палитру сайта; подписи — отдельным слоем без фильтра */}
+      <TileLayer url={siteConfig.map.tileUrl} attribution={siteConfig.map.attribution} maxZoom={siteConfig.map.maxZoom} className={siteConfig.map.tint ? 'nm-tiles-base' : undefined} />
+      {siteConfig.map.labelsUrl && <TileLayer url={siteConfig.map.labelsUrl} maxZoom={siteConfig.map.maxZoom} />}
       {stores.map((s) => (
         <Marker
           key={s.id}

@@ -55,7 +55,7 @@ export function Stores({ photos }: { photos: Record<string, ImageAsset> }) {
               <button
                 type="button"
                 onClick={() => setMapOn(true)}
-                className="absolute inset-0 z-[500] flex items-end justify-center bg-gradient-to-t from-ink/70 to-transparent pb-5"
+                className="absolute inset-0 z-[500] flex items-end justify-center bg-gradient-to-t from-ink/70 to-transparent pb-9"
               >
                 <span className="flex min-h-11 items-center gap-2 rounded-full bg-ink/80 px-4 text-xs uppercase tracking-[0.14em] ring-1 ring-line backdrop-blur">
                   <Icon name="expand" size={16} />

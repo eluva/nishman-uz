@@ -293,12 +293,13 @@
 
 /* Leaflet: тёмные элементы управления */
 .leaflet-container {
-  background: #111113;
+  /* цвет фона = цвет подложки: между тайлами не видно светлых швов */
+  background: #262627 !important;
   font-family: var(--font-sans);
 }
-.nm-dark-tiles .leaflet-tile-pane {
-  /* статичный фильтр (не анимируется): OSM → вид Dark Matter */
-  filter: grayscale(1) invert(1) brightness(0.55) contrast(1.2);
+.nm-tiles-base {
+  /* статичный фильтр (не анимируется): затемнение подложки под фон сайта */
+  filter: brightness(0.62) contrast(1.08);
 }
 .leaflet-touch .leaflet-control-zoom a,
 .leaflet-control-zoom a {
@@ -317,10 +318,12 @@
 .leaflet-control-attribution a {
   color: #9b988f !important;
 }
-.nm-hit {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nm-hit .nm-marker {
+  /* leaflet.css задаёт иконке display:block — точку позиционируем абсолютно по центру зоны нажатия 44×44 */
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  display: block;
 }
 .nm-marker {
   width: 18px;

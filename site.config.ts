@@ -93,18 +93,26 @@ export const siteConfig = {
   } as Record<string, string>,
 
   /**
-   * Тайлы карты. CARTO Dark Matter (basemaps.cartocdn.com) сейчас требует API-ключ —
-   * без него отдаёт заглушку «API KEY REQUIRED». Поэтому по умолчанию — OpenStreetMap,
-   * затемнённый статичным CSS-фильтром до вида Dark Matter (ключ не нужен).
-   * Получили ключ CARTO — укажите полный URL тайлов в NEXT_PUBLIC_MAP_TILE_URL (фильтр отключится).
+   * Тайлы карты. CARTO Dark Matter (basemaps.cartocdn.com) теперь требует API-ключ — без него
+   * отдаёт заглушку «API KEY REQUIRED». По умолчанию — Esri World Dark Gray (тёмная подложка без ключа)
+   * + отдельный слой подписей. Для коммерческого сайта сверьте условия Esri (см. README → «Карта»)
+   * или задайте свой источник в NEXT_PUBLIC_MAP_TILE_URL (например, CARTO Dark Matter с ключом).
    */
-  map: {
-    tileUrl: process.env.NEXT_PUBLIC_MAP_TILE_URL || 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-    darkFilter: !process.env.NEXT_PUBLIC_MAP_TILE_URL,
-    attribution: process.env.NEXT_PUBLIC_MAP_TILE_URL
-      ? '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-      : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  },
+  map: process.env.NEXT_PUBLIC_MAP_TILE_URL
+    ? {
+        tileUrl: process.env.NEXT_PUBLIC_MAP_TILE_URL,
+        labelsUrl: null as string | null,
+        maxZoom: 19,
+        tint: false,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      }
+    : {
+        tileUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+        labelsUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}' as string | null,
+        maxZoom: 16,
+        tint: true,
+        attribution: '&copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OSM',
+      },
 
   /** Навигация (якоря секций) */
   nav: ['catalog', 'quiz', 'partners', 'stores', 'contacts'] as const,
