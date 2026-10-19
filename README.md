@@ -7,6 +7,11 @@
 
 ---
 
+## Деплой
+
+Продакшн: **https://nishman-uz.vercel.app** (Vercel, проект `nishman-uz`). Репозиторий GitHub подключён к проекту — каждый пуш в `main` деплоится автоматически, остальные ветки получают preview-ссылки.
+Переменные окружения задаются в Vercel → Settings → Environment Variables (сейчас задан `NEXT_PUBLIC_SITE_URL`). После подключения своего домена обновите `NEXT_PUBLIC_SITE_URL`.
+
 ## Запуск
 
 ```bash

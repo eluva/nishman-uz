@@ -11,3 +11,7 @@ __pycache__/
 .DS_Store
 # исходник PDF в корне — копия лежит в assets/brand-catalog.pdf
 /*.pdf
+.vercel
+
+.vercel
+.env*
