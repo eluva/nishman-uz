@@ -1,0 +1,404 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #0b0b0c;
+  --color-surface: #141416;
+  --color-raised: #1b1b1e;
+  --color-bone: #f5f3ee;
+  --color-muted: #9b988f;
+  --color-line: #2a2a2d;
+  --color-accent: #ffc72c;
+  --color-tile: #f2f1ed;
+  --color-tile-ink: #141416;
+  --color-ghost: #e4e2db;
+
+  --font-display: var(--font-inter-tight), 'Inter Tight', system-ui, sans-serif;
+  --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
+
+  --breakpoint-xs: 390px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+  --tracking-tightest: -0.045em;
+}
+
+@layer base {
+  html {
+    background: var(--color-ink);
+    color: var(--color-bone);
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 5rem;
+  }
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-stopped {
+    overflow: clip;
+  }
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: 'ss01', 'cv11';
+    overflow-x: clip;
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+  img {
+    user-select: none;
+  }
+}
+
+@layer components {
+  /* Заголовки: Inter Tight, uppercase, плотный трекинг */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.035em;
+    line-height: 0.92;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  .eyebrow::before {
+    content: '';
+    width: 2.5rem;
+    height: 1px;
+    background: var(--color-accent);
+  }
+
+  .container-x {
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 390px) {
+    .container-x {
+      padding-inline: 1.25rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2rem;
+    }
+  }
+  @media (min-width: 1440px) {
+    .container-x {
+      padding-inline: 3.5rem;
+    }
+  }
+
+  .section-y {
+    padding-block: 5.5rem;
+  }
+  /* Секции ниже первого экрана (телефон): браузер пропускает стили/раскладку/отрисовку, пока они не близко к экрану.
+     На десктопе выключено — запаса CPU хватает, а плавные якоря lenis точнее с реальными высотами. */
+  @media (max-width: 1023px) {
+    .cv-auto {
+      content-visibility: auto;
+      contain-intrinsic-size: auto var(--cv-h, 1200px);
+    }
+    /* перед переходом по якорю — реальные высоты, чтобы прокрутка попала точно */
+    html.cv-off .cv-auto {
+      content-visibility: visible;
+    }
+  }
+  @media (min-width: 1024px) {
+    .section-y {
+      padding-block: 9rem;
+    }
+  }
+
+  /* Пилюли каталога */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 1.5rem;
+    padding-inline: 0.65rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    background: var(--color-tile-ink);
+    color: var(--color-bone);
+  }
+  .pill-outline {
+    background: transparent;
+    color: inherit;
+    box-shadow: inset 0 0 0 1px currentColor;
+    opacity: 0.85;
+  }
+
+  /* Кнопки */
+  .btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding-inline: 1.5rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition:
+      background-color 0.6s var(--ease-lux),
+      color 0.6s var(--ease-lux),
+      box-shadow 0.6s var(--ease-lux),
+      transform 0.6s var(--ease-lux);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .btn-accent {
+    background: var(--color-accent);
+    color: var(--color-ink);
+  }
+  .btn-accent:hover {
+    background: #ffd65e;
+  }
+  .btn-ghost {
+    box-shadow: inset 0 0 0 1px rgb(245 243 238 / 0.28);
+    color: var(--color-bone);
+  }
+  .btn-ghost:hover {
+    box-shadow: inset 0 0 0 1px var(--color-bone);
+  }
+  .btn-dark {
+    background: var(--color-tile-ink);
+    color: var(--color-bone);
+  }
+  .btn-dark:hover {
+    background: #000;
+  }
+
+  /* Плавное подчёркивание ссылок */
+  .link-u {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.7s var(--ease-lux);
+  }
+  @media (hover: hover) {
+    .link-u:hover {
+      background-size: 100% 1px;
+      background-position: 0 100%;
+    }
+  }
+
+  /* Поля форм */
+  .field {
+    width: 100%;
+    min-height: 3.25rem;
+    padding: 0.85rem 1rem;
+    border-radius: 0.9rem;
+    background: var(--color-surface);
+    color: var(--color-bone);
+    box-shadow: inset 0 0 0 1px var(--color-line);
+    transition: box-shadow 0.5s var(--ease-lux);
+    font-size: 1rem;
+  }
+  .field::placeholder {
+    color: #6d6a63;
+  }
+  .field:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 1px var(--color-accent);
+  }
+  .field[aria-invalid='true'] {
+    box-shadow: inset 0 0 0 1px #e5664d;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  /* Маска-размытие краёв лент и каруселей */
+  .edge-fade {
+    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Тёмный градиент поверх фото */
+  .photo-shade::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgb(11 11 12 / 0.1) 0%, rgb(11 11 12 / 0.15) 45%, rgb(11 11 12 / 0.75) 100%);
+  }
+  .photo-tone {
+    filter: saturate(0.82) contrast(1.04);
+  }
+}
+
+/* Статичная плёночная зернистость (без анимации): готовый PNG-тайл 96×96, без blend-mode — дёшево для GPU */
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  opacity: 0.06;
+  background-image: url('/media/brand/grain.png');
+  background-size: 96px 96px;
+}
+
+/* Leaflet: тёмные элементы управления */
+.leaflet-container {
+  background: #111113;
+  font-family: var(--font-sans);
+}
+.nm-dark-tiles .leaflet-tile-pane {
+  /* статичный фильтр (не анимируется): OSM → вид Dark Matter */
+  filter: grayscale(1) invert(1) brightness(0.55) contrast(1.2);
+}
+.leaflet-touch .leaflet-control-zoom a,
+.leaflet-control-zoom a {
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  background: var(--color-surface) !important;
+  color: var(--color-bone) !important;
+  border-color: var(--color-line) !important;
+}
+.leaflet-control-attribution {
+  background: rgb(11 11 12 / 0.7) !important;
+  color: #77746d !important;
+  font-size: 10px !important;
+}
+.leaflet-control-attribution a {
+  color: #9b988f !important;
+}
+.nm-hit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nm-marker {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--color-accent);
+  box-shadow:
+    0 0 0 6px rgb(255 199 44 / 0.18),
+    0 0 24px rgb(255 199 44 / 0.5);
+  transition: transform 0.6s var(--ease-lux);
+}
+.nm-marker.is-active {
+  transform: scale(1.35);
+}
+
+.reveal-line {
+  animation: revealLine 1.1s var(--ease-lux) both;
+}
+@keyframes revealLine {
+  from {
+    transform: translateY(105%);
+  }
+}
+.odometer {
+  transform: translateY(calc(var(--d) * -10%));
+  animation: odometer 2.2s var(--ease-lux) both;
+}
+@keyframes odometer {
+  from {
+    transform: translateY(0);
+  }
+}
+.fade-in-up {
+  animation: fadeInUp 1s var(--ease-lux) both;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-line,
+  .fade-in-up,
+  .odometer {
+    animation: none;
+  }
+}
+
+details[open] .faq-body {
+  animation: faqIn 0.9s var(--ease-lux);
+}
+@keyframes faqIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes scrollcue {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(200%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) and (pointer: coarse) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}

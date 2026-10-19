@@ -1,0 +1,30 @@
+[
+ {
+  "id": "styling",
+  "number": "01"
+ },
+ {
+  "id": "care",
+  "number": "02"
+ },
+ {
+  "id": "color",
+  "number": "03"
+ },
+ {
+  "id": "shaving",
+  "number": "04"
+ },
+ {
+  "id": "beard",
+  "number": "05"
+ },
+ {
+  "id": "face",
+  "number": "06"
+ },
+ {
+  "id": "accessories",
+  "number": "07"
+ }
+]

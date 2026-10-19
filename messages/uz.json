@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "title": "NISHMAN O‘zbekistonda — erkaklar uchun professional kosmetika | Nishman.uz",
+    "description": "NISHMAN mumlari, mat pastalari, gellari, soch, soqol va teri parvarishi. Toshkent va butun O‘zbekiston bo‘ylab chakana va barbershop hamda do‘konlar uchun ulgurji savdo.",
+    "ogAlt": "NISHMAN mahsulotlari bilan barber"
+  },
+  "common": {
+    "close": "Yopish",
+    "back": "Orqaga",
+    "continue": "Davom etish",
+    "prev": "Oldingi",
+    "next": "Keyingi",
+    "call": "Qo‘ng‘iroq qilish",
+    "toCatalog": "Katalogni ko‘rish",
+    "currency": "so‘m",
+    "view": "Ko‘rish",
+    "skip": "Asosiy qismga o‘tish",
+    "optional": "ixtiyoriy"
+  },
+  "nav": {
+    "catalog": "Katalog",
+    "quiz": "Tanlash",
+    "partners": "Hamkorlarga",
+    "stores": "Manzillar",
+    "contacts": "Aloqa"
+  },
+  "header": {
+    "cart": "Savat",
+    "menu": "Menyu",
+    "language": "Til",
+    "home": "Nishman.uz — bosh sahifa"
+  },
+  "hero": {
+    "eyebrow": "Nishman.uz · Toshkent",
+    "titleA": "Xarakterli",
+    "titleB": "turmak",
+    "lead": "NISHMAN mumlari, pastalari, gellari va parvarish vositalari — barbershop va uy uchun.",
+    "positions": "katalogdagi pozitsiya",
+    "countries": "eksport mamlakati",
+    "scroll": "Pastga suring"
+  },
+  "about": {
+    "label": "Brend haqida",
+    "p1": "NISHMAN — Asil Group Cosmetic kompaniyasining erkaklar liniyasi. Kompaniya 2016-yilda Istanbulda tashkil topgan va bir necha yil ichida professional kosmetikaning yirik ishlab chiqaruvchilari qatoridan mustahkam o‘rin egallagan.",
+    "p2": "Brend qadoq, xavfsizlik va formulalar sifatiga birdek jiddiy qaraydi — shuning uchun NISHMANning yorqin bankalarini dunyo bo‘ylab barbershop javonlarida tanib olishadi.",
+    "slogan": "Butun dunyo\nbiz haqimizda eshitmaguncha\nto‘xtamaymiz",
+    "distributor": "Nishman.uz — NISHMANning O‘zbekistondagi rasmiy distribyutori.",
+    "photoAlt": "NISHMAN bankalari bilan usta",
+    "advantages": {
+      "original": {
+        "title": "Original",
+        "text": "Ishlab chiqaruvchidan to‘g‘ridan-to‘g‘ri — soxtasiz va vositachilarsiz."
+      },
+      "delivery": {
+        "title": "Butun mamlakat bo‘ylab yetkazish",
+        "text": "Toshkentda kuryer, viloyatlarga yetkazib berish xizmatlari orqali."
+      },
+      "barbers": {
+        "title": "Barberlarni qo‘llab-quvvatlash",
+        "text": "Mahsulot bo‘yicha maslahat beramiz va zal uchun assortiment tuzishga yordamlashamiz."
+      }
+    }
+  },
+  "catalog": {
+    "title": "To‘liq assortiment",
+    "lead": "Yetti bo‘lim — mumdan tortib yopinchiqqacha. Bo‘limni tanlang yoki filtrlardan foydalaning.",
+    "all": "Barcha bo‘limlar",
+    "count": "{count, plural, one {# pozitsiya} other {# pozitsiya}}",
+    "categories": {
+      "styling": "Stayling",
+      "care": "Soch parvarishi",
+      "color": "Rang va hajm",
+      "shaving": "Soqol olish",
+      "beard": "Soqol",
+      "face": "Yuz",
+      "accessories": "Aksessuarlar"
+    },
+    "showMore": "Yana ko‘rsatish",
+    "shown": "{total} tadan {shown} tasi ko‘rsatildi",
+    "emptyTitle": "Hech narsa topilmadi",
+    "emptyText": "Filtrlar yoki so‘rovni o‘zgartiring — yoki hammasini tozalab, qaytadan boshlang."
+  },
+  "filters": {
+    "title": "Filtrlar",
+    "line": "Liniya",
+    "allLines": "Barcha liniyalar",
+    "effect": "Effekt",
+    "volume": "Hajm",
+    "any": "Istalgan",
+    "forSalons": "Salonlar uchun",
+    "search": "Nomi yoki kodi",
+    "sort": "Saralash",
+    "sortOptions": {
+      "default": "Katalog tartibida",
+      "priceAsc": "Avval arzonlari",
+      "priceDesc": "Avval qimmatlari",
+      "holdDesc": "Kuchli fiksatsiya",
+      "name": "Nomi bo‘yicha"
+    },
+    "reset": "Tozalash",
+    "apply": "{count, plural, one {# ta mahsulotni} other {# ta mahsulotni}} ko‘rsatish"
+  },
+  "product": {
+    "hold": "Fiksatsiya",
+    "holdValue": "Fiksatsiya 5 dan {value}",
+    "noHold": "Fiksatsiyasiz",
+    "from": "{price} dan",
+    "addToCart": "Savatga",
+    "added": "Savatga qo‘shildi",
+    "quickView": "Tezkor ko‘rish: {name}",
+    "shades": "{count, plural, one {# tus} other {# tus}}",
+    "shade": "Tus",
+    "properties": "Xususiyatlari",
+    "fromLine": "Shu liniyadan",
+    "orderTelegram": "Telegramda buyurtma berish",
+    "salonSize": "Salon hajmi",
+    "code": "Kod",
+    "size": "O‘lcham",
+    "pcs": "dona",
+    "effects": {
+      "matte": "Mat",
+      "naturalShine": "Tabiiy jilo",
+      "semiMatte": "Yarim mat",
+      "natural": "Tabiiy"
+    }
+  },
+  "quiz": {
+    "label": "Turmak vositasini tanlash",
+    "title": "O‘z vositangiz — uchta javobda",
+    "step": "{total} dan {current}-qadam",
+    "effectQ": "Qanday natija kerak?",
+    "effectA": {
+      "matte": "Jilosiz, teksturali",
+      "natural": "Go‘yo hech narsa surtilmagandek",
+      "shine": "Silliq va yaltiroq"
+    },
+    "holdQ": "Qanchalik mahkam ushlasin?",
+    "holdA": {
+      "1": "Deyarli sezilmas",
+      "2": "Yumshoq, harakatchan",
+      "3": "Kun bo‘yi ishonchli",
+      "4": "Kuchli",
+      "5": "Tosh kabi qattiq"
+    },
+    "lengthQ": "Sochingiz uzunligi qanday?",
+    "lengthA": {
+      "short": "Qisqa",
+      "medium": "O‘rtacha",
+      "long": "Uzun"
+    },
+    "result": "Sizga mos keladi",
+    "restart": "Qaytadan boshlash"
+  },
+  "lines": {
+    "label": "Liniyalar",
+    "title": "NISHMANning uch qiyofasi",
+    "cta": "Katalogda ochish",
+    "aqua": {
+      "text": "Yetti banka — yetti xil hid. O‘zingiznikini topish uchun bankani bosing.",
+      "scent": "Hid"
+    },
+    "matte": {
+      "title": "Mat liniya va Spider Wax",
+      "text": "Harakatchan teksturadan tosh kabi fiksatsiyagacha — har bir vosita shkaladagi o‘z o‘rnida.",
+      "soft": "Yumshoq",
+      "hard": "Maksimal"
+    },
+    "cologne": {
+      "title": "Hidlar devori",
+      "text": "Soqoldan keyingi o‘n ikkita odekolon. Flakon ustiga olib boring — telefonda esa bosing."
+    }
+  },
+  "partners": {
+    "title": "Barbershop va do‘konlar uchun ulgurji savdo",
+    "lead": "Butun O‘zbekiston bo‘ylab barbershoplar, salonlar va kosmetika do‘konlari bilan ishlaymiz.",
+    "photoAlt": "NISHMAN shampunining salon kanistri",
+    "proTitle": "Professional hajmlar",
+    "proText": "Zalda har kuni sarflanadigan narsalar: bir litrli soqol olish gellari, katta hajmdagi shampun va konditsionerlar.",
+    "proCta": "Barcha salon hajmlari",
+    "toolsTitle": "Ish joyi uchun hammasi",
+    "toolsText": "Yopinchiqlar, bo‘yin cho‘tkalari, feyd cho‘tkalari, taroqlar va bir martalik sochiqlar.",
+    "toolsCta": "Tanlovni ochish",
+    "benefits": {
+      "price": "Ulgurji narxlar so‘rov bo‘yicha — hajmingizga qarab",
+      "manager": "Telegramda shaxsiy menejer",
+      "materials": "Zal va vitrina uchun reklama materiallari"
+    },
+    "terms": {
+      "title": "Hamkorlik shartlari",
+      "format": "Format",
+      "minOrder": "Minimal buyurtma",
+      "deferral": "To‘lovni kechiktirish",
+      "bonus": "Bonus",
+      "rows": {
+        "barbershop": {
+          "format": "Barbershop yoki salon",
+          "deferral": "—",
+          "bonus": "Zal uchun testerlar to‘plami"
+        },
+        "shop": {
+          "format": "Do‘kon yoki marketpleys",
+          "deferral": "14 kun",
+          "bonus": "Kartochkalar uchun foto va tavsiflar"
+        },
+        "region": {
+          "format": "Viloyat hamkori",
+          "deferral": "30 kun",
+          "bonus": "Yangiliklarga ustuvor kirish"
+        }
+      }
+    },
+    "form": {
+      "title": "Hamkorlik uchun ariza",
+      "business": "Biznes nomi",
+      "type": "Biznes turi",
+      "types": {
+        "barbershop": "Barbershop",
+        "salon": "Go‘zallik saloni",
+        "shop": "Do‘kon",
+        "other": "Boshqa"
+      },
+      "city": "Shahar",
+      "comment": "Izoh",
+      "submit": "Ariza yuborish",
+      "successTitle": "Ariza qabul qilindi",
+      "successText": "Menejer bir ish kuni ichida siz bilan bog‘lanadi."
+    }
+  },
+  "forms": {
+    "name": "Ism",
+    "phone": "Telefon",
+    "sending": "Yuborilmoqda…",
+    "again": "Yana yuborish",
+    "required": "Ushbu maydonni to‘ldiring",
+    "phoneInvalid": "Raqamni kiriting: +998 XX XXX-XX-XX",
+    "serverError": "Yuborib bo‘lmadi. Qayta urinib ko‘ring yoki Telegramda yozing.",
+    "honeypot": "Bu maydonni bo‘sh qoldiring"
+  },
+  "reviews": {
+    "label": "Fikrlar",
+    "title": "Ustalar so‘zi",
+    "fromCatalog": "Brend katalogidan",
+    "items": {
+      "cherepovich": {
+        "name": "Aleksandr Cherepovich",
+        "role": "Barber, Men’s Cut Studio erkaklar sartaroshxonalari tarmog‘i asoschisi va rahbari, Sankt-Peterburg",
+        "text": "NISHMAN — mening tanlovim, chunki men uchun mahsulot va xizmat sifati birinchi o‘rinda. Biz har bir mijozni qadrlaymiz: obro‘ va nufuz Men’s Cut Studio uchun quruq so‘z emas. Nishmanda barcha mezonlarga mos assortimentni topdik: brend tarixi va nufuzi, barqaror sifat va narx, shuningdek har doim yordamga tayyor professionallar jamoasi. Mijozlar bizga qaytib keladi va do‘stlariga tavsiya qiladi — bunda Nishmanning ham hissasi bor. O‘ylaymanki, hamkorligimiz uzoq va yanada samarali bo‘ladi. (Rus tilidan tarjima.)"
+      },
+      "aziz": {
+        "name": "Aziz Karimov",
+        "role": "Barber, Toshkent",
+        "text": "M2 mat pastasi bilan ishlayman: kechgacha ushlaydi va sochni og‘irlashtirmaydi. Mijozlar bu qanday banka deb so‘rashadi — va uyga olib ketishadi."
+      },
+      "timur": {
+        "name": "Temur Rahimov",
+        "role": "Barbershop egasi, Toshkent",
+        "text": "Shampunni besh litrlik, soqol olish gelini bir litrlik olamiz — sarf bo‘yicha ancha tejamli chiqdi. Buyurtmani bir-ikki xabar bilan rasmiylashtiramiz."
+      },
+      "dilshod": {
+        "name": "Dilshod Yusupov",
+        "role": "Xaridor",
+        "text": "Spider Wax S1 va Gold One odekolonini oldim. Mum haqiqatan to‘rdek cho‘ziladi va kun davomida turmakni o‘zgartirishga imkon beradi."
+      },
+      "sardor": {
+        "name": "Sardor Aliyev",
+        "role": "Kosmetika do‘koni, Samarqand",
+        "text": "NISHMANning rangli bankalari turgan javon birinchi bo‘shaydi. Xaridorlar telefonida mum raqami bilan kelishadi."
+      }
+    }
+  },
+  "lookbook": {
+    "label": "Lukbuk",
+    "title": "Ish jarayonida",
+    "instagram": "Instagramda ko‘proq",
+    "open": "{n}-rasmni ochish",
+    "alt": "NISHMAN ishda, {n}-rasm"
+  },
+  "stores": {
+    "title": "Toshkentda qayerdan xarid qilish mumkin",
+    "kinds": {
+      "showroom": "Shourum",
+      "pickup": "Topshirish punkti",
+      "partner": "Hamkor barbershop"
+    },
+    "openNow": "Hozir ochiq",
+    "closedNow": "Hozir yopiq",
+    "daily": "Har kuni {open}–{close}",
+    "route": "Yo‘nalish",
+    "mapHint": "Xaritani boshqarish uchun bosing",
+    "mapLabel": "Toshkentdagi nuqtalar xaritasi",
+    "items": {
+      "chilanzar": {
+        "name": "Chilonzor",
+        "address": "Chilonzor tumani, Bunyodkor ko‘chasi, 15"
+      },
+      "yunusabad": {
+        "name": "Yunusobod",
+        "address": "Yunusobod tumani, Amir Temur ko‘chasi, 107"
+      },
+      "mirabad": {
+        "name": "Mirobod",
+        "address": "Mirobod tumani, Shahrisabz ko‘chasi, 22"
+      }
+    },
+    "delivery": {
+      "title": "Yetkazib berish",
+      "items": {
+        "tashkent": {
+          "title": "Toshkent bo‘ylab",
+          "time": "Buyurtma kuni yoki ertasi kuni",
+          "text": "Kuryer — 25 000 so‘m, 400 000 so‘mdan bepul."
+        },
+        "regions": {
+          "title": "Viloyatlarga",
+          "time": "2–4 ish kuni",
+          "text": "Yetkazib berish xizmatlari orqali, tashuvchi tarifi bo‘yicha."
+        },
+        "pickup": {
+          "title": "Olib ketish",
+          "time": "Tasdiqlangandan 2 soat o‘tib",
+          "text": "Xaritadagi istalgan nuqtadan bepul."
+        }
+      }
+    }
+  },
+  "faq": {
+    "label": "Savollar",
+    "title": "Mahsulot haqida qisqacha",
+    "items": {
+      "hold": {
+        "q": "Fiksatsiya va effektni qanday tanlash kerak?",
+        "a": "«Fiksatsiya» nuqtalariga qarang: 1–2 — yumshoq harakatchan turmak, 3 — kun bo‘yi ishonchli, 4–5 — qalin va itoatsiz sochlar uchun. Effekt: mat — jilosiz va teksturali, tabiiy jilo — silliq ozoda ko‘rinish, yarim mat — ularning o‘rtasida. Ikkilansangiz, «Tanlash» bo‘limidagi testdan o‘ting."
+      },
+      "types": {
+        "q": "Mum, pasta, pomada va krem nimasi bilan farq qiladi?",
+        "a": "Suv asosidagi mum plastik va jilo beradi. Pasta va loy zichroq, mat va teksturani ushlaydi. Pomada — jiloli silliq klassik turmaklar uchun. Krem eng yengil fiksatsiyani beradi va ingichka sochlarga mos."
+      },
+      "apply": {
+        "q": "Turmak vositasini qanday surtish kerak?",
+        "a": "Quruq yoki biroz nam sochga. No‘xatdek miqdorni oling, kaftlarda ishqalang (zich loylarni iliguncha), ildizdan uchigacha taqsimlang va barmoq yoki taroq bilan shakl bering. Ortiqchasini olib tashlashdan ko‘ra qo‘shish osonroq."
+      },
+      "wash": {
+        "q": "Qanday yuviladi?",
+        "a": "Suv asosidagi vositalar iliq suv bilan ketadi. Pasta, loy va kuchli fiksatsiyali gellarni shampun bilan yuving — zich turmakda ikki marta ko‘piklang."
+      },
+      "storage": {
+        "q": "Qanday saqlash kerak?",
+        "a": "Xona haroratida, qopqog‘i mahkam yopilgan holda, quyosh va isitgichlardan uzoqda. Aerozollarni qizigan mashinada qoldirmang. Yaroqlilik muddati qadoqda ko‘rsatilgan."
+      },
+      "returns": {
+        "q": "Mahsulotni qaytarish yoki almashtirish mumkinmi?",
+        "a": "Ochilmagan va qadog‘i butun mahsulotni xariddan keyin 10 kun ichida almashtirish yoki qaytarish mumkin. Ochilgan kosmetika faqat zavod nuqsoni bo‘lsa qabul qilinadi — yangisiga almashtiramiz."
+      }
+    }
+  },
+  "contacts": {
+    "ctaTitle": "Buyurtma berishga tayyormisiz?",
+    "ctaText": "Saytda savatni to‘ldiring yoki menejerga yozing — hajm va mavjudlik bo‘yicha maslahat beramiz.",
+    "ctaAlt": "Usta soqol parfyumini sepmoqda",
+    "title": "Biz aloqadamiz",
+    "phone": "Menejer telefoni",
+    "hours": "Ish vaqti",
+    "formTitle": "Savol bering",
+    "message": "Savolingiz",
+    "submit": "Yuborish",
+    "success": "Rahmat! Tez orada javob beramiz."
+  },
+  "footer": {
+    "rights": "© {year} Nishman.uz. Barcha huquqlar himoyalangan.",
+    "toTop": "Yuqoriga"
+  },
+  "cart": {
+    "empty": "Savat hozircha bo‘sh",
+    "total": "Jami",
+    "checkout": "Buyurtmani rasmiylashtirish",
+    "remove": "O‘chirish",
+    "decrease": "Kamaytirish",
+    "increase": "Ko‘paytirish",
+    "note": "Yakuniy summani menejer tasdiqlaydi."
+  },
+  "checkout": {
+    "steps": {
+      "contacts": "Ma’lumotlaringiz",
+      "delivery": "Qabul qilish",
+      "payment": "To‘lov",
+      "confirm": "Tasdiqlash"
+    },
+    "methods": {
+      "courier": "Toshkent bo‘ylab kuryer",
+      "regions": "Viloyatga yetkazish",
+      "pickup": "Nuqtadan olib ketish"
+    },
+    "address": "Manzil",
+    "store": "Olib ketish nuqtasi",
+    "termsHint": "Muddat va narxlar — «Manzillar» bo‘limida.",
+    "payments": {
+      "click": "Click",
+      "payme": "Payme",
+      "cash": "Qabul qilganda to‘lash"
+    },
+    "paymentHints": {
+      "online": "Uzcard, Humo, Visa yoki Mastercard bilan onlayn",
+      "cash": "Naqd yoki karta orqali — kuryerga yoki nuqtada"
+    },
+    "comment": "Buyurtmaga izoh",
+    "review": "Buyurtmani tekshiring",
+    "place": "Buyurtmani tasdiqlash",
+    "doneTitle": "Buyurtma qabul qilindi",
+    "doneNumber": "Buyurtma raqami",
+    "doneText": "Tafsilotlarni tasdiqlash uchun menejer qo‘ng‘iroq qiladi.",
+    "payPending": "Onlayn to‘lov tez orada ishga tushadi — menejer to‘lov havolasini yuboradi.",
+    "payNow": "To‘lovga o‘tish",
+    "keepShopping": "Xaridni davom ettirish"
+  }
+}

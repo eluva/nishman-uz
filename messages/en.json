@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "title": "NISHMAN in Uzbekistan — professional men’s grooming | Nishman.uz",
+    "description": "NISHMAN waxes, matte pastes, gels, hair, beard and skin care. Retail and wholesale for barbershops and stores in Tashkent and across Uzbekistan.",
+    "ogAlt": "Barber with NISHMAN products"
+  },
+  "common": {
+    "close": "Close",
+    "back": "Back",
+    "continue": "Continue",
+    "prev": "Previous",
+    "next": "Next",
+    "call": "Call",
+    "toCatalog": "Browse the catalog",
+    "currency": "UZS",
+    "view": "View",
+    "skip": "Skip to content",
+    "optional": "optional"
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "quiz": "Finder",
+    "partners": "Wholesale",
+    "stores": "Locations",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "cart": "Cart",
+    "menu": "Menu",
+    "language": "Language",
+    "home": "Nishman.uz — home"
+  },
+  "hero": {
+    "eyebrow": "Nishman.uz · Tashkent",
+    "titleA": "Grooming",
+    "titleB": "with character",
+    "lead": "NISHMAN waxes, pastes, gels and care — for the barbershop and for home.",
+    "positions": "items in the catalog",
+    "countries": "export countries",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About the brand",
+    "p1": "NISHMAN is the men’s line of Asil Group Cosmetic. The company was founded in Istanbul in 2016 and within a few years earned a solid place among major professional cosmetics manufacturers.",
+    "p2": "The brand takes packaging, safety and formula quality equally seriously — which is why the bright NISHMAN jars are recognised on barbershop shelves worldwide.",
+    "slogan": "We won’t stop\nuntil the whole world\nhears about us",
+    "distributor": "Nishman.uz is the official NISHMAN distributor in Uzbekistan.",
+    "photoAlt": "Barber holding NISHMAN jars",
+    "advantages": {
+      "original": {
+        "title": "Genuine",
+        "text": "Supplied directly by the manufacturer — no fakes, no middlemen."
+      },
+      "delivery": {
+        "title": "Nationwide delivery",
+        "text": "Courier in Tashkent and delivery services to every region."
+      },
+      "barbers": {
+        "title": "Barber support",
+        "text": "Product advice and help building the right range for your shop."
+      }
+    }
+  },
+  "catalog": {
+    "title": "The full range",
+    "lead": "Seven sections — from wax to barber capes. Pick a section or use the filters.",
+    "all": "All sections",
+    "count": "{count, plural, one {# item} other {# items}}",
+    "categories": {
+      "styling": "Styling",
+      "care": "Hair care",
+      "color": "Color & volume",
+      "shaving": "Shaving",
+      "beard": "Beard",
+      "face": "Face",
+      "accessories": "Accessories"
+    },
+    "showMore": "Show more",
+    "shown": "Showing {shown} of {total}",
+    "emptyTitle": "Nothing found",
+    "emptyText": "Change the filters or search — or reset everything and start over."
+  },
+  "filters": {
+    "title": "Filters",
+    "line": "Line",
+    "allLines": "All lines",
+    "effect": "Finish",
+    "volume": "Size",
+    "any": "Any",
+    "forSalons": "Salon sizes",
+    "search": "Name or code",
+    "sort": "Sort",
+    "sortOptions": {
+      "default": "Catalog order",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "holdDesc": "Strongest hold",
+      "name": "By name"
+    },
+    "reset": "Reset",
+    "apply": "Show {count, plural, one {# product} other {# products}}"
+  },
+  "product": {
+    "hold": "Hold",
+    "holdValue": "Hold {value} of 5",
+    "noHold": "No hold",
+    "from": "from {price}",
+    "addToCart": "Add to cart",
+    "added": "Added to cart",
+    "quickView": "Quick view: {name}",
+    "shades": "{count, plural, one {# shade} other {# shades}}",
+    "shade": "Shade",
+    "properties": "Properties",
+    "fromLine": "From this line",
+    "orderTelegram": "Order via Telegram",
+    "salonSize": "Salon size",
+    "code": "Code",
+    "size": "Dimensions",
+    "pcs": "pc",
+    "effects": {
+      "matte": "Matte",
+      "naturalShine": "Natural shine",
+      "semiMatte": "Semi-matte",
+      "natural": "Natural finish"
+    }
+  },
+  "quiz": {
+    "label": "Style finder",
+    "title": "Your product in three answers",
+    "step": "Step {current} of {total}",
+    "effectQ": "What finish do you want?",
+    "effectA": {
+      "matte": "No shine, lots of texture",
+      "natural": "Like nothing’s in your hair",
+      "shine": "Sleek and glossy"
+    },
+    "holdQ": "How strong should it hold?",
+    "holdA": {
+      "1": "Barely there",
+      "2": "Soft, with movement",
+      "3": "Confident, all day",
+      "4": "Strong",
+      "5": "Rock solid"
+    },
+    "lengthQ": "How long is your hair?",
+    "lengthA": {
+      "short": "Short",
+      "medium": "Medium",
+      "long": "Long"
+    },
+    "result": "Your matches",
+    "restart": "Start over"
+  },
+  "lines": {
+    "label": "Lines",
+    "title": "Three sides of NISHMAN",
+    "cta": "Open in the catalog",
+    "aqua": {
+      "text": "Seven jars, seven scents. Tap a jar to find yours.",
+      "scent": "Scent"
+    },
+    "matte": {
+      "title": "Matte line & Spider Wax",
+      "text": "From flexible texture to rock-solid hold — every product has its spot on the scale.",
+      "soft": "Soft",
+      "hard": "Maximum"
+    },
+    "cologne": {
+      "title": "Wall of scents",
+      "text": "Twelve after-shave colognes. Hover over a bottle — or tap it on your phone."
+    }
+  },
+  "partners": {
+    "title": "Wholesale for barbershops and stores",
+    "lead": "We work with barbershops, salons and cosmetics stores all over Uzbekistan.",
+    "photoAlt": "NISHMAN salon-size shampoo canister",
+    "proTitle": "Professional sizes",
+    "proText": "What your shop goes through every day: one-litre shaving gels and large-format shampoos and conditioners.",
+    "proCta": "All salon sizes",
+    "toolsTitle": "Everything for the workstation",
+    "toolsText": "Capes, neck dusters, fade brushes, combs and disposable towels.",
+    "toolsCta": "Open the selection",
+    "benefits": {
+      "price": "Wholesale price list on request — tailored to your volume",
+      "manager": "A personal manager on Telegram",
+      "materials": "Promo materials for your shop floor and shelves"
+    },
+    "terms": {
+      "title": "Partnership terms",
+      "format": "Format",
+      "minOrder": "Minimum order",
+      "deferral": "Payment deferral",
+      "bonus": "Bonus",
+      "rows": {
+        "barbershop": {
+          "format": "Barbershop or salon",
+          "deferral": "—",
+          "bonus": "Tester kit for the shop"
+        },
+        "shop": {
+          "format": "Store or marketplace",
+          "deferral": "14 days",
+          "bonus": "Photos and copy for listings"
+        },
+        "region": {
+          "format": "Regional partner",
+          "deferral": "30 days",
+          "bonus": "First access to new products"
+        }
+      }
+    },
+    "form": {
+      "title": "Partnership request",
+      "business": "Business name",
+      "type": "Business type",
+      "types": {
+        "barbershop": "Barbershop",
+        "salon": "Beauty salon",
+        "shop": "Store",
+        "other": "Other"
+      },
+      "city": "City",
+      "comment": "Comment",
+      "submit": "Send request",
+      "successTitle": "Request received",
+      "successText": "A manager will contact you within one business day."
+    }
+  },
+  "forms": {
+    "name": "Name",
+    "phone": "Phone",
+    "sending": "Sending…",
+    "again": "Send another",
+    "required": "Please fill in this field",
+    "phoneInvalid": "Enter a number: +998 XX XXX-XX-XX",
+    "serverError": "Couldn’t send. Please try again or message us on Telegram.",
+    "honeypot": "Leave this field empty"
+  },
+  "reviews": {
+    "label": "Reviews",
+    "title": "Barbers speak",
+    "fromCatalog": "From the brand catalog",
+    "items": {
+      "cherepovich": {
+        "name": "Alexander Cherepovich",
+        "role": "Barber, founder and head of the Men’s Cut Studio barbershop chain, Saint Petersburg",
+        "text": "NISHMAN is my choice, because product and service quality matter most to me. We value every client: reputation and authority are not empty words for Men’s Cut Studio. In Nishman we found a range that fits on every count — the brand’s history and authority, consistent quality and price, plus a team of professionals always ready to help. Clients come back and recommend us to friends, partly thanks to Nishman. I believe our partnership will be long and even more productive. (Translated from Russian.)"
+      },
+      "aziz": {
+        "name": "Aziz Karimov",
+        "role": "Barber, Tashkent",
+        "text": "I work with the M2 matte paste: it holds until evening and doesn’t weigh hair down. Clients ask what’s in the jar — and take one home."
+      },
+      "timur": {
+        "name": "Timur Rakhimov",
+        "role": "Barbershop owner, Tashkent",
+        "text": "We buy shampoo in five-litre canisters and one-litre shaving gels — it works out noticeably cheaper per use. Ordering takes a couple of messages."
+      },
+      "dilshod": {
+        "name": "Dilshod Yusupov",
+        "role": "Customer",
+        "text": "Got Spider Wax S1 and Gold One cologne. The wax really stretches like a web and lets me restyle during the day."
+      },
+      "sardor": {
+        "name": "Sardor Aliev",
+        "role": "Cosmetics store, Samarkand",
+        "text": "The shelf with the colourful NISHMAN jars empties first. Customers come in with the wax number already on their phone."
+      }
+    }
+  },
+  "lookbook": {
+    "label": "Lookbook",
+    "title": "In action",
+    "instagram": "More on Instagram",
+    "open": "Open photo {n}",
+    "alt": "NISHMAN at work, photo {n}"
+  },
+  "stores": {
+    "title": "Where to buy in Tashkent",
+    "kinds": {
+      "showroom": "Showroom",
+      "pickup": "Pickup point",
+      "partner": "Partner barbershop"
+    },
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "daily": "Daily {open}–{close}",
+    "route": "Directions",
+    "mapHint": "Tap to use the map",
+    "mapLabel": "Map of locations in Tashkent",
+    "items": {
+      "chilanzar": {
+        "name": "Chilanzar",
+        "address": "Chilanzar district, Bunyodkor St, 15"
+      },
+      "yunusabad": {
+        "name": "Yunusabad",
+        "address": "Yunusabad district, Amir Temur St, 107"
+      },
+      "mirabad": {
+        "name": "Mirabad",
+        "address": "Mirabad district, Shakhrisabz St, 22"
+      }
+    },
+    "delivery": {
+      "title": "Delivery",
+      "items": {
+        "tashkent": {
+          "title": "Within Tashkent",
+          "time": "Same or next day",
+          "text": "Courier — 25,000 UZS, free from 400,000 UZS."
+        },
+        "regions": {
+          "title": "To the regions",
+          "time": "2–4 business days",
+          "text": "Via delivery services, at the carrier’s rates."
+        },
+        "pickup": {
+          "title": "Pickup",
+          "time": "2 hours after confirmation",
+          "text": "Free from any location on the map."
+        }
+      }
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "The product in brief",
+    "items": {
+      "hold": {
+        "q": "How do I choose hold and finish?",
+        "a": "Look at the “Hold” dots: 1–2 is a soft, flexible style, 3 holds confidently all day, 4–5 is for thick, unruly hair. Finish: matte means no shine and more texture, natural shine gives a sleek groomed look, semi-matte sits in between. Not sure? Try the Style finder."
+      },
+      "types": {
+        "q": "What’s the difference between wax, paste, pomade and cream?",
+        "a": "Water-based wax is pliable and adds shine. Paste and clay are denser, matte and hold texture. Pomade is for sleek classic styles with shine. Cream gives the lightest hold and suits fine hair."
+      },
+      "apply": {
+        "q": "How do I apply a styling product?",
+        "a": "Use on dry or slightly damp hair. Take a pea-sized amount, rub it between your palms (warm dense clays until soft), work it from roots to ends and shape with fingers or a comb. It’s easier to add more than to remove the excess."
+      },
+      "wash": {
+        "q": "How do I wash it out?",
+        "a": "Water-based products rinse out with warm water. Wash out pastes, clays and strong-hold gels with shampoo — lather twice after a heavy style."
+      },
+      "storage": {
+        "q": "How should I store it?",
+        "a": "At room temperature with the lid tightly closed, away from sunlight and radiators. Don’t leave aerosols in a hot car. The expiry date is on the pack."
+      },
+      "returns": {
+        "q": "Can I return or exchange a product?",
+        "a": "Unopened products in intact packaging can be exchanged or returned within 10 days of purchase. Opened cosmetics are accepted only with a manufacturing defect — we’ll replace them."
+      }
+    }
+  },
+  "contacts": {
+    "ctaTitle": "Ready to order?",
+    "ctaText": "Fill your cart on the site or message a manager — we’ll help with sizes and availability.",
+    "ctaAlt": "Barber spraying beard perfume",
+    "title": "Get in touch",
+    "phone": "Manager’s phone",
+    "hours": "Opening hours",
+    "formTitle": "Ask a question",
+    "message": "Your question",
+    "submit": "Send",
+    "success": "Thank you! We’ll reply shortly."
+  },
+  "footer": {
+    "rights": "© {year} Nishman.uz. All rights reserved.",
+    "toTop": "Back to top"
+  },
+  "cart": {
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "note": "A manager will confirm the final amount."
+  },
+  "checkout": {
+    "steps": {
+      "contacts": "Your details",
+      "delivery": "Receiving",
+      "payment": "Payment",
+      "confirm": "Confirmation"
+    },
+    "methods": {
+      "courier": "Courier in Tashkent",
+      "regions": "Delivery to a region",
+      "pickup": "Collect from a location"
+    },
+    "address": "Address",
+    "store": "Pickup location",
+    "termsHint": "Times and costs are in the Locations section.",
+    "payments": {
+      "click": "Click",
+      "payme": "Payme",
+      "cash": "Pay on receipt"
+    },
+    "paymentHints": {
+      "online": "Online by Uzcard, Humo, Visa or Mastercard",
+      "cash": "Cash or card — to the courier or at the location"
+    },
+    "comment": "Order comment",
+    "review": "Check your order",
+    "place": "Place order",
+    "doneTitle": "Order placed",
+    "doneNumber": "Order number",
+    "doneText": "A manager will call to confirm the details.",
+    "payPending": "Online payment is coming soon — the manager will send you a payment link.",
+    "payNow": "Go to payment",
+    "keepShopping": "Continue shopping"
+  }
+}

@@ -1,0 +1,571 @@
+[
+ {
+  "id": "aqua-wax",
+  "category": "styling",
+  "name": "Aqua Hair Styling Wax",
+  "nameKey": null,
+  "features": [
+   "naturalLook",
+   "shortMedium",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "count": 9
+ },
+ {
+  "id": "coloring-wax",
+  "category": "styling",
+  "name": "Coloring Wax",
+  "nameKey": null,
+  "features": [
+   "tempColor",
+   "shapesStyle",
+   "easyApplyWash",
+   "instantEffect"
+  ],
+  "notes": [],
+  "count": 3
+ },
+ {
+  "id": "spider-wax",
+  "category": "styling",
+  "name": "Aqua Spider Wax",
+  "nameKey": null,
+  "features": [
+   "artMess",
+   "keepsSoft",
+   "restyleDay"
+  ],
+  "notes": [],
+  "count": 6
+ },
+ {
+  "id": "matte",
+  "category": "styling",
+  "name": "Hair Styling Matte",
+  "nameKey": null,
+  "features": [],
+  "notes": [],
+  "count": 9
+ },
+ {
+  "id": "pomade",
+  "category": "styling",
+  "name": "Styling Cream Pomade",
+  "nameKey": null,
+  "features": [
+   "firmHold",
+   "shineLook",
+   "combOut"
+  ],
+  "notes": [],
+  "count": 3
+ },
+ {
+  "id": "styling-cream",
+  "category": "styling",
+  "name": "Styling Cream",
+  "nameKey": null,
+  "features": [
+   "noStickWeigh",
+   "easyApplyWash",
+   "invisibleOnHair",
+   "thinWeak"
+  ],
+  "notes": [
+   "waterBased"
+  ],
+  "count": 2
+ },
+ {
+  "id": "seasalt",
+  "category": "styling",
+  "name": "Seasalt Spray",
+  "nameKey": null,
+  "features": [
+   "naturalStyle",
+   "volumeStrands",
+   "aloe"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "powder",
+  "category": "styling",
+  "name": "Powder Styling",
+  "nameKey": null,
+  "features": [
+   "instantShape",
+   "pliable",
+   "naturalLook",
+   "unnoticeable",
+   "dayLong"
+  ],
+  "notes": [],
+  "count": 3
+ },
+ {
+  "id": "gel",
+  "category": "styling",
+  "name": "Hair Styling Gel",
+  "nameKey": null,
+  "features": [
+   "wetLook",
+   "fullControl"
+  ],
+  "notes": [
+   "thickHair"
+  ],
+  "count": 4
+ },
+ {
+  "id": "ultra-hold",
+  "category": "styling",
+  "name": "Ultra Hold",
+  "nameKey": null,
+  "features": [
+   "longStyle",
+   "grayBlack",
+   "lastsUntilWash",
+   "naturalHairLook"
+  ],
+  "notes": [
+   "grayHair"
+  ],
+  "count": 1
+ },
+ {
+  "id": "styling-tonic",
+  "category": "styling",
+  "name": "Styling Tonic",
+  "nameKey": null,
+  "features": [
+   "elastic",
+   "fineStrands",
+   "moistStyling",
+   "everyday"
+  ],
+  "notes": [
+   "moisturizing"
+  ],
+  "count": 1
+ },
+ {
+  "id": "styling-spray",
+  "category": "styling",
+  "name": "Styling Spray",
+  "nameKey": null,
+  "features": [
+   "hold24",
+   "humidityResist",
+   "noWeigh",
+   "addsVolume"
+  ],
+  "notes": [
+   "strongHold"
+  ],
+  "count": 2
+ },
+ {
+  "id": "color-spray",
+  "category": "color",
+  "name": "Hair Spray",
+  "nameKey": null,
+  "features": [
+   "tempColorChange",
+   "highlights",
+   "washesEasily",
+   "brightColor"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "root-concealer",
+  "category": "color",
+  "name": "Hair Magic Retouch",
+  "nameKey": null,
+  "features": [
+   "coversRoots",
+   "colorFast",
+   "quickDry",
+   "noStains",
+   "shampooWash"
+  ],
+  "notes": [
+   "roots"
+  ],
+  "count": 1
+ },
+ {
+  "id": "keratin-fiber",
+  "category": "color",
+  "name": "Keratin Fiber",
+  "nameKey": null,
+  "features": [
+   "thinningVolume",
+   "sprayIncluded",
+   "weatherproof",
+   "shampooWash"
+  ],
+  "notes": [
+   "roots"
+  ],
+  "count": 1
+ },
+ {
+  "id": "two-phase",
+  "category": "care",
+  "name": "Beard & Hair",
+  "nameKey": null,
+  "features": [
+   "instantAction",
+   "heatProtect",
+   "strengthens",
+   "noHeavy",
+   "easyComb"
+  ],
+  "notes": [
+   "moistureHeat"
+  ],
+  "count": 1
+ },
+ {
+  "id": "hair-tonic",
+  "category": "care",
+  "name": "Hair Tonic",
+  "nameKey": null,
+  "features": [
+   "restoresStructure",
+   "follicles",
+   "hairLossFight",
+   "wellGroomed"
+  ],
+  "notes": [
+   "hairLoss"
+  ],
+  "count": 1
+ },
+ {
+  "id": "hair-mask",
+  "category": "care",
+  "name": "Inca Inchi Complex",
+  "nameKey": null,
+  "features": [
+   "waterBalance",
+   "silky",
+   "detangle",
+   "antiBreak"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "count": 1
+ },
+ {
+  "id": "pro-shampoo",
+  "category": "care",
+  "name": "Professional Hair Shampoo",
+  "nameKey": null,
+  "features": [
+   "cleansScalp",
+   "removesStyling",
+   "saltParabenFree",
+   "strengthMoist",
+   "needsConditioner"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "count": 3
+ },
+ {
+  "id": "pro-conditioner",
+  "category": "care",
+  "name": "Professional Hair Conditioner",
+  "nameKey": null,
+  "features": [
+   "smoothShine",
+   "parabenSiliconeFree",
+   "gentle"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "count": 1
+ },
+ {
+  "id": "salon-size",
+  "category": "care",
+  "name": "Salon Size",
+  "nameKey": null,
+  "features": [],
+  "notes": [
+   "allHair"
+  ],
+  "count": 2
+ },
+ {
+  "id": "shaving-gel",
+  "category": "shaving",
+  "name": "Shaving Gel",
+  "nameKey": null,
+  "features": [
+   "razorGlide",
+   "softensBeard",
+   "moistShave",
+   "preciseContours"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 3
+ },
+ {
+  "id": "cream-cologne",
+  "category": "shaving",
+  "name": "Cream & Cologne",
+  "nameKey": null,
+  "features": [
+   "lightFormula",
+   "irritationProtect",
+   "soothesRedness",
+   "antiInflammatory"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 5
+ },
+ {
+  "id": "cologne",
+  "category": "shaving",
+  "name": "Cologne",
+  "nameKey": null,
+  "features": [
+   "tonesSkin",
+   "preventsIrritation",
+   "comfortFresh",
+   "notLasting"
+  ],
+  "notes": [
+   "normalOily"
+  ],
+  "count": 12
+ },
+ {
+  "id": "after-shave-lotion",
+  "category": "shaving",
+  "name": "After Shave Lotion",
+  "nameKey": null,
+  "features": [
+   "alcoholFree",
+   "instantSoothe",
+   "tightness",
+   "preciseContours"
+  ],
+  "notes": [
+   "sensitiveDry"
+  ],
+  "count": 1
+ },
+ {
+  "id": "talc",
+  "category": "shaving",
+  "name": "Talc Powder",
+  "nameKey": null,
+  "features": [
+   "beforeAfter",
+   "absorbs",
+   "healsCuts",
+   "calmsIrritation"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 1
+ },
+ {
+  "id": "beard-oil",
+  "category": "beard",
+  "name": "Beard & Mustache",
+  "nameKey": null,
+  "features": [
+   "restoresStructure",
+   "follicles",
+   "hairLossFight",
+   "wellGroomed"
+  ],
+  "notes": [
+   "moistureShine"
+  ],
+  "count": 2
+ },
+ {
+  "id": "beard-wash",
+  "category": "beard",
+  "name": "Beard & Mustache Care",
+  "nameKey": null,
+  "features": [
+   "gentleClean",
+   "shampooSoft",
+   "condDry"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "count": 2
+ },
+ {
+  "id": "beard-balm",
+  "category": "beard",
+  "name": "Styling Balm",
+  "nameKey": null,
+  "features": [
+   "obedient",
+   "flexStyling"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "beard-perfume",
+  "category": "beard",
+  "name": "Perfumed Spray",
+  "nameKey": null,
+  "features": [
+   "neutralizes",
+   "lastingScent",
+   "moistBeard",
+   "shineGroomed"
+  ],
+  "notes": [],
+  "count": 2
+ },
+ {
+  "id": "peel-off",
+  "category": "face",
+  "name": "Peel-Off Mask",
+  "nameKey": null,
+  "features": [
+   "peelBlackheads",
+   "peelTone",
+   "peelAcne"
+  ],
+  "notes": [
+   "oilyCombo"
+  ],
+  "count": 3
+ },
+ {
+  "id": "skin-smoothing",
+  "category": "face",
+  "name": "Skin Smoothing",
+  "nameKey": null,
+  "features": [
+   "peelingDeep"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 1
+ },
+ {
+  "id": "facial-scrub",
+  "category": "face",
+  "name": "Facial Scrub",
+  "nameKey": null,
+  "features": [
+   "scrubGentle",
+   "moisturizingEffect",
+   "scrubResult"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 2
+ },
+ {
+  "id": "clay-mask",
+  "category": "face",
+  "name": "Face Clay Mask",
+  "nameKey": null,
+  "features": [
+   "clayDeep"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 1
+ },
+ {
+  "id": "hand-face",
+  "category": "face",
+  "name": "Hand & Face Cream",
+  "nameKey": null,
+  "features": [
+   "hfSoothe",
+   "hfRitual",
+   "hf24"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 4
+ },
+ {
+  "id": "hair-comb",
+  "category": "accessories",
+  "name": "Hair Comb",
+  "nameKey": null,
+  "features": [
+   "combUse"
+  ],
+  "notes": [],
+  "count": 11
+ },
+ {
+  "id": "hair-brush",
+  "category": "accessories",
+  "name": "Hair Brush",
+  "nameKey": null,
+  "features": [
+   "brushVolume"
+  ],
+  "notes": [],
+  "count": 2
+ },
+ {
+  "id": "fade-brush",
+  "category": "accessories",
+  "name": "Fade Brush",
+  "nameKey": null,
+  "features": [
+   "fadeBristle",
+   "fadeUse"
+  ],
+  "notes": [],
+  "count": 3
+ },
+ {
+  "id": "neck-brush",
+  "category": "accessories",
+  "name": "Neck Brush",
+  "nameKey": null,
+  "features": [
+   "neckUse"
+  ],
+  "notes": [],
+  "count": 3
+ },
+ {
+  "id": "barber-essentials",
+  "category": "accessories",
+  "name": null,
+  "nameKey": "barber-essentials",
+  "features": [],
+  "notes": [],
+  "count": 8
+ }
+]

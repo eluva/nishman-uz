@@ -1,0 +1,290 @@
+{
+ "hero-barber": {
+  "src": "/media/models/hero-barber.webp",
+  "width": 1240,
+  "height": 1755,
+  "usage": "hero"
+ },
+ "hero-spray": {
+  "src": "/media/models/hero-spray.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "hero"
+ },
+ "hero-comb": {
+  "src": "/media/models/hero-comb.webp",
+  "width": 1241,
+  "height": 1169,
+  "usage": "hero"
+ },
+ "hero-cans": {
+  "src": "/media/models/hero-cans.webp",
+  "width": 1241,
+  "height": 1755,
+  "usage": "hero"
+ },
+ "about-portrait": {
+  "src": "/media/models/about-portrait.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "about"
+ },
+ "index-styling": {
+  "src": "/media/models/index-styling.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "index"
+ },
+ "index-care": {
+  "src": "/media/models/index-care.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "index"
+ },
+ "index-color": {
+  "src": "/media/models/index-color.webp",
+  "width": 1240,
+  "height": 1754,
+  "usage": "index"
+ },
+ "index-shaving": {
+  "src": "/media/models/index-shaving.webp",
+  "width": 1240,
+  "height": 1755,
+  "usage": "index"
+ },
+ "index-beard": {
+  "src": "/media/models/index-beard.webp",
+  "width": 1241,
+  "height": 1755,
+  "usage": "index"
+ },
+ "index-face": {
+  "src": "/media/models/index-face.webp",
+  "width": 1241,
+  "height": 1755,
+  "usage": "index"
+ },
+ "index-accessories": {
+  "src": "/media/models/index-accessories.webp",
+  "width": 1240,
+  "height": 1755,
+  "usage": "index"
+ },
+ "lines-matte": {
+  "src": "/media/models/lines-matte.webp",
+  "width": 619,
+  "height": 585,
+  "usage": "lines"
+ },
+ "lines-cologne": {
+  "src": "/media/models/lines-cologne.webp",
+  "width": 828,
+  "height": 585,
+  "usage": "lines"
+ },
+ "partners-salon": {
+  "src": "/media/models/partners-salon.webp",
+  "width": 1241,
+  "height": 1170,
+  "usage": "partners"
+ },
+ "review-cherepovich": {
+  "src": "/media/models/review-cherepovich.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "reviews"
+ },
+ "store-chilanzar": {
+  "src": "/media/models/store-chilanzar.webp",
+  "width": 626,
+  "height": 877,
+  "usage": "stores"
+ },
+ "store-yunusabad": {
+  "src": "/media/models/store-yunusabad.webp",
+  "width": 620,
+  "height": 876,
+  "usage": "stores"
+ },
+ "store-mirabad": {
+  "src": "/media/models/store-mirabad.webp",
+  "width": 1243,
+  "height": 1755,
+  "usage": "stores"
+ },
+ "cta-dark": {
+  "src": "/media/models/cta-dark.webp",
+  "width": 1240,
+  "height": 1754,
+  "usage": "cta"
+ },
+ "coloring-wax-palm": {
+  "src": "/media/models/coloring-wax-palm.webp",
+  "width": 620,
+  "height": 1169,
+  "usage": "gallery"
+ },
+ "matte-m3-hands": {
+  "src": "/media/models/matte-m3-hands.webp",
+  "width": 622,
+  "height": 585,
+  "usage": "gallery"
+ },
+ "matte-m4-hands": {
+  "src": "/media/models/matte-m4-hands.webp",
+  "width": 622,
+  "height": 585,
+  "usage": "gallery"
+ },
+ "matte-m5-hands": {
+  "src": "/media/models/matte-m5-hands.webp",
+  "width": 619,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "matte-m7-hands": {
+  "src": "/media/models/matte-m7-hands.webp",
+  "width": 619,
+  "height": 587,
+  "usage": "gallery"
+ },
+ "matte-m9-hands": {
+  "src": "/media/models/matte-m9-hands.webp",
+  "width": 619,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "pomade-stack": {
+  "src": "/media/models/pomade-stack.webp",
+  "width": 624,
+  "height": 1170,
+  "usage": "gallery"
+ },
+ "styling-cream-hands": {
+  "src": "/media/models/styling-cream-hands.webp",
+  "width": 625,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "powder-p1-box": {
+  "src": "/media/models/powder-p1-box.webp",
+  "width": 620,
+  "height": 1169,
+  "usage": "gallery"
+ },
+ "gel-g1-hands": {
+  "src": "/media/models/gel-g1-hands.webp",
+  "width": 626,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "hair-mask-jar": {
+  "src": "/media/models/hair-mask-jar.webp",
+  "width": 349,
+  "height": 326,
+  "usage": "gallery"
+ },
+ "shaving-gel-hands": {
+  "src": "/media/models/shaving-gel-hands.webp",
+  "width": 616,
+  "height": 1170,
+  "usage": "gallery"
+ },
+ "cologne-pocket": {
+  "src": "/media/models/cologne-pocket.webp",
+  "width": 827,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "beard-foam": {
+  "src": "/media/models/beard-foam.webp",
+  "width": 625,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "beard-perfume-spray": {
+  "src": "/media/models/beard-perfume-spray.webp",
+  "width": 625,
+  "height": 585,
+  "usage": "gallery"
+ },
+ "scrub-pour": {
+  "src": "/media/models/scrub-pour.webp",
+  "width": 625,
+  "height": 584,
+  "usage": "gallery"
+ },
+ "hand-face-jar": {
+  "src": "/media/models/hand-face-jar.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "gallery"
+ },
+ "brushing-dryer": {
+  "src": "/media/models/brushing-dryer.webp",
+  "width": 621,
+  "height": 438,
+  "usage": "gallery"
+ },
+ "look-cover": {
+  "src": "/media/models/look-cover.webp",
+  "width": 578,
+  "height": 817,
+  "usage": "lookbook"
+ },
+ "look-powder": {
+  "src": "/media/models/look-powder.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "lookbook"
+ },
+ "look-jar": {
+  "src": "/media/models/look-jar.webp",
+  "width": 1240,
+  "height": 1170,
+  "usage": "lookbook"
+ },
+ "look-fiber": {
+  "src": "/media/models/look-fiber.webp",
+  "width": 1241,
+  "height": 1755,
+  "usage": "lookbook"
+ },
+ "look-cream-cologne": {
+  "src": "/media/models/look-cream-cologne.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "lookbook"
+ },
+ "look-beard-duo": {
+  "src": "/media/models/look-beard-duo.webp",
+  "width": 1241,
+  "height": 1754,
+  "usage": "lookbook"
+ },
+ "look-face-cream": {
+  "src": "/media/models/look-face-cream.webp",
+  "width": 622,
+  "height": 584,
+  "usage": "lookbook"
+ },
+ "look-beard-trim": {
+  "src": "/media/models/look-beard-trim.webp",
+  "width": 615,
+  "height": 585,
+  "usage": "lookbook"
+ },
+ "look-cream-palm": {
+  "src": "/media/models/look-cream-palm.webp",
+  "width": 623,
+  "height": 585,
+  "usage": "lookbook"
+ },
+ "look-cream-drop": {
+  "src": "/media/models/look-cream-drop.webp",
+  "width": 620,
+  "height": 585,
+  "usage": "lookbook"
+ }
+}
