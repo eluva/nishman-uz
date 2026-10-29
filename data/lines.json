@@ -10,7 +10,7 @@
    "easyApplyWash"
   ],
   "notes": [],
-  "count": 9
+  "count": 11
  },
  {
   "id": "coloring-wax",
@@ -46,7 +46,7 @@
   "nameKey": null,
   "features": [],
   "notes": [],
-  "count": 9
+  "count": 14
  },
  {
   "id": "pomade",
@@ -59,7 +59,7 @@
    "combOut"
   ],
   "notes": [],
-  "count": 3
+  "count": 4
  },
  {
   "id": "styling-cream",
@@ -75,7 +75,7 @@
   "notes": [
    "waterBased"
   ],
-  "count": 2
+  "count": 3
  },
  {
   "id": "seasalt",
@@ -88,7 +88,7 @@
    "aloe"
   ],
   "notes": [],
-  "count": 1
+  "count": 2
  },
  {
   "id": "powder",
@@ -103,7 +103,7 @@
    "dayLong"
   ],
   "notes": [],
-  "count": 3
+  "count": 12
  },
  {
   "id": "gel",
@@ -117,7 +117,7 @@
   "notes": [
    "thickHair"
   ],
-  "count": 4
+  "count": 6
  },
  {
   "id": "ultra-hold",
@@ -165,7 +165,40 @@
   "notes": [
    "strongHold"
   ],
+  "count": 3
+ },
+ {
+  "id": "gel-wax",
+  "category": "styling",
+  "name": "Easy Hold Gel Wax",
+  "nameKey": null,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "count": 7
+ },
+ {
+  "id": "foam-wax",
+  "category": "styling",
+  "name": "Foam Wax",
+  "nameKey": null,
+  "features": [],
+  "notes": [],
   "count": 2
+ },
+ {
+  "id": "curl-cream",
+  "category": "styling",
+  "name": "Curl Cream",
+  "nameKey": null,
+  "features": [
+   "curlDefine",
+   "frizzEase"
+  ],
+  "notes": [],
+  "count": 1
  },
  {
   "id": "color-spray",
@@ -215,6 +248,20 @@
   "count": 1
  },
  {
+  "id": "color-shampoo",
+  "category": "color",
+  "name": "Hair & Beard Color Shampoo",
+  "nameKey": null,
+  "features": [
+   "colorIn60",
+   "colorantDeveloper"
+  ],
+  "notes": [
+   "grayHair"
+  ],
+  "count": 3
+ },
+ {
   "id": "two-phase",
   "category": "care",
   "name": "Beard & Hair",
@@ -229,7 +276,7 @@
   "notes": [
    "moistureHeat"
   ],
-  "count": 1
+  "count": 5
  },
  {
   "id": "hair-tonic",
@@ -307,6 +354,68 @@
   "count": 2
  },
  {
+  "id": "hair-shampoo-xl",
+  "category": "care",
+  "name": "Hair Shampoo XL",
+  "nameKey": null,
+  "features": [
+   "xlSize"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "count": 3
+ },
+ {
+  "id": "hair-beard-care",
+  "category": "care",
+  "name": "Hair & Beard Care",
+  "nameKey": null,
+  "features": [
+   "milkProtein"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "sheen-spray",
+  "category": "care",
+  "name": "Sheen Spray",
+  "nameKey": null,
+  "features": [
+   "oliveCoconut",
+   "drySoothe"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "minoxidil",
+  "category": "care",
+  "name": "Minoxidil 5%",
+  "nameKey": null,
+  "features": [
+   "minoxidilUse",
+   "monthSupply"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "pion",
+  "category": "care",
+  "name": "PION Black Edition",
+  "nameKey": null,
+  "features": [
+   "saltParabenFree",
+   "extraMoistKeratin"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "count": 1
+ },
+ {
   "id": "shaving-gel",
   "category": "shaving",
   "name": "Shaving Gel",
@@ -320,7 +429,7 @@
   "notes": [
    "allSkin"
   ],
-  "count": 3
+  "count": 5
  },
  {
   "id": "cream-cologne",
@@ -352,7 +461,7 @@
   "notes": [
    "normalOily"
   ],
-  "count": 12
+  "count": 13
  },
  {
   "id": "after-shave-lotion",
@@ -415,7 +524,7 @@
   "notes": [
    "allHair"
   ],
-  "count": 2
+  "count": 3
  },
  {
   "id": "beard-balm",
@@ -442,6 +551,30 @@
   ],
   "notes": [],
   "count": 2
+ },
+ {
+  "id": "beard-pen",
+  "category": "beard",
+  "name": "Beard Pen & Brush",
+  "nameKey": null,
+  "features": [
+   "beardPenFill",
+   "beardPenTips",
+   "beardPenLasting"
+  ],
+  "notes": [],
+  "count": 2
+ },
+ {
+  "id": "beard-set",
+  "category": "beard",
+  "name": "Beard & Mustache Care Set",
+  "nameKey": null,
+  "features": [
+   "beardSetContents"
+  ],
+  "notes": [],
+  "count": 1
  },
  {
   "id": "peel-off",
@@ -484,7 +617,7 @@
   "notes": [
    "allSkin"
   ],
-  "count": 2
+  "count": 3
  },
  {
   "id": "clay-mask",
@@ -512,7 +645,104 @@
   "notes": [
    "allSkin"
   ],
+  "count": 5
+ },
+ {
+  "id": "exclusive",
+  "category": "face",
+  "name": "Exclusive New Generation",
+  "nameKey": null,
+  "features": [
+   "faceBodyUse"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 3
+ },
+ {
+  "id": "kabuto",
+  "category": "face",
+  "name": "Kabuto Katana",
+  "nameKey": null,
+  "features": [
+   "scalpFaceUse"
+  ],
+  "notes": [],
+  "count": 1
+ },
+ {
+  "id": "face-tonic",
+  "category": "face",
+  "name": "Face Tonic",
+  "nameKey": null,
+  "features": [
+   "faceTonicCare"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 1
+ },
+ {
+  "id": "nose-strip",
+  "category": "face",
+  "name": "Blackhead Nose Strip",
+  "nameKey": null,
+  "features": [
+   "activatedCarbon",
+   "poresClean",
+   "sixStrips"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "count": 1
+ },
+ {
+  "id": "deodorant",
+  "category": "body",
+  "name": "Deodorant Spray",
+  "nameKey": null,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "count": 6
+ },
+ {
+  "id": "shower",
+  "category": "body",
+  "name": "Shower Gel & Scrub",
+  "nameKey": null,
+  "features": [
+   "nourishMoist"
+  ],
+  "notes": [],
   "count": 4
+ },
+ {
+  "id": "hard-wax",
+  "category": "body",
+  "name": "Hard Wax Beans",
+  "nameKey": null,
+  "features": [
+   "noStrips",
+   "shortHairWax"
+  ],
+  "notes": [],
+  "count": 2
+ },
+ {
+  "id": "gift-sets",
+  "category": "accessories",
+  "name": "Gift Set",
+  "nameKey": null,
+  "features": [
+   "giftSetContents"
+  ],
+  "notes": [],
+  "count": 1
  },
  {
   "id": "hair-comb",
@@ -566,6 +796,6 @@
   "nameKey": "barber-essentials",
   "features": [],
   "notes": [],
-  "count": 8
+  "count": 12
  }
 ]

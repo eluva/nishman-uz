@@ -23,7 +23,7 @@ export function Partners({ photo }: { photo: ImageAsset }) {
   const apply = useFilters((s) => s.apply);
 
   return (
-    <section id="partners" aria-labelledby="partners-title" className="section-y cv-auto border-t border-line [--cv-h:3650px]">
+    <section id="partners" aria-labelledby="partners-title" className="section-y border-t border-line">
       <div className="container-x">
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-7">
@@ -44,8 +44,6 @@ export function Partners({ photo }: { photo: ImageAsset }) {
             sizes="(min-width: 1024px) 38vw, 100vw"
             className="aspect-[4/3] rounded-[1.25rem] lg:col-span-5 lg:aspect-auto"
             imgClassName="object-[60%_40%]"
-            parallax={6}
-            cursor
           />
         </div>
 
@@ -57,7 +55,7 @@ export function Partners({ photo }: { photo: ImageAsset }) {
               {pro.map((p) => (
                 <li key={p.id} className="flex items-center justify-between gap-4 py-3">
                   <span className="min-w-0">
-                    <span className="block truncate font-display text-sm font-extrabold uppercase">
+                    <span className="block truncate text-sm font-semibold tracking-[-0.015em]">
                       {p.code && <span className="mr-2 text-muted">{p.code}</span>}
                       {p.name}
                     </span>
@@ -107,7 +105,7 @@ export function Partners({ photo }: { photo: ImageAsset }) {
               <tbody className="divide-y divide-line">
                 {siteConfig.partnerTerms.map((row) => (
                   <tr key={row.id} className="grid grid-cols-2 gap-x-4 gap-y-3 p-5 md:table-row md:p-0">
-                    <th scope="row" className="col-span-2 font-display text-base font-extrabold uppercase md:px-6 md:py-5">
+                    <th scope="row" className="col-span-2 text-base font-semibold md:px-6 md:py-5 tracking-[-0.015em]">
                       {t(`partners.terms.rows.${row.id}.format`)}
                     </th>
                     <td className="md:px-6 md:py-5">

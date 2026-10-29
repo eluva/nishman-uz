@@ -5,7 +5,7 @@ import { clean, isNonEmpty, normalizeUzPhone } from '@/lib/validation';
 
 const BUSINESS_TYPES = ['barbershop', 'salon', 'shop', 'other'] as const;
 
-/** Заявки с сайта: «Партнёрам» (kind=partner) и «Задайте вопрос» (kind=question) → Telegram */
+/** Заявки с сайта: «Партнёрам» (kind=partner) → Telegram */
 export async function POST(req: Request) {
   if (!rateLimit(`lead:${clientIp(req)}`, 5)) {
     return NextResponse.json({ ok: false, error: 'rate' }, { status: 429 });
@@ -40,16 +40,6 @@ export async function POST(req: Request) {
     ]
       .filter(Boolean)
       .join('\n');
-  } else if (body.kind === 'question') {
-    if (!isNonEmpty(body.name, 2, 80)) errors.push('name');
-    if (!isNonEmpty(body.message, 5, 1000)) errors.push('message');
-    if (errors.length) return NextResponse.json({ ok: false, errors }, { status: 422 });
-    text = [
-      '<b>💬 Вопрос с сайта</b>',
-      `${escapeHtml(clean(body.name, 80))} · ${phone}`,
-      escapeHtml(clean(body.message)),
-      `Язык: ${clean(body.locale, 5)}`,
-    ].join('\n');
   } else {
     return NextResponse.json({ ok: false, error: 'kind' }, { status: 400 });
   }

@@ -4,7 +4,7 @@ import { AnimatePresence, m } from 'framer-motion';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useEffect, useRef } from 'react';
-import { lockScroll } from '@/components/providers/SmoothScroll';
+import { lockScroll } from '@/components/providers/scroll-lock';
 import { Icon } from '@/components/ui/Icon';
 import type { ImageAsset } from '@/lib/catalog/types';
 import { EASE } from '@/lib/motion';

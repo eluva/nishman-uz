@@ -1,8 +1,6 @@
 'use client';
 
-import { m, useScroll, useTransform } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import { useIsDesktop, useReducedMotionPref } from '@/components/providers/device';
 
 const SOURCES = [
   // горизонтальный кадр — только для широких экранов в альбомной ориентации; портретные планшеты получают вертикальный
@@ -38,14 +36,8 @@ const idle = (cb: () => void) =>
 
 /** Фон hero: постер (LCP) + единственное фоновое видео сайта */
 export function HeroMedia() {
-  const wrap = useRef<HTMLDivElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
-  const desktop = useIsDesktop();
-  const reduced = useReducedMotionPref();
-  // параллакс от абсолютной прокрутки окна: в покое сдвиг строго 0
-  const { scrollY } = useScroll();
-  const y = useTransform(scrollY, [0, 900], [0, reduced ? 0 : desktop ? 80 : 40], { clamp: true });
 
   useEffect(() => {
     const el = video.current;
@@ -88,8 +80,8 @@ export function HeroMedia() {
   }, []);
 
   return (
-    <div ref={wrap} className="absolute inset-0 overflow-hidden" aria-hidden="true">
-      <m.div className="absolute inset-[-6%_0]" style={{ y }}>
+    <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
+      <div className="absolute inset-0">
         <picture>
           <source media="(min-width: 768px) and (orientation: landscape)" type="image/avif" srcSet="/media/video/hero-poster-desktop.avif" />
           <source media="(min-width: 768px) and (orientation: landscape)" type="image/webp" srcSet="/media/video/hero-poster-desktop.webp" />
@@ -116,7 +108,7 @@ export function HeroMedia() {
           onPlaying={() => setPlaying(true)}
           className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1400ms] ease-lux ${playing ? 'opacity-100' : 'opacity-0'}`}
         />
-      </m.div>
+      </div>
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(11,11,12,0.55)_0%,rgba(11,11,12,0.2)_35%,rgba(11,11,12,0.55)_70%,#0b0b0c_100%)]" />
     </div>
   );

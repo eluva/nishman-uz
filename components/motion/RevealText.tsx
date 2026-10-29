@@ -1,60 +1,40 @@
 'use client';
 
-import { m } from 'framer-motion';
-import type { ElementType } from 'react';
-import { EASE, viewportOnce } from '@/lib/motion';
+import type { CSSProperties, ElementType } from 'react';
+import { useReveal } from './reveal';
 
 interface Props {
-  /** Строки заголовка: каждая проявляется из-под маски отдельно */
+  /** Строки заголовка (каждая — с новой строки) */
   lines: string[];
   as?: ElementType;
   className?: string;
   lineClassName?: string;
   delay?: number;
-  /** Анимировать сразу при монтировании (hero), а не при появлении в зоне видимости */
+  /** Первый экран: появление сразу (CSS-анимация), не дожидаясь прокрутки */
   immediate?: boolean;
   id?: string;
   /** Индекс строки, выделенной акцентным цветом */
   accentIndex?: number;
 }
 
-/** Построчное маск-появление: clip (overflow) + translateY */
+/** Заголовок с мягким появлением целиком: opacity + translateY. Без масок — буквы не обрезаются. */
 export function RevealText({ lines, as: Tag = 'h2', className, lineClassName, delay = 0, immediate, id, accentIndex }: Props) {
+  const ref = useReveal<HTMLElement>();
+  const content = lines.map((line, i) => (
+    <span key={i} className={`block ${lineClassName ?? ''} ${i === accentIndex ? 'text-accent' : ''}`}>
+      {line}
+    </span>
+  ));
   if (immediate) {
-    // Первый экран: чистый CSS — строки проявляются сразу после первой отрисовки, не дожидаясь JS
     return (
-      <Tag className={className} id={id}>
-        {lines.map((line, i) => (
-          <span key={i} className="block overflow-hidden pb-[0.08em] -mb-[0.08em]">
-            <span
-              className={`reveal-line block ${lineClassName ?? ''} ${i === accentIndex ? 'text-accent' : ''}`}
-              style={{ animationDelay: `${delay + i * 0.1}s` }}
-            >
-              {line}
-            </span>
-          </span>
-        ))}
+      <Tag className={`rise-in ${className ?? ''}`} id={id} style={{ animationDelay: `${delay}s` }}>
+        {content}
       </Tag>
     );
   }
-  const trigger = { whileInView: 'show', viewport: viewportOnce };
   return (
-    <Tag className={className} id={id}>
-      <m.span className="block" initial="hidden" {...trigger} transition={{ staggerChildren: 0.1, delayChildren: delay }}>
-        {lines.map((line, i) => (
-          <span key={i} className="block overflow-hidden pb-[0.08em] -mb-[0.08em]">
-            <m.span
-              className={`block ${lineClassName ?? ''} ${i === accentIndex ? 'text-accent' : ''}`}
-              variants={{
-                hidden: { y: '105%' },
-                show: { y: '0%', transition: { duration: 1.1, ease: EASE } },
-              }}
-            >
-              {line}
-            </m.span>
-          </span>
-        ))}
-      </m.span>
+    <Tag ref={ref} data-reveal="" className={className} id={id} style={delay ? ({ '--reveal-delay': `${delay}s` } as CSSProperties) : undefined}>
+      {content}
     </Tag>
   );
 }

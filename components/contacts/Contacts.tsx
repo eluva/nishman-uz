@@ -1,14 +1,12 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { FadeIn } from '@/components/motion/FadeIn';
-import { Magnetic } from '@/components/motion/Magnetic';
-import { RevealImage } from '@/components/motion/RevealImage';
 import { RevealText } from '@/components/motion/RevealText';
 import { Icon } from '@/components/ui/Icon';
 import type { ImageAsset } from '@/lib/catalog/types';
 import { siteConfig } from '@/site.config';
-import { QuestionForm } from './QuestionForm';
 
-/** Финальный CTA + контакты (единственное место с полным номером, Telegram и Instagram) + форма вопроса */
+/** Финальный CTA + контакты (единственное место с полным номером, Telegram и Instagram). Фон CTA — статичный, без параллакса. */
 export function Contacts({ ctaPhoto }: { ctaPhoto: ImageAsset }) {
   const t = useTranslations();
   const c = siteConfig.contacts;
@@ -19,23 +17,18 @@ export function Contacts({ ctaPhoto }: { ctaPhoto: ImageAsset }) {
   ];
 
   return (
-    <section id="contacts" aria-labelledby="contacts-title" className="cv-auto border-t border-line [--cv-h:1870px]">
+    <section id="contacts" aria-labelledby="contacts-title" className="border-t border-line">
       {/* Финальный CTA */}
       <div className="relative isolate overflow-hidden">
-        <RevealImage image={ctaPhoto} alt={t('contacts.ctaAlt')} sizes="100vw" className="absolute inset-0 -z-10" imgClassName="object-[50%_30%] brightness-[0.45]" parallax={10} />
-        <div className="container-x flex min-h-[80dvh] flex-col justify-end py-20 lg:min-h-[90dvh] lg:py-28">
-          <RevealText lines={[t('contacts.ctaTitle')]} className="display max-w-[12ch] text-[clamp(3rem,11vw,10rem)]" />
+        <Image src={ctaPhoto.src} alt={t('contacts.ctaAlt')} fill sizes="100vw" quality={70} className="photo-tone -z-10 object-cover object-[50%_30%] brightness-[0.45]" />
+        <div className="container-x flex min-h-[34rem] flex-col justify-end py-20 lg:min-h-[44rem] lg:py-28">
+          <RevealText lines={[t('contacts.ctaTitle')]} className="display max-w-[14ch] text-[clamp(2.75rem,8vw,6.5rem)]" />
           <FadeIn className="mt-6 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <p className="max-w-md text-lg text-bone/80">{t('contacts.ctaText')}</p>
             <div className="flex flex-wrap items-center gap-3">
-              <Magnetic>
-                <a href="#catalog" className="btn btn-accent">
-                  {t('common.toCatalog')}
-                  <Icon name="arrowRight" size={18} />
-                </a>
-              </Magnetic>
-              <a href={c.telegram} target="_blank" rel="noopener" aria-label="Telegram" className="btn btn-ghost !px-0 w-12">
-                <Icon name="telegram" />
+              <a href="#catalog" className="btn btn-accent">
+                {t('common.toCatalog')}
+                <Icon name="arrowRight" size={18} />
               </a>
             </div>
           </FadeIn>
@@ -44,41 +37,29 @@ export function Contacts({ ctaPhoto }: { ctaPhoto: ImageAsset }) {
 
       <div className="container-x section-y">
         <p className="eyebrow">{t('nav.contacts')}</p>
-        <h2 id="contacts-title" className="display mt-5 text-[clamp(2.3rem,7.4vw,6.2rem)]">
+        <h2 id="contacts-title" className="display mt-5 text-[clamp(2.25rem,6vw,5rem)]">
           {t('contacts.title')}
         </h2>
-        <div className="mt-12 grid gap-6 lg:mt-16 lg:grid-cols-[1fr_1.1fr] lg:gap-10">
-          <ul className="grid content-start gap-3">
-            {cards.map((card) => (
-              <li key={card.label}>
-                <a
-                  href={card.href}
-                  {...(card.external ? { target: '_blank', rel: 'noopener' } : {})}
-                  className="group flex min-h-20 items-center gap-5 rounded-[1.25rem] bg-surface px-5 py-4 ring-1 ring-line transition-[box-shadow,background-color] duration-700 ease-lux hover:ring-accent/60"
-                >
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-raised text-accent transition-colors duration-700 group-hover:bg-accent group-hover:text-ink">
-                    <Icon name={card.icon} />
-                  </span>
-                  <span className="min-w-0">
-                    <span className="block text-[0.7rem] uppercase tracking-[0.16em] text-muted">{card.label}</span>
-                    <span className="block truncate font-display text-xl font-extrabold lg:text-2xl">{card.value}</span>
-                  </span>
-                  <Icon name="arrowRight" size={18} className="ml-auto shrink-0 text-muted transition-transform duration-700 ease-lux group-hover:translate-x-1 group-hover:text-bone" />
-                </a>
-              </li>
-            ))}
-            <li className="flex min-h-20 items-center gap-5 rounded-[1.25rem] px-5 py-4 ring-1 ring-line">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-raised text-accent">
-                <Icon name="clock" />
-              </span>
-              <span>
-                <span className="block text-[0.7rem] uppercase tracking-[0.16em] text-muted">{t('contacts.hours')}</span>
-                <span className="block font-display text-xl font-extrabold">{t('stores.daily', { open: siteConfig.hours.open, close: siteConfig.hours.close })}</span>
-              </span>
+        <ul className="mt-12 grid gap-3 lg:mt-16 lg:grid-cols-3 lg:gap-4">
+          {cards.map((card) => (
+            <li key={card.label}>
+              <a
+                href={card.href}
+                {...(card.external ? { target: '_blank', rel: 'noopener' } : {})}
+                className="group flex min-h-20 items-center gap-5 rounded-[1.25rem] bg-surface px-5 py-4 ring-1 ring-line transition-[box-shadow,background-color] duration-700 ease-lux hover:ring-accent/60"
+              >
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-raised text-accent transition-colors duration-700 group-hover:bg-accent group-hover:text-ink">
+                  <Icon name={card.icon} />
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-[0.7rem] uppercase tracking-[0.16em] text-muted">{card.label}</span>
+                  <span className="block truncate text-xl font-semibold tracking-[-0.02em] lg:text-2xl">{card.value}</span>
+                </span>
+                <Icon name="arrowRight" size={18} className="ml-auto shrink-0 text-muted transition-transform duration-700 ease-lux group-hover:translate-x-1 group-hover:text-bone" />
+              </a>
             </li>
-          </ul>
-          <QuestionForm />
-        </div>
+          ))}
+        </ul>
       </div>
     </section>
   );

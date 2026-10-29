@@ -58,13 +58,14 @@ export const siteConfig = {
     { id: 'region', minOrder: 15_000_000, demo: true },
   ],
 
-  /** Отзывы: первый — из PDF-каталога (права на использование подтвердить у бренда). Тексты: reviews.items.<id> */
+  /** Отзывы (демо): только текст, оценка, имя и город. Тексты: reviews.items.<id> */
   reviews: [
-    { id: 'cherepovich', source: 'brand-catalog', photo: 'review-cherepovich', demo: false },
-    { id: 'aziz', source: 'demo', demo: true },
-    { id: 'timur', source: 'demo', demo: true },
-    { id: 'dilshod', source: 'demo', demo: true },
-    { id: 'sardor', source: 'demo', demo: true },
+    { id: 'aziz', rating: 5, demo: true },
+    { id: 'jasur', rating: 5, demo: true },
+    { id: 'dilshod', rating: 5, demo: true },
+    { id: 'sardor', rating: 4, demo: true },
+    { id: 'bekzod', rating: 5, demo: true },
+    { id: 'shahzod', rating: 5, demo: true },
   ],
 
   /** Лукбук: только фото, не использованные в других секциях */
@@ -92,27 +93,13 @@ export const siteConfig = {
     accessories: 'index-accessories',
   } as Record<string, string>,
 
-  /**
-   * Тайлы карты. CARTO Dark Matter (basemaps.cartocdn.com) теперь требует API-ключ — без него
-   * отдаёт заглушку «API KEY REQUIRED». По умолчанию — Esri World Dark Gray (тёмная подложка без ключа)
-   * + отдельный слой подписей. Для коммерческого сайта сверьте условия Esri (см. README → «Карта»)
-   * или задайте свой источник в NEXT_PUBLIC_MAP_TILE_URL (например, CARTO Dark Matter с ключом).
-   */
-  map: process.env.NEXT_PUBLIC_MAP_TILE_URL
-    ? {
-        tileUrl: process.env.NEXT_PUBLIC_MAP_TILE_URL,
-        labelsUrl: null as string | null,
-        maxZoom: 19,
-        tint: false,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      }
-    : {
-        tileUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
-        labelsUrl: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}' as string | null,
-        maxZoom: 16,
-        tint: true,
-        attribution: '&copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; OSM',
-      },
+  /** Яндекс Карты: обычный виджет (map-widget) без перекраски. Центр и масштаб — чтобы все точки были в кадре. */
+  map: {
+    widget: 'https://yandex.uz/map-widget/v1/',
+    center: { lat: 41.329, lng: 69.245 },
+    zoom: { mobile: 11, desktop: 12 },
+    storeZoom: 15,
+  },
 
   /** Навигация (якоря секций) */
   nav: ['catalog', 'quiz', 'partners', 'stores', 'contacts'] as const,

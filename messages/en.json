@@ -51,10 +51,6 @@
         "title": "Genuine",
         "text": "Supplied directly by the manufacturer — no fakes, no middlemen."
       },
-      "delivery": {
-        "title": "Nationwide delivery",
-        "text": "Courier in Tashkent and delivery services to every region."
-      },
       "barbers": {
         "title": "Barber support",
         "text": "Product advice and help building the right range for your shop."
@@ -63,7 +59,7 @@
   },
   "catalog": {
     "title": "The full range",
-    "lead": "Seven sections — from wax to barber capes. Pick a section or use the filters.",
+    "lead": "Eight sections — from wax to barber capes. Pick a section or use the filters.",
     "all": "All sections",
     "count": "{count, plural, one {# item} other {# items}}",
     "categories": {
@@ -73,6 +69,7 @@
       "shaving": "Shaving",
       "beard": "Beard",
       "face": "Face",
+      "body": "Body",
       "accessories": "Accessories"
     },
     "showMore": "Show more",
@@ -161,9 +158,9 @@
     },
     "matte": {
       "title": "Matte line & Spider Wax",
-      "text": "From flexible texture to rock-solid hold — every product has its spot on the scale.",
-      "soft": "Soft",
-      "hard": "Maximum"
+      "text": "Two lines for textured, shine-free styles.",
+      "matteText": "Shine-free pastes and clays — from soft texture to maximum hold.",
+      "spiderText": "Stretches like a web: restyle your hair any time of day."
     },
     "cologne": {
       "title": "Wall of scents",
@@ -238,35 +235,40 @@
   },
   "reviews": {
     "label": "Reviews",
-    "title": "Barbers speak",
-    "fromCatalog": "From the brand catalog",
+    "title": "What customers say",
     "items": {
-      "cherepovich": {
-        "name": "Alexander Cherepovich",
-        "role": "Barber, founder and head of the Men’s Cut Studio barbershop chain, Saint Petersburg",
-        "text": "NISHMAN is my choice, because product and service quality matter most to me. We value every client: reputation and authority are not empty words for Men’s Cut Studio. In Nishman we found a range that fits on every count — the brand’s history and authority, consistent quality and price, plus a team of professionals always ready to help. Clients come back and recommend us to friends, partly thanks to Nishman. I believe our partnership will be long and even more productive. (Translated from Russian.)"
-      },
       "aziz": {
         "name": "Aziz Karimov",
-        "role": "Barber, Tashkent",
-        "text": "I work with the M2 matte paste: it holds until evening and doesn’t weigh hair down. Clients ask what’s in the jar — and take one home."
+        "city": "Tashkent",
+        "text": "The M2 matte paste holds until evening and doesn’t weigh hair down. On my third jar already."
       },
-      "timur": {
-        "name": "Timur Rakhimov",
-        "role": "Barbershop owner, Tashkent",
-        "text": "We buy shampoo in five-litre canisters and one-litre shaving gels — it works out noticeably cheaper per use. Ordering takes a couple of messages."
+      "jasur": {
+        "name": "Jasur Rakhimov",
+        "city": "Samarkand",
+        "text": "Ordered shampoo and shaving gel — delivered the next day, all original."
       },
       "dilshod": {
         "name": "Dilshod Yusupov",
-        "role": "Customer",
-        "text": "Got Spider Wax S1 and Gold One cologne. The wax really stretches like a web and lets me restyle during the day."
+        "city": "Bukhara",
+        "text": "Spider Wax S1 stretches like a web — easy to fix the style during the day."
       },
       "sardor": {
         "name": "Sardor Aliev",
-        "role": "Cosmetics store, Samarkand",
-        "text": "The shelf with the colourful NISHMAN jars empties first. Customers come in with the wax number already on their phone."
+        "city": "Namangan",
+        "text": "Gold One cologne lasts all day. A calm scent, nothing harsh."
+      },
+      "bekzod": {
+        "name": "Bekzod Normatov",
+        "city": "Fergana",
+        "text": "The finder on the site helped: three answers and I knew which wax to get."
+      },
+      "shahzod": {
+        "name": "Shahzod Tursunov",
+        "city": "Andijan",
+        "text": "Bright Aqua Wax jars, each with its own scent. Got 04 — now I want the whole set."
       }
-    }
+    },
+    "rating": "Rated {value} of 5"
   },
   "lookbook": {
     "label": "Lookbook",
@@ -286,7 +288,6 @@
     "closedNow": "Closed now",
     "daily": "Daily {open}–{close}",
     "route": "Directions",
-    "mapHint": "Tap to use the map",
     "mapLabel": "Map of locations in Tashkent",
     "items": {
       "chilanzar": {
@@ -358,12 +359,7 @@
     "ctaText": "Fill your cart on the site or message a manager — we’ll help with sizes and availability.",
     "ctaAlt": "Barber spraying beard perfume",
     "title": "Get in touch",
-    "phone": "Manager’s phone",
-    "hours": "Opening hours",
-    "formTitle": "Ask a question",
-    "message": "Your question",
-    "submit": "Send",
-    "success": "Thank you! We’ll reply shortly."
+    "phone": "Manager’s phone"
   },
   "footer": {
     "rights": "© {year} Nishman.uz. All rights reserved.",

@@ -57,7 +57,10 @@ function localize(p: RawProduct, m: CatalogMessages): Product {
     notes: p.notes.map((k) => m.notes[k] ?? k),
     forSalons: p.forSalons,
     size: p.size ?? null,
-    shades: p.shades.map((id) => ({ id, label: m.shades[id] ?? id })),
+    shades: p.shades.map((id) => {
+      const img = p.shadeImages.find((s) => s.shade === id);
+      return { id, label: m.shades[id] ?? id, image: img ? { src: img.src, width: img.width, height: img.height } : null };
+    }),
     swatch: p.swatch ?? null,
     image: p.image,
     gallery: p.gallery,

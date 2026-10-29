@@ -2,6 +2,7 @@
 
 import { create } from 'zustand';
 import type { CategoryId, Effect, ProductQuery, SortKey } from '@/lib/catalog/types';
+import { scrollBehavior } from '@/lib/motion';
 
 /** Состояние интерфейса: шторки, быстрый просмотр, тосты */
 interface UiState {
@@ -63,9 +64,8 @@ export const useFilters = create<FilterState>()((set) => ({
   apply: (patch) => {
     set({ ...initial, ...patch, page: 1 });
     if (typeof window !== 'undefined') {
-      document.documentElement.classList.add('cv-off'); // реальные высоты секций перед прокруткой
       requestAnimationFrame(() => {
-        document.getElementById('catalog-grid')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        document.getElementById('catalog-grid')?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
       });
     }
   },

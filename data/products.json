@@ -43,12 +43,15 @@
   "swatch": "#2563c9",
   "image": {
    "src": "/media/products/aqua-wax-01.webp",
-   "width": 390,
-   "height": 268
+   "width": 972,
+   "height": 546
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-22-06.jpg"
+   ]
   }
  },
  {
@@ -89,12 +92,15 @@
   "swatch": "#f25a1f",
   "image": {
    "src": "/media/products/aqua-wax-02.webp",
-   "width": 380,
-   "height": 258
+   "width": 972,
+   "height": 563
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-21-56.jpg"
+   ]
   }
  },
  {
@@ -141,12 +147,15 @@
   "swatch": "#d4202a",
   "image": {
    "src": "/media/products/aqua-wax-03.webp",
-   "width": 387,
-   "height": 260
+   "width": 972,
+   "height": 550
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-21-58.jpg"
+   ]
   }
  },
  {
@@ -193,12 +202,15 @@
   "swatch": "#7b2fa8",
   "image": {
    "src": "/media/products/aqua-wax-04.webp",
-   "width": 387,
-   "height": 258
+   "width": 972,
+   "height": 557
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-22-01.jpg"
+   ]
   }
  },
  {
@@ -239,12 +251,15 @@
   "swatch": "#5fc54a",
   "image": {
    "src": "/media/products/aqua-wax-05.webp",
-   "width": 382,
-   "height": 260
+   "width": 972,
+   "height": 541
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-22-03.jpg"
+   ]
   }
  },
  {
@@ -285,12 +300,15 @@
   "swatch": "#e9e6e1",
   "image": {
    "src": "/media/products/aqua-wax-06.webp",
-   "width": 380,
-   "height": 255
+   "width": 972,
+   "height": 564
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-22-11.jpg"
+   ]
   }
  },
  {
@@ -337,12 +355,15 @@
   "swatch": "#c9a24a",
   "image": {
    "src": "/media/products/aqua-wax-07.webp",
-   "width": 379,
-   "height": 257
+   "width": 972,
+   "height": 525
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 4
+   "photos": [
+    "photo_2026-10-29_05-22-14.jpg"
+   ]
   }
  },
  {
@@ -383,12 +404,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/aqua-wax-08.webp",
-   "width": 370,
-   "height": 248
+   "width": 972,
+   "height": 558
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 5
+   "photos": [
+    "photo_2026-10-29_05-22-18.jpg"
+   ]
   }
  },
  {
@@ -429,12 +453,101 @@
   "swatch": null,
   "image": {
    "src": "/media/products/aqua-wax-09.webp",
-   "width": 380,
-   "height": 259
+   "width": 972,
+   "height": 566
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 5
+   "photos": [
+    "photo_2026-10-29_05-22-21.jpg"
+   ]
+  }
+ },
+ {
+  "id": "aqua-wax-10",
+  "code": "10",
+  "line": "aqua-wax",
+  "category": "styling",
+  "type": "aquaWax",
+  "name": "BLACK EDITION",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": "natural-shine",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "maxControl",
+   "shortMedium",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/aqua-wax-10.webp",
+   "width": 972,
+   "height": 594
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-53.jpg"
+   ]
+  }
+ },
+ {
+  "id": "aqua-wax-milky",
+  "code": null,
+  "line": "aqua-wax",
+  "category": "styling",
+  "type": "aquaWax",
+  "name": "MILKY",
+  "scent": "milk",
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": "natural-shine",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "milkScented",
+   "naturalLook",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/aqua-wax-milky.webp",
+   "width": 972,
+   "height": 521
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-26.jpg"
+   ]
   }
  },
  {
@@ -470,8 +583,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/coloring-wax-c1.webp",
-   "width": 388,
-   "height": 251
+   "width": 972,
+   "height": 556
   },
   "gallery": [
    {
@@ -480,8 +593,11 @@
     "height": 1169
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 5
+   "photos": [
+    "photo_2026-10-29_05-25-34.jpg"
+   ]
   }
  },
  {
@@ -517,12 +633,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/coloring-wax-c2.webp",
-   "width": 388,
-   "height": 249
+   "width": 972,
+   "height": 558
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 5
+   "photos": [
+    "photo_2026-10-29_05-25-37.jpg"
+   ]
   }
  },
  {
@@ -558,12 +677,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/coloring-wax-c3.webp",
-   "width": 387,
-   "height": 249
+   "width": 972,
+   "height": 554
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 5
+   "photos": [
+    "photo_2026-10-29_05-25-39.jpg"
+   ]
   }
  },
  {
@@ -604,12 +726,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s1.webp",
-   "width": 379,
-   "height": 263
+   "width": 972,
+   "height": 541
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 6
+   "photos": [
+    "photo_2026-10-29_05-21-14.jpg"
+   ]
   }
  },
  {
@@ -650,12 +775,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s2.webp",
-   "width": 378,
-   "height": 263
+   "width": 972,
+   "height": 537
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 6
+   "photos": [
+    "photo_2026-10-29_05-21-24.jpg"
+   ]
   }
  },
  {
@@ -696,12 +824,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s3.webp",
-   "width": 378,
-   "height": 263
+   "width": 972,
+   "height": 549
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 6
+   "photos": [
+    "photo_2026-10-29_05-21-16.jpg"
+   ]
   }
  },
  {
@@ -736,12 +867,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s4.webp",
-   "width": 379,
-   "height": 261
+   "width": 972,
+   "height": 533
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 6
+   "photos": [
+    "photo_2026-10-29_05-21-22.jpg"
+   ]
   }
  },
  {
@@ -776,12 +910,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s5.webp",
-   "width": 380,
-   "height": 264
+   "width": 972,
+   "height": 521
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 6
+   "photos": [
+    "photo_2026-10-29_05-21-20.jpg"
+   ]
   }
  },
  {
@@ -822,12 +959,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s6.webp",
-   "width": 379,
-   "height": 263
+   "width": 972,
+   "height": 538
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 6
+   "photos": [
+    "photo_2026-10-29_05-21-18.jpg"
+   ]
   }
  },
  {
@@ -867,12 +1007,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m1.webp",
-   "width": 406,
-   "height": 260
+   "width": 972,
+   "height": 547
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 7
+   "photos": [
+    "photo_2026-10-29_05-19-21.jpg"
+   ]
   }
  },
  {
@@ -911,12 +1054,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m2.webp",
-   "width": 407,
-   "height": 262
+   "width": 972,
+   "height": 560
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 7
+   "photos": [
+    "photo_2026-10-29_05-19-25.jpg"
+   ]
   }
  },
  {
@@ -956,8 +1102,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m3.webp",
-   "width": 402,
-   "height": 258
+   "width": 972,
+   "height": 574
   },
   "gallery": [
    {
@@ -966,8 +1112,11 @@
     "height": 585
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 7
+   "photos": [
+    "photo_2026-10-29_05-19-28.jpg"
+   ]
   }
  },
  {
@@ -1008,8 +1157,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m4.webp",
-   "width": 401,
-   "height": 258
+   "width": 972,
+   "height": 569
   },
   "gallery": [
    {
@@ -1018,8 +1167,11 @@
     "height": 585
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 7
+   "photos": [
+    "photo_2026-10-29_05-19-30.jpg"
+   ]
   }
  },
  {
@@ -1059,8 +1211,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m5.webp",
-   "width": 408,
-   "height": 262
+   "width": 972,
+   "height": 561
   },
   "gallery": [
    {
@@ -1069,8 +1221,11 @@
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 7
+   "photos": [
+    "photo_2026-10-29_05-19-32.jpg"
+   ]
   }
  },
  {
@@ -1110,12 +1265,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m6.webp",
-   "width": 408,
-   "height": 261
+   "width": 972,
+   "height": 545
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 7
+   "photos": [
+    "photo_2026-10-29_05-25-23.jpg"
+   ]
   }
  },
  {
@@ -1149,8 +1307,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m7.webp",
-   "width": 405,
-   "height": 260
+   "width": 972,
+   "height": 570
   },
   "gallery": [
    {
@@ -1159,8 +1317,11 @@
     "height": 587
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 8
+   "photos": [
+    "photo_2026-10-29_05-25-25.jpg"
+   ]
   }
  },
  {
@@ -1195,12 +1356,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m8.webp",
-   "width": 412,
-   "height": 264
+   "width": 972,
+   "height": 544
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 8
+   "photos": [
+    "photo_2026-10-29_05-25-27.jpg"
+   ]
   }
  },
  {
@@ -1235,8 +1399,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m9.webp",
-   "width": 414,
-   "height": 260
+   "width": 972,
+   "height": 571
   },
   "gallery": [
    {
@@ -1245,8 +1409,217 @@
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 8
+   "photos": [
+    "photo_2026-10-29_05-25-29.jpg"
+   ]
+  }
+ },
+ {
+  "id": "matte-m10",
+  "code": "M10",
+  "line": "matte",
+  "category": "styling",
+  "type": "matteClayWax",
+  "name": "MATTE LOOK",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 119000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "matteLook"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/matte-m10.webp",
+   "width": 972,
+   "height": 535
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-32.jpg"
+   ]
+  }
+ },
+ {
+  "id": "matte-m11",
+  "code": "M11",
+  "line": "matte",
+  "category": "styling",
+  "type": "matteClayWax",
+  "name": "ARCILLA MATE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 119000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": 3,
+  "holdPlus": false,
+  "features": [
+   "matteLook"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/matte-m11.webp",
+   "width": 972,
+   "height": 530
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-30.jpg"
+   ]
+  }
+ },
+ {
+  "id": "matte-m12",
+  "code": "M12",
+  "line": "matte",
+  "category": "styling",
+  "type": "matteWax",
+  "name": "SEA SALT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 119000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "fibreMatte"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/matte-m12.webp",
+   "width": 972,
+   "height": 569
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-25-32.jpg"
+   ]
+  }
+ },
+ {
+  "id": "molding-paste-a2",
+  "code": "A2",
+  "line": "matte",
+  "category": "styling",
+  "type": "moldingPaste",
+  "name": "MATTE LOOK",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 100,
+    "unit": "ml",
+    "price": 99000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "texturizingMatte"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/molding-paste-a2.webp",
+   "width": 309,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-00.jpg"
+   ]
+  }
+ },
+ {
+  "id": "matte-paste-u1",
+  "code": "U1",
+  "line": "matte",
+  "category": "styling",
+  "type": "mattePaste",
+  "name": "ARGAN",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 100,
+    "unit": "ml",
+    "price": 99000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "strongMatte",
+   "spreadsEasily"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/matte-paste-u1.webp",
+   "width": 361,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-02.jpg"
+   ]
   }
  },
  {
@@ -1281,8 +1654,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-f1.webp",
-   "width": 379,
-   "height": 246
+   "width": 968,
+   "height": 552
   },
   "gallery": [
    {
@@ -1291,8 +1664,11 @@
     "height": 1170
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 8
+   "photos": [
+    "photo_2026-10-29_05-23-45.jpg"
+   ]
   }
  },
  {
@@ -1327,12 +1703,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-w10.webp",
-   "width": 387,
-   "height": 251
+   "width": 972,
+   "height": 521
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 8
+   "photos": [
+    "photo_2026-10-29_05-21-28.jpg"
+   ]
   }
  },
  {
@@ -1367,12 +1746,56 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-w11.webp",
-   "width": 386,
-   "height": 250
+   "width": 972,
+   "height": 598
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 8
+   "photos": [
+    "photo_2026-10-29_05-23-36.jpg"
+   ]
+  }
+ },
+ {
+  "id": "pomade-f2",
+  "code": "F2",
+  "line": "pomade",
+  "category": "styling",
+  "type": "pomade",
+  "name": "FIBRE PASTE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 109000,
+    "demo": true
+   }
+  ],
+  "effect": "natural-shine",
+  "hold": 2,
+  "holdPlus": false,
+  "features": [
+   "fibrePaste"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/pomade-f2.webp",
+   "width": 972,
+   "height": 559
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-23-40.jpg"
+   ]
   }
  },
  {
@@ -1416,18 +1839,27 @@
   "swatch": null,
   "image": {
    "src": "/media/products/styling-cream-medium.webp",
-   "width": 386,
-   "height": 258
+   "width": 972,
+   "height": 578
   },
   "gallery": [
+   {
+    "src": "/media/products/styling-cream-medium-2.webp",
+    "width": 972,
+    "height": 529
+   },
    {
     "src": "/media/models/styling-cream-hands.webp",
     "width": 625,
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 9
+   "photos": [
+    "photo_2026-10-29_05-25-41.jpg",
+    "photo_2026-10-29_05-24-17.jpg"
+   ]
   }
  },
  {
@@ -1477,21 +1909,215 @@
   "swatch": null,
   "image": {
    "src": "/media/products/styling-cream-extra.webp",
-   "width": 386,
-   "height": 257
+   "width": 972,
+   "height": 563
+  },
+  "gallery": [
+   {
+    "src": "/media/products/styling-cream-extra-2.webp",
+    "width": 972,
+    "height": 531
+   }
+  ],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-25-43.jpg",
+    "photo_2026-10-29_05-22-23.jpg"
+   ]
+  }
+ },
+ {
+  "id": "styling-cream-brilliantine",
+  "code": null,
+  "line": "styling-cream",
+  "category": "styling",
+  "type": "stylingCream",
+  "name": "BRILLIANTINE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 92000,
+    "demo": true
+   }
+  ],
+  "effect": "natural-shine",
+  "hold": 3,
+  "holdPlus": false,
+  "features": [
+   "provitaminB5",
+   "noStickWeigh",
+   "easyApplyWash"
+  ],
+  "notes": [
+   "waterBased"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/styling-cream-brilliantine.webp",
+   "width": 972,
+   "height": 537
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 9
+   "photos": [
+    "photo_2026-10-29_05-24-22.jpg"
+   ]
+  }
+ },
+ {
+  "id": "curl-cream",
+  "code": "CC",
+  "line": "curl-cream",
+  "category": "styling",
+  "type": "curlCream",
+  "name": "CURL CREAM",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 89000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 135000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "curlDefine",
+   "frizzEase"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/curl-cream.webp",
+   "width": 355,
+   "height": 972
+  },
+  "gallery": [
+   {
+    "src": "/media/products/curl-cream-2.webp",
+    "width": 366,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-19-41.jpg",
+    "photo_2026-10-29_05-19-45.jpg"
+   ]
+  }
+ },
+ {
+  "id": "foam-wax-sea-salt",
+  "code": null,
+  "line": "foam-wax",
+  "category": "styling",
+  "type": "foamWax",
+  "name": "SEA SALT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": 4,
+  "holdPlus": false,
+  "features": [
+   "biotinCaffeine",
+   "volumeCurls"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/foam-wax-sea-salt.webp",
+   "width": 302,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-08.jpg"
+   ]
+  }
+ },
+ {
+  "id": "foam-wax-00",
+  "code": "00",
+  "line": "foam-wax",
+  "category": "styling",
+  "type": "foamWax",
+  "name": "KERATIN & CURLS",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": 3,
+  "holdPlus": false,
+  "features": [
+   "lightFoam",
+   "humidity"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/foam-wax-00.webp",
+   "width": 303,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-11.jpg"
+   ]
   }
  },
  {
   "id": "seasalt-spray",
-  "code": null,
+  "code": "01",
   "line": "seasalt",
   "category": "styling",
   "type": "seasalt",
-  "name": "SEASALT SPRAY",
+  "name": "KERATIN & ALOE VERA",
   "scent": null,
   "variant": null,
   "volumes": [
@@ -1517,12 +2143,57 @@
   "swatch": null,
   "image": {
    "src": "/media/products/seasalt-spray.webp",
-   "width": 160,
-   "height": 432
+   "width": 317,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 9
+   "photos": [
+    "photo_2026-10-29_05-19-56.jpg"
+   ]
+  }
+ },
+ {
+  "id": "seasalt-spray-02",
+  "code": "02",
+  "line": "seasalt",
+  "category": "styling",
+  "type": "seasalt",
+  "name": "KELP & ALOE VERA",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 89000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": 3,
+  "holdPlus": false,
+  "features": [
+   "kelpAloe",
+   "volumeLook"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/seasalt-spray-02.webp",
+   "width": 316,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-19-59.jpg"
+   ]
   }
  },
  {
@@ -1560,6 +2231,7 @@
    "height": 233
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 10
   }
@@ -1579,6 +2251,12 @@
     "unit": "g",
     "price": 75000,
     "demo": true
+   },
+   {
+    "value": 160,
+    "unit": "g",
+    "price": 349000,
+    "demo": true
    }
   ],
   "effect": "natural",
@@ -1592,24 +2270,35 @@
    "dayLong"
   ],
   "notes": [],
-  "forSalons": [],
+  "forSalons": [
+   160
+  ],
   "size": null,
   "shades": [],
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p1.webp",
-   "width": 331,
-   "height": 304
+   "width": 728,
+   "height": 972
   },
   "gallery": [
+   {
+    "src": "/media/products/powder-p1-2.webp",
+    "width": 424,
+    "height": 972
+   },
    {
     "src": "/media/models/powder-p1-box.webp",
     "width": 620,
     "height": 1169
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 10
+   "photos": [
+    "photo_2026-10-29_05-24-48.jpg",
+    "photo_2026-10-29_05-22-49.jpg"
+   ]
   }
  },
  {
@@ -1646,12 +2335,409 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p5plus.webp",
-   "width": 223,
-   "height": 224
+   "width": 744,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 10
+   "photos": [
+    "photo_2026-10-29_05-24-52.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-p1-fresh-look",
+  "code": "P1",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "FRESH LOOK",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 75000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "pliable",
+   "naturalLook",
+   "unnoticeable",
+   "dayLong"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-p1-fresh-look.webp",
+   "width": 756,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-50.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-p1-flaming",
+  "code": "P1",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "FLAMING",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 75000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "pliable",
+   "naturalLook",
+   "unnoticeable",
+   "dayLong"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-p1-flaming.webp",
+   "width": 679,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-54.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-p1-sport",
+  "code": "P1",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "SPORT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 75000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "pliable",
+   "naturalLook",
+   "unnoticeable",
+   "dayLong"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-p1-sport.webp",
+   "width": 697,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-56.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-p1-gumgum",
+  "code": "P1",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "GUMGUM",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 75000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "pliable",
+   "naturalLook",
+   "unnoticeable",
+   "dayLong"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-p1-gumgum.webp",
+   "width": 672,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-59.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-x5-sea-salt",
+  "code": "X5",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "SEA SALT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "pliable",
+   "veganTested"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-x5-sea-salt.webp",
+   "width": 724,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-25-01.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-p0",
+  "code": "P0",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "EXTRA VOLUME",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 75000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "extraVolume",
+   "lightControl",
+   "veganTested"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-p0.webp",
+   "width": 728,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-22-32.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-x1",
+  "code": "X1",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "VOLUME POWDER",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "lightControl",
+   "unnoticeable"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-x1.webp",
+   "width": 371,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-22-40.jpg"
+   ]
+  }
+ },
+ {
+  "id": "powder-x1-barber",
+  "code": "X1",
+  "line": "powder",
+  "category": "styling",
+  "type": "powder",
+  "name": "BARBER",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 20,
+    "unit": "g",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": "natural",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantShape",
+   "lightControl",
+   "unnoticeable"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/powder-x1-barber.webp",
+   "width": 489,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-22-43.jpg"
+   ]
+  }
+ },
+ {
+  "id": "texture-powder-spray",
+  "code": null,
+  "line": "powder",
+  "category": "styling",
+  "type": "texturePowder",
+  "name": "HAIR TEXTURE POWDER",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 27,
+    "unit": "g",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": "matte",
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "textureSpray",
+   "veganTested"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/texture-powder-spray.webp",
+   "width": 792,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-22-45.jpg"
+   ]
   }
  },
  {
@@ -1697,6 +2783,7 @@
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
    "pdfPage": 11
   }
@@ -1734,12 +2821,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5.webp",
-   "width": 202,
-   "height": 255
+   "width": 725,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 11
+   "photos": [
+    "photo_2026-10-29_05-19-19.jpg"
+   ]
   }
  },
  {
@@ -1781,12 +2871,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5plus-argan.webp",
-   "width": 428,
-   "height": 230
+   "width": 961,
+   "height": 954
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 11
+   "photos": [
+    "photo_2026-10-29_05-21-09.jpg"
+   ]
   }
  },
  {
@@ -1828,12 +2921,109 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5plus-gum.webp",
-   "width": 394,
-   "height": 243
+   "width": 932,
+   "height": 939
+  },
+  "gallery": [
+   {
+    "src": "/media/products/gel-5plus-gum-2.webp",
+    "width": 699,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-19-11.jpg",
+    "photo_2026-10-29_05-19-16.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-5plus-sea-salt",
+  "code": "5+",
+  "line": "gel",
+  "category": "styling",
+  "type": "hairGel",
+  "name": "SEA SALT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 300,
+    "unit": "ml",
+    "price": 72000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": 5,
+  "holdPlus": true,
+  "features": [
+   "wetLook",
+   "fullControl"
+  ],
+  "notes": [
+   "thickHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-5plus-sea-salt.webp",
+   "width": 935,
+   "height": 961
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 11
+   "photos": [
+    "photo_2026-10-29_05-19-14.jpg"
+   ]
+  }
+ },
+ {
+  "id": "jellyboom",
+  "code": null,
+  "line": "gel",
+  "category": "styling",
+  "type": "gelPomade",
+  "name": "JELLYBOOM",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 69000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "waterBasedPomade"
+  ],
+  "notes": [
+   "thickHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/jellyboom.webp",
+   "width": 553,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-46.jpg"
+   ]
   }
  },
  {
@@ -1877,12 +3067,22 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-bg.webp",
-   "width": 294,
-   "height": 436
+   "width": 925,
+   "height": 911
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/gel-bg-2.webp",
+    "width": 353,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 11
+   "photos": [
+    "photo_2026-10-29_05-21-11.jpg",
+    "photo_2026-10-29_05-21-04.jpg"
+   ]
   }
  },
  {
@@ -1920,12 +3120,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/grooming-spray.webp",
-   "width": 197,
-   "height": 405
+   "width": 311,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 12
+   "photos": [
+    "photo_2026-10-29_05-19-47.jpg"
+   ]
   }
  },
  {
@@ -1963,12 +3166,60 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-spray-04.webp",
-   "width": 150,
-   "height": 590
+   "width": 273,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 13
+   "photos": [
+    "photo_2026-10-29_05-21-45.jpg"
+   ]
+  }
+ },
+ {
+  "id": "hair-spray-sea-salt",
+  "code": null,
+  "line": "styling-spray",
+  "category": "styling",
+  "type": "hairSpray",
+  "name": "MAX HOLD SEA SALT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": 5,
+  "holdPlus": false,
+  "features": [
+   "humidityAllDay",
+   "noWeigh",
+   "addsVolume"
+  ],
+  "notes": [
+   "strongHold"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/hair-spray-sea-salt.webp",
+   "width": 332,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-43.jpg"
+   ]
   }
  },
  {
@@ -1986,6 +3237,12 @@
     "unit": "ml",
     "price": 85000,
     "demo": true
+   },
+   {
+    "value": 769,
+    "unit": "ml",
+    "price": 139000,
+    "demo": true
    }
   ],
   "effect": null,
@@ -2000,18 +3257,324 @@
   "notes": [
    "strongHold"
   ],
-  "forSalons": [],
+  "forSalons": [
+   769
+  ],
   "size": null,
   "shades": [],
   "swatch": null,
   "image": {
    "src": "/media/products/hair-spray-05.webp",
-   "width": 153,
-   "height": 585
+   "width": 265,
+   "height": 972
+  },
+  "gallery": [
+   {
+    "src": "/media/products/hair-spray-05-2.webp",
+    "width": 259,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-41.jpg",
+    "photo_2026-10-29_05-21-49.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b1",
+  "code": "B1",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "GUMGUM",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b1.webp",
+   "width": 972,
+   "height": 519
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 13
+   "photos": [
+    "photo_2026-10-29_05-24-37.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b2",
+  "code": "B2",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "SPORT",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b2.webp",
+   "width": 972,
+   "height": 528
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-35.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b3",
+  "code": "B3",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "FLAMING",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b3.webp",
+   "width": 972,
+   "height": 542
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-33.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b4",
+  "code": "B4",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "FRESH LOOK",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b4.webp",
+   "width": 972,
+   "height": 530
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-31.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b6",
+  "code": "B6",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "MYSTIC GUMMY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b6.webp",
+   "width": 972,
+   "height": 524
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-29.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b7",
+  "code": "B7",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "GOLD ONE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b7.webp",
+   "width": 972,
+   "height": 535
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-27.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gel-wax-b9",
+  "code": "B9",
+  "line": "gel-wax",
+  "category": "styling",
+  "type": "gelWax",
+  "name": "COLA",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "easyHold",
+   "easyApplyWash"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gel-wax-b9.webp",
+   "width": 972,
+   "height": 519
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-25.jpg"
+   ]
   }
  },
  {
@@ -2064,12 +3627,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-shampoo-01.webp",
-   "width": 169,
-   "height": 386
+   "width": 410,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 16
+   "photos": [
+    "photo_2026-10-29_05-20-55.jpg"
+   ]
   }
  },
  {
@@ -2122,12 +3688,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-shampoo-02.webp",
-   "width": 154,
-   "height": 380
+   "width": 385,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 16
+   "photos": [
+    "photo_2026-10-29_05-20-46.jpg"
+   ]
   }
  },
  {
@@ -2180,12 +3749,22 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-shampoo-03.webp",
-   "width": 165,
-   "height": 379
+   "width": 348,
+   "height": 972
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/pro-shampoo-03-2.webp",
+    "width": 419,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 16
+   "photos": [
+    "photo_2026-10-29_05-20-51.jpg",
+    "photo_2026-10-29_05-20-53.jpg"
+   ]
   }
  },
  {
@@ -2203,6 +3782,12 @@
     "unit": "ml",
     "price": 89000,
     "demo": true
+   },
+   {
+    "value": 1250,
+    "unit": "ml",
+    "price": 179000,
+    "demo": true
    }
   ],
   "effect": null,
@@ -2216,18 +3801,30 @@
   "notes": [
    "allHair"
   ],
-  "forSalons": [],
+  "forSalons": [
+   1250
+  ],
   "size": null,
   "shades": [],
   "swatch": null,
   "image": {
    "src": "/media/products/pro-conditioner.webp",
-   "width": 148,
-   "height": 402
+   "width": 352,
+   "height": 972
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/pro-conditioner-2.webp",
+    "width": 413,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 16
+   "photos": [
+    "photo_2026-10-29_05-20-48.jpg",
+    "photo_2026-10-29_05-20-58.jpg"
+   ]
   }
  },
  {
@@ -2268,12 +3865,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/salon-shampoo.webp",
-   "width": 325,
-   "height": 416
+   "width": 757,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 16
+   "photos": [
+    "photo_2026-10-29_05-23-15.jpg"
+   ]
   }
  },
  {
@@ -2316,8 +3916,187 @@
    "height": 419
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 16
+  }
+ },
+ {
+  "id": "pion-shampoo",
+  "code": "1",
+  "line": "pion",
+  "category": "care",
+  "type": "shampoo",
+  "name": "KERATIN",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 5000,
+    "unit": "ml",
+    "price": 429000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "saltParabenFree",
+   "extraMoistKeratin"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "forSalons": [
+   5000
+  ],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/pion-shampoo.webp",
+   "width": 753,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-23-26.jpg"
+   ]
+  }
+ },
+ {
+  "id": "xl-shampoo-anti-hairloss",
+  "code": null,
+  "line": "hair-shampoo-xl",
+  "category": "care",
+  "type": "shampoo",
+  "name": "ANTI-HAIRLOSS",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 480,
+    "unit": "ml",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "hairLossCare",
+   "xlSize"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/xl-shampoo-anti-hairloss.webp",
+   "width": 361,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-39.jpg"
+   ]
+  }
+ },
+ {
+  "id": "xl-shampoo-garlic-nettle",
+  "code": null,
+  "line": "hair-shampoo-xl",
+  "category": "care",
+  "type": "shampoo",
+  "name": "GARLIC & NETTLE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 480,
+    "unit": "ml",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "garlicNettle",
+   "xlSize"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/xl-shampoo-garlic-nettle.webp",
+   "width": 382,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-41.jpg"
+   ]
+  }
+ },
+ {
+  "id": "xl-shampoo-anti-dandruff",
+  "code": null,
+  "line": "hair-shampoo-xl",
+  "category": "care",
+  "type": "shampoo",
+  "name": "ANTI-DANDRUFF",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 480,
+    "unit": "ml",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "dandruffPrevent",
+   "xlSize"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/xl-shampoo-anti-dandruff.webp",
+   "width": 361,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-44.jpg"
+   ]
   }
  },
  {
@@ -2361,23 +4140,21 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-mask.webp",
-   "width": 362,
-   "height": 234
+   "width": 951,
+   "height": 972
   },
   "gallery": [
-   {
-    "src": "/media/products/hair-mask-2.webp",
-    "width": 343,
-    "height": 278
-   },
    {
     "src": "/media/models/hair-mask-jar.webp",
     "width": 349,
     "height": 326
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 15
+   "photos": [
+    "photo_2026-10-29_05-21-07.jpg"
+   ]
   }
  },
  {
@@ -2394,6 +4171,12 @@
     "value": 200,
     "unit": "ml",
     "price": 89000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 139000,
     "demo": true
    }
   ],
@@ -2415,21 +4198,31 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-tonic.webp",
-   "width": 158,
-   "height": 411
+   "width": 348,
+   "height": 972
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/hair-tonic-2.webp",
+    "width": 337,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 12
+   "photos": [
+    "photo_2026-10-29_05-20-04.jpg",
+    "photo_2026-10-29_05-20-06.jpg"
+   ]
   }
  },
  {
   "id": "two-phase-conditioner",
-  "code": null,
+  "code": "1",
   "line": "two-phase",
   "category": "care",
   "type": "twoPhase",
-  "name": "2 PHASE CONDITIONER",
+  "name": "KERATIN COMPLEX",
   "scent": null,
   "variant": null,
   "volumes": [
@@ -2459,12 +4252,328 @@
   "swatch": null,
   "image": {
    "src": "/media/products/two-phase-conditioner.webp",
-   "width": 160,
-   "height": 411
+   "width": 322,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 12
+   "photos": [
+    "photo_2026-10-29_05-20-28.jpg"
+   ]
+  }
+ },
+ {
+  "id": "two-phase-2",
+  "code": "2",
+  "line": "two-phase",
+  "category": "care",
+  "type": "twoPhase",
+  "name": "ARGAN COMPLEX",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantAction",
+   "heatProtect",
+   "strengthens",
+   "noHeavy",
+   "easyComb"
+  ],
+  "notes": [
+   "moistureHeat"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/two-phase-2.webp",
+   "width": 338,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-31.jpg"
+   ]
+  }
+ },
+ {
+  "id": "two-phase-3",
+  "code": "3",
+  "line": "two-phase",
+  "category": "care",
+  "type": "twoPhase",
+  "name": "MILK THERAPY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantAction",
+   "heatProtect",
+   "strengthens",
+   "noHeavy",
+   "easyComb"
+  ],
+  "notes": [
+   "moistureHeat"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/two-phase-3.webp",
+   "width": 303,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-33.jpg"
+   ]
+  }
+ },
+ {
+  "id": "two-phase-4",
+  "code": "4",
+  "line": "two-phase",
+  "category": "care",
+  "type": "twoPhase",
+  "name": "KERATIN COMPLEX",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantAction",
+   "heatProtect",
+   "strengthens",
+   "noHeavy",
+   "easyComb"
+  ],
+  "notes": [
+   "moistureHeat"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/two-phase-4.webp",
+   "width": 343,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-35.jpg"
+   ]
+  }
+ },
+ {
+  "id": "two-phase-5",
+  "code": "5",
+  "line": "two-phase",
+  "category": "care",
+  "type": "twoPhase",
+  "name": "MILK THERAPY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "instantAction",
+   "heatProtect",
+   "strengthens",
+   "noHeavy",
+   "easyComb"
+  ],
+  "notes": [
+   "moistureHeat"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/two-phase-5.webp",
+   "width": 315,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-37.jpg"
+   ]
+  }
+ },
+ {
+  "id": "milk-mousse",
+  "code": null,
+  "line": "hair-beard-care",
+  "category": "care",
+  "type": "milkMousse",
+  "name": "MILK MOUSSE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 89000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "milkProtein"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/milk-mousse.webp",
+   "width": 275,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-19-38.jpg"
+   ]
+  }
+ },
+ {
+  "id": "sheen-spray",
+  "code": null,
+  "line": "sheen-spray",
+  "category": "care",
+  "type": "sheenSpray",
+  "name": "OLIVE OIL",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 85000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "oliveCoconut",
+   "drySoothe"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/sheen-spray.webp",
+   "width": 269,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-51.jpg"
+   ]
+  }
+ },
+ {
+  "id": "minoxidil",
+  "code": null,
+  "line": "minoxidil",
+  "category": "care",
+  "type": "minoxidil",
+  "name": "MINOXIDIL 5%",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 60,
+    "unit": "ml",
+    "price": 189000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "minoxidilUse",
+   "monthSupply"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/minoxidil.webp",
+   "width": 950,
+   "height": 815
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-07.jpg"
+   ]
   }
  },
  {
@@ -2506,6 +4615,7 @@
    "green",
    "pink",
    "purple",
+   "silver",
    "glitterSilver",
    "glitterGold",
    "glitterMulticolor"
@@ -2516,7 +4626,131 @@
    "width": 332,
    "height": 509
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/color-spray-2.webp",
+    "width": 415,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-3.webp",
+    "width": 389,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-4.webp",
+    "width": 370,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-5.webp",
+    "width": 385,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-6.webp",
+    "width": 382,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-7.webp",
+    "width": 354,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-8.webp",
+    "width": 334,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-9.webp",
+    "width": 400,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-10.webp",
+    "width": 365,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-11.webp",
+    "width": 398,
+    "height": 972
+   },
+   {
+    "src": "/media/products/color-spray-12.webp",
+    "width": 364,
+    "height": 972
+   }
+  ],
+  "shadeImages": [
+   {
+    "shade": "purple",
+    "src": "/media/products/color-spray-2.webp",
+    "width": 415,
+    "height": 972
+   },
+   {
+    "shade": "silver",
+    "src": "/media/products/color-spray-3.webp",
+    "width": 389,
+    "height": 972
+   },
+   {
+    "shade": "yellow",
+    "src": "/media/products/color-spray-4.webp",
+    "width": 370,
+    "height": 972
+   },
+   {
+    "shade": "red",
+    "src": "/media/products/color-spray-5.webp",
+    "width": 385,
+    "height": 972
+   },
+   {
+    "shade": "glitterSilver",
+    "src": "/media/products/color-spray-6.webp",
+    "width": 382,
+    "height": 972
+   },
+   {
+    "shade": "pink",
+    "src": "/media/products/color-spray-7.webp",
+    "width": 354,
+    "height": 972
+   },
+   {
+    "shade": "glitterGold",
+    "src": "/media/products/color-spray-8.webp",
+    "width": 334,
+    "height": 972
+   },
+   {
+    "shade": "blue",
+    "src": "/media/products/color-spray-9.webp",
+    "width": 400,
+    "height": 972
+   },
+   {
+    "shade": "gold",
+    "src": "/media/products/color-spray-10.webp",
+    "width": 365,
+    "height": 972
+   },
+   {
+    "shade": "green",
+    "src": "/media/products/color-spray-11.webp",
+    "width": 398,
+    "height": 972
+   },
+   {
+    "shade": "white",
+    "src": "/media/products/color-spray-12.webp",
+    "width": 364,
+    "height": 972
+   }
+  ],
   "source": {
    "pdfPage": 14
   }
@@ -2565,7 +4799,32 @@
    "width": 466,
    "height": 469
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/root-concealer-2.webp",
+    "width": 352,
+    "height": 972
+   },
+   {
+    "src": "/media/products/root-concealer-3.webp",
+    "width": 324,
+    "height": 972
+   }
+  ],
+  "shadeImages": [
+   {
+    "shade": "darkBrown",
+    "src": "/media/products/root-concealer-2.webp",
+    "width": 352,
+    "height": 972
+   },
+   {
+    "shade": "black",
+    "src": "/media/products/root-concealer-3.webp",
+    "width": 324,
+    "height": 972
+   }
+  ],
   "source": {
    "pdfPage": 14
   }
@@ -2610,17 +4869,177 @@
   "swatch": null,
   "image": {
    "src": "/media/products/keratin-fiber.webp",
-   "width": 370,
-   "height": 351
+   "width": 744,
+   "height": 972
+  },
+  "gallery": [
+   {
+    "src": "/media/products/keratin-fiber-2.webp",
+    "width": 704,
+    "height": 972
+   },
+   {
+    "src": "/media/products/keratin-fiber-3.webp",
+    "width": 579,
+    "height": 972
+   }
+  ],
+  "shadeImages": [
+   {
+    "shade": "darkBrown",
+    "src": "/media/products/keratin-fiber-2.webp",
+    "width": 704,
+    "height": 972
+   },
+   {
+    "shade": "black",
+    "src": "/media/products/keratin-fiber-3.webp",
+    "width": 579,
+    "height": 972
+   }
+  ],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-22-54.jpg"
+   ]
+  }
+ },
+ {
+  "id": "color-shampoo-black",
+  "code": null,
+  "line": "color-shampoo",
+  "category": "color",
+  "type": "colorShampoo",
+  "name": "BLACK SHAMPOO",
+  "scent": null,
+  "variant": "black",
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 99000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "colorIn60",
+   "colorantDeveloper"
+  ],
+  "notes": [
+   "grayHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/color-shampoo-black.webp",
+   "width": 509,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 15
+   "photos": [
+    "photo_2026-10-29_05-22-47.jpg"
+   ]
+  }
+ },
+ {
+  "id": "color-shampoo-brown",
+  "code": null,
+  "line": "color-shampoo",
+  "category": "color",
+  "type": "colorShampoo",
+  "name": "BROWN SHAMPOO",
+  "scent": null,
+  "variant": "brown",
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 99000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "colorIn60",
+   "colorantDeveloper"
+  ],
+  "notes": [
+   "grayHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/color-shampoo-brown.webp",
+   "width": 453,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-25-03.jpg"
+   ]
+  }
+ },
+ {
+  "id": "color-shampoo-black-sachets",
+  "code": null,
+  "line": "color-shampoo",
+  "category": "color",
+  "type": "colorShampoo",
+  "name": "BLACK SHAMPOO",
+  "scent": null,
+  "variant": "black",
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 139000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "colorIn60",
+   "colorantDeveloper",
+   "sachets"
+  ],
+  "notes": [
+   "grayHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/color-shampoo-black-sachets.webp",
+   "width": 785,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-25-05.jpg"
+   ]
   }
  },
  {
   "id": "shaving-gel-blue",
-  "code": "1|2",
+  "code": "1|2|5",
   "line": "shaving-gel",
   "category": "shaving",
   "type": "shavingGel",
@@ -2639,6 +5058,12 @@
     "unit": "ml",
     "price": 129000,
     "demo": true
+   },
+   {
+    "value": 1500,
+    "unit": "ml",
+    "price": 169000,
+    "demo": true
    }
   ],
   "effect": null,
@@ -2654,30 +5079,40 @@
    "allSkin"
   ],
   "forSalons": [
-   1000
+   1000,
+   1500
   ],
   "size": null,
   "shades": [],
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-blue.webp",
-   "width": 269,
-   "height": 440
+   "width": 455,
+   "height": 972
   },
   "gallery": [
+   {
+    "src": "/media/products/shaving-gel-blue-2.webp",
+    "width": 401,
+    "height": 972
+   },
    {
     "src": "/media/models/shaving-gel-hands.webp",
     "width": 616,
     "height": 1170
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 17
+   "photos": [
+    "photo_2026-10-29_05-17-16.jpg",
+    "photo_2026-10-29_05-17-22.jpg"
+   ]
   }
  },
  {
   "id": "shaving-gel-colorless",
-  "code": "3|4",
+  "code": "3|4|6",
   "line": "shaving-gel",
   "category": "shaving",
   "type": "shavingGel",
@@ -2696,6 +5131,12 @@
     "unit": "ml",
     "price": 129000,
     "demo": true
+   },
+   {
+    "value": 1500,
+    "unit": "ml",
+    "price": 169000,
+    "demo": true
    }
   ],
   "effect": null,
@@ -2711,19 +5152,30 @@
    "allSkin"
   ],
   "forSalons": [
-   1000
+   1000,
+   1500
   ],
   "size": null,
   "shades": [],
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-colorless.webp",
-   "width": 268,
-   "height": 447
+   "width": 448,
+   "height": 972
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/shaving-gel-colorless-2.webp",
+    "width": 405,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 17
+   "photos": [
+    "photo_2026-10-29_05-17-20.jpg",
+    "photo_2026-10-29_05-17-28.jpg"
+   ]
   }
  },
  {
@@ -2769,12 +5221,107 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-gold-one.webp",
-   "width": 276,
-   "height": 440
+   "width": 453,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 17
+   "photos": [
+    "photo_2026-10-29_05-17-18.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shaving-gel-red-edge",
+  "code": "9",
+  "line": "shaving-gel",
+  "category": "shaving",
+  "type": "shavingGel",
+  "name": "RED EDGE",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 1500,
+    "unit": "ml",
+    "price": 169000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "razorGlide",
+   "softensBeard",
+   "moistShave",
+   "preciseContours"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [
+   1500
+  ],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shaving-gel-red-edge.webp",
+   "width": 447,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-17-26.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shaving-gel-smooth",
+  "code": null,
+  "line": "shaving-gel",
+  "category": "shaving",
+  "type": "shavingGel",
+  "name": "SMOOTH",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 59000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deepSkinCare",
+   "razorGlide"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shaving-gel-smooth.webp",
+   "width": 330,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-17-24.jpg"
+   ]
   }
  },
  {
@@ -2818,12 +5365,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-1.webp",
-   "width": 217,
-   "height": 425
+   "width": 342,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 18
+   "photos": [
+    "photo_2026-10-29_05-18-35.jpg"
+   ]
   }
  },
  {
@@ -2867,12 +5417,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-2.webp",
-   "width": 217,
-   "height": 425
+   "width": 365,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 18
+   "photos": [
+    "photo_2026-10-29_05-18-32.jpg"
+   ]
   }
  },
  {
@@ -2916,12 +5469,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-3.webp",
-   "width": 217,
-   "height": 424
+   "width": 369,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 18
+   "photos": [
+    "photo_2026-10-29_05-18-30.jpg"
+   ]
   }
  },
  {
@@ -2965,12 +5521,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-4.webp",
-   "width": 217,
-   "height": 423
+   "width": 344,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 18
+   "photos": [
+    "photo_2026-10-29_05-18-21.jpg"
+   ]
   }
  },
  {
@@ -3014,12 +5573,61 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-5.webp",
-   "width": 217,
-   "height": 424
+   "width": 357,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 18
+   "photos": [
+    "photo_2026-10-29_05-18-23.jpg"
+   ]
+  }
+ },
+ {
+  "id": "cologne-0",
+  "code": "0",
+  "line": "cologne",
+  "category": "shaving",
+  "type": "cologne",
+  "name": "NORTHERN LIGHTS",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "tonesSkin",
+   "preventsIrritation",
+   "comfortFresh",
+   "notLasting"
+  ],
+  "notes": [
+   "normalOily"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#5cc73a",
+  "image": {
+   "src": "/media/products/cologne-0.webp",
+   "width": 372,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-18-37.jpg"
+   ]
   }
  },
  {
@@ -3036,6 +5644,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3057,8 +5671,8 @@
   "swatch": "#3fb6e0",
   "image": {
    "src": "/media/products/cologne-1.webp",
-   "width": 160,
-   "height": 380
+   "width": 330,
+   "height": 972
   },
   "gallery": [
    {
@@ -3067,8 +5681,11 @@
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-39.jpg"
+   ]
   }
  },
  {
@@ -3085,6 +5702,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3106,12 +5729,15 @@
   "swatch": "#b77ad6",
   "image": {
    "src": "/media/products/cologne-2.webp",
-   "width": 164,
-   "height": 380
+   "width": 357,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-45.jpg"
+   ]
   }
  },
  {
@@ -3128,6 +5754,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3149,12 +5781,15 @@
   "swatch": "#ee8f8f",
   "image": {
    "src": "/media/products/cologne-3.webp",
-   "width": 163,
-   "height": 380
+   "width": 359,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-55.jpg"
+   ]
   }
  },
  {
@@ -3171,6 +5806,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3192,12 +5833,15 @@
   "swatch": "#e3e35a",
   "image": {
    "src": "/media/products/cologne-4.webp",
-   "width": 162,
-   "height": 379
+   "width": 339,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-48.jpg"
+   ]
   }
  },
  {
@@ -3214,6 +5858,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3235,12 +5885,15 @@
   "swatch": "#d62d5e",
   "image": {
    "src": "/media/products/cologne-5.webp",
-   "width": 164,
-   "height": 380
+   "width": 353,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-53.jpg"
+   ]
   }
  },
  {
@@ -3257,6 +5910,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3278,12 +5937,15 @@
   "swatch": "#1f8fd6",
   "image": {
    "src": "/media/products/cologne-06.webp",
-   "width": 162,
-   "height": 380
+   "width": 385,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-50.jpg"
+   ]
   }
  },
  {
@@ -3300,6 +5962,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3321,12 +5989,15 @@
   "swatch": "#e3b23c",
   "image": {
    "src": "/media/products/cologne-07.webp",
-   "width": 166,
-   "height": 380
+   "width": 344,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-59.jpg"
+   ]
   }
  },
  {
@@ -3343,6 +6014,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3364,12 +6041,15 @@
   "swatch": "#ddd8cb",
   "image": {
    "src": "/media/products/cologne-08.webp",
-   "width": 164,
-   "height": 380
+   "width": 335,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-18-57.jpg"
+   ]
   }
  },
  {
@@ -3386,6 +6066,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3407,12 +6093,15 @@
   "swatch": "#8fcdf0",
   "image": {
    "src": "/media/products/cologne-09.webp",
-   "width": 163,
-   "height": 380
+   "width": 353,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-19-01.jpg"
+   ]
   }
  },
  {
@@ -3429,6 +6118,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3450,12 +6145,15 @@
   "swatch": "#f0a47a",
   "image": {
    "src": "/media/products/cologne-10.webp",
-   "width": 163,
-   "height": 380
+   "width": 384,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-19-05.jpg"
+   ]
   }
  },
  {
@@ -3472,6 +6170,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3493,12 +6197,15 @@
   "swatch": "#a9a6ef",
   "image": {
    "src": "/media/products/cologne-11.webp",
-   "width": 161,
-   "height": 380
+   "width": 334,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-19-03.jpg"
+   ]
   }
  },
  {
@@ -3515,6 +6222,12 @@
     "value": 100,
     "unit": "ml",
     "price": 65000,
+    "demo": true
+   },
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 119000,
     "demo": true
    }
   ],
@@ -3536,12 +6249,15 @@
   "swatch": "#c4943f",
   "image": {
    "src": "/media/products/cologne-12.webp",
-   "width": 163,
-   "height": 380
+   "width": 377,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 19
+   "photos": [
+    "photo_2026-10-29_05-19-08.jpg"
+   ]
   }
  },
  {
@@ -3585,12 +6301,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/after-shave-lotion.webp",
-   "width": 240,
-   "height": 443
+   "width": 375,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 20
+   "photos": [
+    "photo_2026-10-29_05-18-26.jpg"
+   ]
   }
  },
  {
@@ -3628,12 +6347,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/talc-powder.webp",
-   "width": 232,
-   "height": 357
+   "width": 418,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 22
+   "photos": [
+    "photo_2026-10-29_05-22-51.jpg"
+   ]
   }
  },
  {
@@ -3657,6 +6379,12 @@
     "unit": "ml",
     "price": 115000,
     "demo": true
+   },
+   {
+    "value": 100,
+    "unit": "ml",
+    "price": 135000,
+    "demo": true
    }
   ],
   "effect": null,
@@ -3677,12 +6405,22 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-oil.webp",
-   "width": 149,
-   "height": 426
+   "width": 520,
+   "height": 972
   },
-  "gallery": [],
+  "gallery": [
+   {
+    "src": "/media/products/beard-oil-2.webp",
+    "width": 353,
+    "height": 972
+   }
+  ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 20
+   "photos": [
+    "photo_2026-10-29_05-17-40.jpg",
+    "photo_2026-10-29_05-17-38.jpg"
+   ]
   }
  },
  {
@@ -3726,12 +6464,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-oil-gold-one.webp",
-   "width": 133,
-   "height": 338
+   "width": 391,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 20
+   "photos": [
+    "photo_2026-10-29_05-17-43.jpg"
+   ]
   }
  },
  {
@@ -3768,8 +6509,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-shampoo.webp",
-   "width": 155,
-   "height": 379
+   "width": 383,
+   "height": 972
   },
   "gallery": [
    {
@@ -3778,8 +6519,11 @@
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 21
+   "photos": [
+    "photo_2026-10-29_05-17-45.jpg"
+   ]
   }
  },
  {
@@ -3816,12 +6560,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-conditioner.webp",
-   "width": 164,
-   "height": 395
+   "width": 393,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 21
+   "photos": [
+    "photo_2026-10-29_05-17-49.jpg"
+   ]
   }
  },
  {
@@ -3855,12 +6602,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-balm.webp",
-   "width": 362,
-   "height": 229
+   "width": 817,
+   "height": 851
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 21
+   "photos": [
+    "photo_2026-10-29_05-17-47.jpg"
+   ]
   }
  },
  {
@@ -3896,12 +6646,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-perfume-adonis.webp",
-   "width": 142,
-   "height": 419
+   "width": 462,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 22
+   "photos": [
+    "photo_2026-10-29_05-17-35.jpg"
+   ]
   }
  },
  {
@@ -3937,8 +6690,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-perfume-genius.webp",
-   "width": 141,
-   "height": 415
+   "width": 463,
+   "height": 972
   },
   "gallery": [
    {
@@ -3947,8 +6700,182 @@
     "height": 585
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 22
+   "photos": [
+    "photo_2026-10-29_05-17-33.jpg"
+   ]
+  }
+ },
+ {
+  "id": "beard-foam-fc",
+  "code": "FC",
+  "line": "beard-wash",
+  "category": "beard",
+  "type": "beardFoam",
+  "name": "LEAVE-IN FOAM",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 150,
+    "unit": "ml",
+    "price": 95000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "beardSoftener",
+   "fcIngredients"
+  ],
+  "notes": [
+   "allHair"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/beard-foam-fc.webp",
+   "width": 318,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-17-30.jpg"
+   ]
+  }
+ },
+ {
+  "id": "beard-pen-brown",
+  "code": null,
+  "line": "beard-pen",
+  "category": "beard",
+  "type": "beardPen",
+  "name": "BROWN GROOMING",
+  "scent": null,
+  "variant": "brown",
+  "volumes": [
+   {
+    "value": 3,
+    "unit": "g",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "beardPenFill",
+   "beardPenTips",
+   "beardPenLasting"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/beard-pen-brown.webp",
+   "width": 318,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-17-51.jpg"
+   ]
+  }
+ },
+ {
+  "id": "beard-pen-black",
+  "code": null,
+  "line": "beard-pen",
+  "category": "beard",
+  "type": "beardPen",
+  "name": "BLACK GROOMING",
+  "scent": null,
+  "variant": "black",
+  "volumes": [
+   {
+    "value": 3,
+    "unit": "g",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "beardPenFill",
+   "beardPenTips",
+   "beardPenLasting"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/beard-pen-black.webp",
+   "width": 341,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-17-54.jpg"
+   ]
+  }
+ },
+ {
+  "id": "beard-set",
+  "code": null,
+  "line": "beard-set",
+  "category": "beard",
+  "type": "beardSet",
+  "name": "BEARD & MUSTACHE CARE SET",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 349000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "beardSetContents"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/beard-set.webp",
+   "width": 972,
+   "height": 659
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-05.jpg"
+   ]
   }
  },
  {
@@ -3991,12 +6918,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/peel-off-black.webp",
-   "width": 297,
-   "height": 421
+   "width": 395,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 23
+   "photos": [
+    "photo_2026-10-29_05-19-49.jpg"
+   ]
   }
  },
  {
@@ -4039,12 +6969,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/peel-off-gold.webp",
-   "width": 296,
-   "height": 421
+   "width": 397,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 23
+   "photos": [
+    "photo_2026-10-29_05-19-52.jpg"
+   ]
   }
  },
  {
@@ -4087,12 +7020,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/peel-off-silver.webp",
-   "width": 298,
-   "height": 434
+   "width": 377,
+   "height": 972
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 23
+   "photos": [
+    "photo_2026-10-29_05-19-54.jpg"
+   ]
   }
  },
  {
@@ -4131,6 +7067,7 @@
    "height": 692
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 23
   }
@@ -4175,8 +7112,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/facial-scrub-apricot.webp",
-   "width": 451,
-   "height": 267
+   "width": 780,
+   "height": 833
   },
   "gallery": [
    {
@@ -4185,8 +7122,11 @@
     "height": 584
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 24
+   "photos": [
+    "photo_2026-10-29_05-18-14.jpg"
+   ]
   }
  },
  {
@@ -4229,12 +7169,59 @@
   "swatch": null,
   "image": {
    "src": "/media/products/facial-scrub-avocado.webp",
-   "width": 454,
-   "height": 266
+   "width": 825,
+   "height": 846
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 24
+   "photos": [
+    "photo_2026-10-29_05-18-12.jpg"
+   ]
+  }
+ },
+ {
+  "id": "sea-scrub",
+  "code": null,
+  "line": "facial-scrub",
+  "category": "face",
+  "type": "facialScrub",
+  "name": "SEA SCRUB",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 300,
+    "unit": "ml",
+    "price": 89000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "seaScrubDeep",
+   "moisturizingEffect"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/sea-scrub.webp",
+   "width": 885,
+   "height": 932
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-18-10.jpg"
+   ]
   }
  },
  {
@@ -4269,12 +7256,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/clay-mask.webp",
-   "width": 386,
-   "height": 235
+   "width": 894,
+   "height": 949
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 24
+   "photos": [
+    "photo_2026-10-29_05-18-07.jpg"
+   ]
   }
  },
  {
@@ -4311,8 +7301,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-classic.webp",
-   "width": 368,
-   "height": 217
+   "width": 835,
+   "height": 895
   },
   "gallery": [
    {
@@ -4321,8 +7311,11 @@
     "height": 1754
    }
   ],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 25
+   "photos": [
+    "photo_2026-10-29_05-18-05.jpg"
+   ]
   }
  },
  {
@@ -4359,12 +7352,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-blackberry.webp",
-   "width": 421,
-   "height": 230
+   "width": 803,
+   "height": 854
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 25
+   "photos": [
+    "photo_2026-10-29_05-18-01.jpg"
+   ]
   }
  },
  {
@@ -4401,12 +7397,15 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-olive.webp",
-   "width": 371,
-   "height": 210
+   "width": 848,
+   "height": 875
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 25
+   "photos": [
+    "photo_2026-10-29_05-17-56.jpg"
+   ]
   }
  },
  {
@@ -4443,12 +7442,819 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-pomegranate.webp",
-   "width": 370,
-   "height": 234
+   "width": 810,
+   "height": 851
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
-   "pdfPage": 25
+   "photos": [
+    "photo_2026-10-29_05-18-03.jpg"
+   ]
+  }
+ },
+ {
+  "id": "hand-face-fig-grapefruit",
+  "code": null,
+  "line": "hand-face",
+  "category": "face",
+  "type": "handFace",
+  "name": "HAND & FACE",
+  "scent": "figGrapefruit",
+  "variant": null,
+  "volumes": [
+   {
+    "value": 300,
+    "unit": "ml",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "hfSoothe",
+   "hfRitual",
+   "hf24"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/hand-face-fig-grapefruit.webp",
+   "width": 874,
+   "height": 869
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-17-58.jpg"
+   ]
+  }
+ },
+ {
+  "id": "exclusive-scrub-apricot",
+  "code": null,
+  "line": "exclusive",
+  "category": "face",
+  "type": "faceBodyScrub",
+  "name": "SCRUB",
+  "scent": "apricot",
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "ml",
+    "price": 129000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "faceBodyUse",
+   "exfoliatingCream"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/exclusive-scrub-apricot.webp",
+   "width": 747,
+   "height": 861
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-18-17.jpg"
+   ]
+  }
+ },
+ {
+  "id": "exclusive-scrub-avocado",
+  "code": null,
+  "line": "exclusive",
+  "category": "face",
+  "type": "faceBodyScrub",
+  "name": "SCRUB",
+  "scent": "avocado",
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "ml",
+    "price": 129000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "faceBodyUse",
+   "exfoliatingCream"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/exclusive-scrub-avocado.webp",
+   "width": 754,
+   "height": 858
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-18-19.jpg"
+   ]
+  }
+ },
+ {
+  "id": "exclusive-clay-mask",
+  "code": null,
+  "line": "exclusive",
+  "category": "face",
+  "type": "faceBodyClayMask",
+  "name": "INCA INCHI",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "ml",
+    "price": 139000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "faceBodyUse",
+   "purifyClarify"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/exclusive-clay-mask.webp",
+   "width": 758,
+   "height": 768
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-19-36.jpg"
+   ]
+  }
+ },
+ {
+  "id": "kabuto-clay-mask",
+  "code": "CM 001",
+  "line": "kabuto",
+  "category": "face",
+  "type": "scalpFaceClayMask",
+  "name": "KATANA",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "ml",
+    "price": 129000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "scalpFaceUse"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/kabuto-clay-mask.webp",
+   "width": 750,
+   "height": 796
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-19-34.jpg"
+   ]
+  }
+ },
+ {
+  "id": "face-tonic",
+  "code": "1",
+  "line": "face-tonic",
+  "category": "face",
+  "type": "faceTonic",
+  "name": "PURE CONTROL",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "faceTonicCare"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/face-tonic.webp",
+   "width": 342,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-02.jpg"
+   ]
+  }
+ },
+ {
+  "id": "nose-strip",
+  "code": null,
+  "line": "nose-strip",
+  "category": "face",
+  "type": "noseStrip",
+  "name": "BLACKHEAD NOSE STRIP",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 49000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "activatedCarbon",
+   "poresClean",
+   "sixStrips"
+  ],
+  "notes": [
+   "allSkin"
+  ],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/nose-strip.webp",
+   "width": 643,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-03.jpg"
+   ]
+  }
+ },
+ {
+  "id": "deodorant-01",
+  "code": "01",
+  "line": "deodorant",
+  "category": "body",
+  "type": "deodorant",
+  "name": "DEODORANT SPRAY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 55000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#f4b223",
+  "image": {
+   "src": "/media/products/deodorant-01.webp",
+   "width": 347,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-16-37.jpg"
+   ]
+  }
+ },
+ {
+  "id": "deodorant-02",
+  "code": "02",
+  "line": "deodorant",
+  "category": "body",
+  "type": "deodorant",
+  "name": "DEODORANT SPRAY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 55000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#3fb6d6",
+  "image": {
+   "src": "/media/products/deodorant-02.webp",
+   "width": 354,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-16-49.jpg"
+   ]
+  }
+ },
+ {
+  "id": "deodorant-03",
+  "code": "03",
+  "line": "deodorant",
+  "category": "body",
+  "type": "deodorant",
+  "name": "DEODORANT SPRAY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 55000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#5cc73a",
+  "image": {
+   "src": "/media/products/deodorant-03.webp",
+   "width": 351,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-16-51.jpg"
+   ]
+  }
+ },
+ {
+  "id": "deodorant-04",
+  "code": "04",
+  "line": "deodorant",
+  "category": "body",
+  "type": "deodorant",
+  "name": "DEODORANT SPRAY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 55000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#c97a2b",
+  "image": {
+   "src": "/media/products/deodorant-04.webp",
+   "width": 330,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-16-54.jpg"
+   ]
+  }
+ },
+ {
+  "id": "deodorant-05",
+  "code": "05",
+  "line": "deodorant",
+  "category": "body",
+  "type": "deodorant",
+  "name": "DEODORANT SPRAY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 55000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#a7a9ac",
+  "image": {
+   "src": "/media/products/deodorant-05.webp",
+   "width": 391,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-16-56.jpg"
+   ]
+  }
+ },
+ {
+  "id": "deodorant-06",
+  "code": "06",
+  "line": "deodorant",
+  "category": "body",
+  "type": "deodorant",
+  "name": "DEODORANT SPRAY",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 200,
+    "unit": "ml",
+    "price": 55000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "deoForMen"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": "#e9e6e1",
+  "image": {
+   "src": "/media/products/deodorant-06.webp",
+   "width": 353,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-16-59.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shower-scrub-strawberry",
+  "code": null,
+  "line": "shower",
+  "category": "body",
+  "type": "showerScrub",
+  "name": "SHOWER SCRUB",
+  "scent": "strawberry",
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 69000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "showerMassage",
+   "nourishMoist"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shower-scrub-strawberry.webp",
+   "width": 358,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-13.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shower-scrub-honey-peach",
+  "code": null,
+  "line": "shower",
+  "category": "body",
+  "type": "showerScrub",
+  "name": "SHOWER SCRUB XL",
+  "scent": "honeyPeach",
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "ml",
+    "price": 79000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "showerMassage",
+   "nourishMoist"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shower-scrub-honey-peach.webp",
+   "width": 382,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-16.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shower-gel-pure-touch",
+  "code": null,
+  "line": "shower",
+  "category": "body",
+  "type": "showerGel",
+  "name": "PURE TOUCH",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 65000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "threeInOne",
+   "nourishMoist"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shower-gel-pure-touch.webp",
+   "width": 346,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-22.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shower-gel-clean-comfort",
+  "code": null,
+  "line": "shower",
+  "category": "body",
+  "type": "showerGel",
+  "name": "CLEAN COMFORT XL",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 480,
+    "unit": "ml",
+    "price": 75000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "threeInOne",
+   "nourishMoist"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shower-gel-clean-comfort.webp",
+   "width": 371,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-20-26.jpg"
+   ]
+  }
+ },
+ {
+  "id": "hard-wax-azulen",
+  "code": null,
+  "line": "hard-wax",
+  "category": "body",
+  "type": "waxBeans",
+  "name": "AZULEN",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "g",
+    "price": 129000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "noStrips",
+   "shortHairWax"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/hard-wax-azulen.webp",
+   "width": 614,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-23-08.jpg"
+   ]
+  }
+ },
+ {
+  "id": "hard-wax-natural",
+  "code": null,
+  "line": "hard-wax",
+  "category": "body",
+  "type": "waxBeans",
+  "name": "NATURAL",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 500,
+    "unit": "g",
+    "price": 129000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "noStrips",
+   "shortHairWax"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/hard-wax-natural.webp",
+   "width": 650,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-23-10.jpg"
+   ]
   }
  },
  {
@@ -4485,6 +8291,7 @@
    "height": 132
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4523,6 +8330,7 @@
    "height": 124
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4561,6 +8369,7 @@
    "height": 156
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4599,6 +8408,7 @@
    "height": 137
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4637,6 +8447,7 @@
    "height": 145
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4675,6 +8486,7 @@
    "height": 182
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4713,6 +8525,7 @@
    "height": 166
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4751,6 +8564,7 @@
    "height": 110
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 26
   }
@@ -4789,6 +8603,7 @@
    "height": 132
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -4827,6 +8642,7 @@
    "height": 151
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -4865,6 +8681,7 @@
    "height": 274
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -4901,6 +8718,7 @@
    "height": 223
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -4937,6 +8755,7 @@
    "height": 134
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -4975,6 +8794,7 @@
    "height": 232
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5013,6 +8833,7 @@
    "height": 224
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5051,6 +8872,7 @@
    "height": 301
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5095,6 +8917,7 @@
     "height": 438
    }
   ],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5133,6 +8956,7 @@
    "height": 112
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5172,6 +8996,7 @@
    "height": 116
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5211,6 +9036,7 @@
    "height": 108
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5247,6 +9073,7 @@
    "height": 254
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 27
   }
@@ -5283,6 +9110,7 @@
    "height": 440
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 28
   }
@@ -5319,6 +9147,7 @@
    "height": 439
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 28
   }
@@ -5355,6 +9184,7 @@
    "height": 405
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 28
   }
@@ -5391,6 +9221,7 @@
    "height": 454
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 28
   }
@@ -5427,6 +9258,7 @@
    "height": 283
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 28
   }
@@ -5463,8 +9295,215 @@
    "height": 344
   },
   "gallery": [],
+  "shadeImages": [],
   "source": {
    "pdfPage": 28
+  }
+ },
+ {
+  "id": "barber-towel-orange",
+  "code": null,
+  "line": "barber-essentials",
+  "category": "accessories",
+  "type": "barberTowel",
+  "name": "NISHMAN",
+  "scent": null,
+  "variant": "orange",
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 59000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "microfiber"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/barber-towel-orange.webp",
+   "width": 972,
+   "height": 480
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-12.jpg"
+   ]
+  }
+ },
+ {
+  "id": "barber-towel-black",
+  "code": null,
+  "line": "barber-essentials",
+  "category": "accessories",
+  "type": "barberTowel",
+  "name": "NISHMAN",
+  "scent": null,
+  "variant": "black",
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 59000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "microfiber"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/barber-towel-black.webp",
+   "width": 972,
+   "height": 502
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-24-15.jpg"
+   ]
+  }
+ },
+ {
+  "id": "neck-strip",
+  "code": null,
+  "line": "barber-essentials",
+  "category": "accessories",
+  "type": "neckStrip",
+  "name": "BARBER NECK STRIP",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 69000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "neckStripUse"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/neck-strip.webp",
+   "width": 330,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-23-03.jpg"
+   ]
+  }
+ },
+ {
+  "id": "shaver-cleaner",
+  "code": null,
+  "line": "barber-essentials",
+  "category": "accessories",
+  "type": "shaverCleaner",
+  "name": "SHAVER CLEANER",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 400,
+    "unit": "ml",
+    "price": 89000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "cleanerUse",
+   "cleanerTools"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/shaver-cleaner.webp",
+   "width": 321,
+   "height": 972
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-21-47.jpg"
+   ]
+  }
+ },
+ {
+  "id": "gift-set",
+  "code": null,
+  "line": "gift-sets",
+  "category": "accessories",
+  "type": "giftSet",
+  "name": "NISHMAN",
+  "scent": null,
+  "variant": null,
+  "volumes": [
+   {
+    "value": 1,
+    "unit": "pcs",
+    "price": 459000,
+    "demo": true
+   }
+  ],
+  "effect": null,
+  "hold": null,
+  "holdPlus": false,
+  "features": [
+   "giftSetContents"
+  ],
+  "notes": [],
+  "forSalons": [],
+  "size": null,
+  "shades": [],
+  "swatch": null,
+  "image": {
+   "src": "/media/products/gift-set.webp",
+   "width": 972,
+   "height": 677
+  },
+  "gallery": [],
+  "shadeImages": [],
+  "source": {
+   "photos": [
+    "photo_2026-10-29_05-23-32.jpg"
+   ]
   }
  }
 ]

@@ -56,7 +56,7 @@ function ProductCardBase({ product: p, priority }: { product: Product; priority?
       <div className="flex flex-1 flex-col gap-2 px-3 pb-3 pt-1 lg:px-4 lg:pb-4">
         <HoldDots hold={p.hold} plus={p.holdPlus} label={false} className="self-start" />
         <p className="text-[0.68rem] uppercase tracking-[0.12em] text-tile-ink/70">{p.type}</p>
-        <h3 className="font-display text-[0.95rem] font-extrabold uppercase leading-tight tracking-[-0.01em] lg:text-base">
+        <h3 className="text-[0.95rem] font-semibold leading-tight lg:text-base tracking-[-0.015em]">
           {p.code && <span className="mr-1.5 text-tile-ink/60">{p.code}</span>}
           {productTitle(p)}
         </h3>

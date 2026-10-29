@@ -15,3 +15,7 @@ export const stagger = (step = 0.08, delay = 0) => ({
 });
 
 export const viewportOnce = { once: true, margin: '0px 0px -12% 0px' } as const;
+
+/** Плавная программная прокрутка — только без prefers-reduced-motion */
+export const scrollBehavior = (): ScrollBehavior =>
+  typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';

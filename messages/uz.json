@@ -51,10 +51,6 @@
         "title": "Original",
         "text": "Ishlab chiqaruvchidan to‘g‘ridan-to‘g‘ri — soxtasiz va vositachilarsiz."
       },
-      "delivery": {
-        "title": "Butun mamlakat bo‘ylab yetkazish",
-        "text": "Toshkentda kuryer, viloyatlarga yetkazib berish xizmatlari orqali."
-      },
       "barbers": {
         "title": "Barberlarni qo‘llab-quvvatlash",
         "text": "Mahsulot bo‘yicha maslahat beramiz va zal uchun assortiment tuzishga yordamlashamiz."
@@ -63,7 +59,7 @@
   },
   "catalog": {
     "title": "To‘liq assortiment",
-    "lead": "Yetti bo‘lim — mumdan tortib yopinchiqqacha. Bo‘limni tanlang yoki filtrlardan foydalaning.",
+    "lead": "Sakkiz bo‘lim — mumdan tortib yopinchiqqacha. Bo‘limni tanlang yoki filtrlardan foydalaning.",
     "all": "Barcha bo‘limlar",
     "count": "{count, plural, one {# pozitsiya} other {# pozitsiya}}",
     "categories": {
@@ -73,6 +69,7 @@
       "shaving": "Soqol olish",
       "beard": "Soqol",
       "face": "Yuz",
+      "body": "Tana",
       "accessories": "Aksessuarlar"
     },
     "showMore": "Yana ko‘rsatish",
@@ -161,9 +158,9 @@
     },
     "matte": {
       "title": "Mat liniya va Spider Wax",
-      "text": "Harakatchan teksturadan tosh kabi fiksatsiyagacha — har bir vosita shkaladagi o‘z o‘rnida.",
-      "soft": "Yumshoq",
-      "hard": "Maksimal"
+      "text": "Yaltiroqsiz teksturali turmaklar uchun ikki liniya.",
+      "matteText": "Yaltiroqsiz pasta va gillar — yumshoq teksturadan maksimal fiksatsiyagacha.",
+      "spiderText": "O‘rgimchak to‘ridek cho‘ziladi: turmakni kun davomida tuzatish mumkin."
     },
     "cologne": {
       "title": "Hidlar devori",
@@ -238,35 +235,40 @@
   },
   "reviews": {
     "label": "Fikrlar",
-    "title": "Ustalar so‘zi",
-    "fromCatalog": "Brend katalogidan",
+    "title": "Xaridorlar fikri",
     "items": {
-      "cherepovich": {
-        "name": "Aleksandr Cherepovich",
-        "role": "Barber, Men’s Cut Studio erkaklar sartaroshxonalari tarmog‘i asoschisi va rahbari, Sankt-Peterburg",
-        "text": "NISHMAN — mening tanlovim, chunki men uchun mahsulot va xizmat sifati birinchi o‘rinda. Biz har bir mijozni qadrlaymiz: obro‘ va nufuz Men’s Cut Studio uchun quruq so‘z emas. Nishmanda barcha mezonlarga mos assortimentni topdik: brend tarixi va nufuzi, barqaror sifat va narx, shuningdek har doim yordamga tayyor professionallar jamoasi. Mijozlar bizga qaytib keladi va do‘stlariga tavsiya qiladi — bunda Nishmanning ham hissasi bor. O‘ylaymanki, hamkorligimiz uzoq va yanada samarali bo‘ladi. (Rus tilidan tarjima.)"
-      },
       "aziz": {
         "name": "Aziz Karimov",
-        "role": "Barber, Toshkent",
-        "text": "M2 mat pastasi bilan ishlayman: kechgacha ushlaydi va sochni og‘irlashtirmaydi. Mijozlar bu qanday banka deb so‘rashadi — va uyga olib ketishadi."
+        "city": "Toshkent",
+        "text": "M2 mat pastasi kechgacha ushlaydi va sochni og‘irlashtirmaydi. Uchinchi bankani olyapman."
       },
-      "timur": {
-        "name": "Temur Rahimov",
-        "role": "Barbershop egasi, Toshkent",
-        "text": "Shampunni besh litrlik, soqol olish gelini bir litrlik olamiz — sarf bo‘yicha ancha tejamli chiqdi. Buyurtmani bir-ikki xabar bilan rasmiylashtiramiz."
+      "jasur": {
+        "name": "Jasur Rahimov",
+        "city": "Samarqand",
+        "text": "Shampun va soqol olish gelini buyurtma qildim — ertasi kuni olib kelishdi, hammasi original."
       },
       "dilshod": {
         "name": "Dilshod Yusupov",
-        "role": "Xaridor",
-        "text": "Spider Wax S1 va Gold One odekolonini oldim. Mum haqiqatan to‘rdek cho‘ziladi va kun davomida turmakni o‘zgartirishga imkon beradi."
+        "city": "Buxoro",
+        "text": "Spider Wax S1 o‘rgimchak to‘ridek cho‘ziladi — turmakni kunduzi oson tuzatsa bo‘ladi."
       },
       "sardor": {
         "name": "Sardor Aliyev",
-        "role": "Kosmetika do‘koni, Samarqand",
-        "text": "NISHMANning rangli bankalari turgan javon birinchi bo‘shaydi. Xaridorlar telefonida mum raqami bilan kelishadi."
+        "city": "Namangan",
+        "text": "Gold One odekoloni kun bo‘yi saqlanadi. Hidi yoqimli, o‘tkir emas."
+      },
+      "bekzod": {
+        "name": "Bekzod Normatov",
+        "city": "Farg‘ona",
+        "text": "Saytdagi tanlov yordam berdi: uchta javob — va qaysi mumni olish darhol tushunarli."
+      },
+      "shahzod": {
+        "name": "Shahzod Tursunov",
+        "city": "Andijon",
+        "text": "Aqua Wax bankalari yorqin, har birining o‘z hidi bor. 04 ni oldim, endi butun kolleksiyani xohlayman."
       }
-    }
+    },
+    "rating": "Baho: 5 dan {value}"
   },
   "lookbook": {
     "label": "Lukbuk",
@@ -286,7 +288,6 @@
     "closedNow": "Hozir yopiq",
     "daily": "Har kuni {open}–{close}",
     "route": "Yo‘nalish",
-    "mapHint": "Xaritani boshqarish uchun bosing",
     "mapLabel": "Toshkentdagi nuqtalar xaritasi",
     "items": {
       "chilanzar": {
@@ -358,12 +359,7 @@
     "ctaText": "Saytda savatni to‘ldiring yoki menejerga yozing — hajm va mavjudlik bo‘yicha maslahat beramiz.",
     "ctaAlt": "Usta soqol parfyumini sepmoqda",
     "title": "Biz aloqadamiz",
-    "phone": "Menejer telefoni",
-    "hours": "Ish vaqti",
-    "formTitle": "Savol bering",
-    "message": "Savolingiz",
-    "submit": "Yuborish",
-    "success": "Rahmat! Tez orada javob beramiz."
+    "phone": "Menejer telefoni"
   },
   "footer": {
     "rights": "© {year} Nishman.uz. Barcha huquqlar himoyalangan.",

@@ -60,12 +60,12 @@ export function Catalog({ categories, lines, categoryPhotos }: Props) {
   const shownQuick = quickProduct ?? lastQuick;
 
   return (
-    <section id="catalog" aria-labelledby="catalog-title" className="section-y cv-auto relative [--cv-h:2900px]">
+    <section id="catalog" aria-labelledby="catalog-title" className="section-y relative">
       <div className="container-x">
         <div className="grid gap-6 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <p className="eyebrow">{t('nav.catalog')}</p>
-            <h2 id="catalog-title" className="display mt-5 text-[clamp(2.3rem,7.4vw,6.2rem)]">
+            <h2 id="catalog-title" className="display mt-5 text-[clamp(2.25rem,6vw,5rem)]">
               {t('catalog.title')}
             </h2>
           </div>

@@ -134,7 +134,12 @@ function Body({ product: p, related }: { product: Product; related: Product[] })
                   key={s.id}
                   type="button"
                   aria-pressed={sel.shade === s.id}
-                  onClick={() => setSelection({ shade: s.id })}
+                  onClick={() => {
+                    setSelection({ shade: s.id });
+                    // у оттенка своё фото — показываем его в галерее
+                    const shot = s.image ? images.findIndex((img) => img.src === s.image?.src) : -1;
+                    if (shot >= 0) setIndex(shot);
+                  }}
                   className={`min-h-11 rounded-full px-4 text-sm transition-colors duration-500 ${
                     sel.shade === s.id ? 'bg-bone text-ink' : 'ring-1 ring-inset ring-line hover:ring-bone/50'
                   }`}

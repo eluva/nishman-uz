@@ -22,7 +22,7 @@ export function SectionHead({
       <p className="eyebrow">{label}</p>
       <RevealText
         lines={lines}
-        className={`display mt-5 text-[clamp(2.3rem,7.4vw,6.2rem)] ${titleClassName ?? ''}`}
+        className={`display mt-5 text-[clamp(2.25rem,6vw,5rem)] ${titleClassName ?? ''}`}
         id={id}
       />
       {children}

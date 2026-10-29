@@ -2,7 +2,7 @@
 
 export type Effect = 'matte' | 'natural-shine' | 'semi-matte' | 'natural';
 export type Unit = 'ml' | 'g' | 'pcs';
-export type CategoryId = 'styling' | 'care' | 'color' | 'shaving' | 'beard' | 'face' | 'accessories';
+export type CategoryId = 'styling' | 'care' | 'color' | 'shaving' | 'beard' | 'face' | 'body' | 'accessories';
 
 export interface ImageAsset {
   src: string;
@@ -40,7 +40,8 @@ export interface Product {
   /** Профессиональные (салонные) объёмы */
   forSalons: number[];
   size: string | null;
-  shades: { id: string; label: string }[];
+  /** image — фото оттенка (есть в gallery), если снят отдельно */
+  shades: { id: string; label: string; image: ImageAsset | null }[];
   swatch: string | null;
   image: ImageAsset;
   gallery: ImageAsset[];

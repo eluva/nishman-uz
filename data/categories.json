@@ -24,7 +24,11 @@
   "number": "06"
  },
  {
-  "id": "accessories",
+  "id": "body",
   "number": "07"
+ },
+ {
+  "id": "accessories",
+  "number": "08"
  }
 ]

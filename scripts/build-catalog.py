@@ -1,12 +1,13 @@
 """
-Собирает каталог из PDF:
-  * public/media/products/<id>.webp     — фото товаров (композиция вшитых изображений ячейки, прозрачный фон)
+Собирает каталог из PDF и студийных фото (img/):
+  * public/media/products/<id>.webp     — фото товаров: студийное фото без белого фона (catalog_spec.STUDIO)
+                                          или композиция вшитых изображений ячейки PDF; <id>-N.webp — галерея
   * public/media/models/<name>.webp      — лайфстайл-фото (каждое используется на сайте один раз)
   * data/products.json, data/lines.json  — данные каталога
   * messages/catalog/{ru,uz,en}.json     — тексты каталога (типы, ароматы, свойства и т. д.)
 
 Запуск из корня проекта:  python -I scripts/build-catalog.py [assets/brand-catalog.pdf] [hero-src-dir]
-Требуется: pymupdf, pillow, numpy.
+Требуется: pymupdf, pillow, numpy, scipy.
 """
 import io
 import json
@@ -16,9 +17,13 @@ import sys
 import fitz
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
+from scipy import ndimage
+from scipy.spatial import ConvexHull
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from catalog_spec import CATEGORIES, DEFAULT_GRID, GRIDS, LINES, PHOTOS, PRODUCTS  # noqa: E402
+from catalog_spec import (  # noqa: E402
+    CATEGORIES, DEFAULT_GRID, GRIDS, LINES, PDF_MAIN, PHOTO_DIR, PHOTO_PREFIX, PHOTOS, PRODUCTS, SHADE_PHOTOS, STUDIO,
+)
 from catalog_texts import (  # noqa: E402
     ALIASES, FEATURES, LINE_FEATURES, LINE_NAME_KEYS, LINE_NOTES, NOTES, PRODUCT_FEATURES,
     SCENTS, SHADES, TYPES, VARIANTS,
@@ -31,6 +36,10 @@ OUT_PRODUCTS = os.path.join(ROOT, "public", "media", "products")
 OUT_MODELS = os.path.join(ROOT, "public", "media", "models")
 for d in (OUT_PRODUCTS, OUT_MODELS, os.path.join(ROOT, "data"), os.path.join(ROOT, "messages", "catalog")):
     os.makedirs(d, exist_ok=True)
+# фото товаров пересобираются целиком — без «осиротевших» файлов от прошлых сборок
+for f in os.listdir(OUT_PRODUCTS):
+    if f.endswith(".webp"):
+        os.remove(os.path.join(OUT_PRODUCTS, f))
 
 doc = fitz.open(PDF)
 PAGE_W, PAGE_H = 1191.0, 842.0
@@ -134,6 +143,83 @@ def composite(infos, max_side=900):
     return framed
 
 
+# ---------------------------------------------------------- studio photos ----
+BG = 6        # чистый студийный фон: 255 - min(R,G,B) <= BG
+DARK = 60     # «тёмная масса» товара: крышки, этикетки, текст
+SHADOW = 40   # цвет тени при разложении «тёмная тень поверх белого»
+
+
+def caption_row(rgb, d, dark, h):
+    """Подпись под товаром («150 мл», «20 г»): отдельная полоса серого текста внизу кадра -> первая строка полосы."""
+    ys = np.where(dark.any(axis=1))[0]
+    if not len(ys):
+        return None
+    gaps = np.where(np.diff(ys) > 4)[0]
+    if not len(gaps):
+        return None
+    cut = ys[gaps[-1] + 1]
+    if cut < h * 0.6 or ys[-1] - cut > h * 0.13:
+        return None
+    band = rgb[cut:][dark[cut:]]
+    if np.median(band.max(axis=1) - band.min(axis=1)) > 25:  # подпись — нейтрально-серая, не цветной край товара
+        return None
+    ys, xs = np.nonzero(dark[cut:])
+    box = d[cut:][ys.min():ys.max() + 1, xs.min():xs.max() + 1]
+    if (box <= BG).mean() < 0.1:  # между буквами подписи — чистый фон; у низа флакона с текстом — нет
+        return None
+    return cut - 2
+
+
+def hull_mask(mask):
+    """Выпуклые оболочки крупных тёмных компонент: внутри — товар целиком, включая белые части."""
+    h, w = mask.shape
+    out = Image.new("L", (w, h), 0)
+    draw = ImageDraw.Draw(out)
+    lab, n = ndimage.label(ndimage.binary_closing(mask, iterations=4))
+    if n:
+        sizes = ndimage.sum(np.ones(mask.shape), lab, range(1, n + 1))
+        for i, size in enumerate(sizes, 1):
+            if size < max(400, sizes.max() * 0.01):
+                continue
+            ys, xs = np.nonzero(lab == i)
+            pts = np.column_stack([xs, ys])
+            hull = ConvexHull(pts)
+            draw.polygon([tuple(map(int, pt)) for pt in pts[hull.vertices]], fill=255)
+    return ndimage.binary_dilation(np.asarray(out) > 0, iterations=2)
+
+
+def studio_cutout(path, max_side=900):
+    """Студийное фото на белом -> RGBA: фон прозрачный, тень полупрозрачная, подпись с объёмом удалена."""
+    rgb = np.asarray(Image.open(path).convert("RGB")).astype(np.float32)
+    h = rgb.shape[0]
+    d = 255 - rgb.min(axis=2)
+    dark = d >= DARK
+    cap = caption_row(rgb, d, dark, h)
+    if cap is not None:
+        dark[cap:] = False
+    lab, _ = ndimage.label(d <= BG)
+    edge = np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))
+    bg = np.isin(lab, edge[edge > 0])
+    body = hull_mask(dark)
+    alpha = np.where(body & ~bg, 1.0, 0.0)
+    shade = ~body & ~bg
+    alpha[shade] = np.clip(d[shade] / (255 - SHADOW), 0, 1)
+    if cap is not None:
+        alpha[cap:][~body[cap:]] = 0
+    rgb[shade] = SHADOW
+    img = Image.fromarray(np.dstack([rgb, alpha * 255]).astype(np.uint8), "RGBA")
+    img = img.crop(img.getchannel("A").point(lambda a: 255 if a > 24 else 0).getbbox())
+    img.thumbnail((max_side, max_side), Image.LANCZOS)
+    pad = int(max(img.size) * 0.04)
+    framed = Image.new("RGBA", (img.width + pad * 2, img.height + pad * 2), (0, 0, 0, 0))
+    framed.alpha_composite(img, (pad, pad))
+    return framed
+
+
+def studio_path(key):
+    return os.path.join(ROOT, PHOTO_DIR, f"{PHOTO_PREFIX}{key}.jpg")
+
+
 def save_webp(img, path, quality=84):
     img.save(path, "WEBP", quality=quality, method=6)
     return img.size
@@ -147,16 +233,32 @@ products_out, sizes = [], {}
 for pid, code, line, ptype, name, extra in PRODUCTS:
     assert line in line_by_id, f"unknown line {line}"
     assert ptype in TYPES, f"unknown type {ptype}"
-    page, col, row = extra["src"]
-    infos = cell_images(page, col, row)
-    assert infos, f"no images for {pid} at {extra['src']}"
-    img = composite(infos)
-    w, h = save_webp(img, os.path.join(OUT_PRODUCTS, f"{pid}.webp"))
-    images = [{"src": f"/media/products/{pid}.webp", "width": w, "height": h}]
-    for (p2, c2, r2) in extra.get("extraSrc", []):
-        im2 = composite(cell_images(p2, c2, r2))
-        w2, h2 = save_webp(im2, os.path.join(OUT_PRODUCTS, f"{pid}-2.webp"))
-        images.append({"src": f"/media/products/{pid}-2.webp", "width": w2, "height": h2})
+    studio = STUDIO.get(pid, [])
+    images = []
+
+    def add_image(img):
+        n = len(images) + 1
+        fname = f"{pid}.webp" if n == 1 else f"{pid}-{n}.webp"
+        w, h = save_webp(img, os.path.join(OUT_PRODUCTS, fname))
+        images.append({"src": f"/media/products/{fname}", "width": w, "height": h})
+        return images[-1]
+
+    page = None
+    if "src" in extra and (not studio or pid in PDF_MAIN):
+        page, col, row = extra["src"]
+        infos = cell_images(page, col, row)
+        assert infos, f"no images for {pid} at {extra['src']}"
+        add_image(composite(infos))
+        if not studio:
+            for (p2, c2, r2) in extra.get("extraSrc", []):
+                add_image(composite(cell_images(p2, c2, r2)))
+    assert images or studio, f"no photo for {pid}"
+    for key in studio:
+        add_image(studio_cutout(studio_path(key)))
+    shade_images = []
+    for shade, key in SHADE_PHOTOS.get(pid, {}).items():
+        assert shade in extra.get("shades", []), f"{pid}: shade photo for unknown shade {shade}"
+        shade_images.append({"shade": shade, **add_image(studio_cutout(studio_path(key)))})
 
     features = PRODUCT_FEATURES.get(pid, LINE_FEATURES.get(line, []))
     features = [ALIASES.get(f, f) for f in features]
@@ -197,9 +299,10 @@ for pid, code, line, ptype, name, extra in PRODUCTS:
         "swatch": extra.get("swatch"),
         "image": images[0],
         "gallery": images[1:] + [{"photo": g} for g in extra.get("gallery", [])],
-        "source": {"pdfPage": page},
+        "shadeImages": shade_images,
+        "source": {"pdfPage": page} if page else {"photos": [f"{PHOTO_PREFIX}{k}.jpg" for k in studio]},
     })
-    print(f"{pid:28s} {len(infos)} img -> {w}x{h}")
+    print(f"{pid:28s} {len(images)} img -> {images[0]['width']}x{images[0]['height']}")
 
 # ---------------------------------------------------------------- photos ------
 photo_meta = {}

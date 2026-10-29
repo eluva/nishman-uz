@@ -52,13 +52,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <QuizSection />
           </Suspense>
           <Suspense fallback={null}>
-            <Lines photos={{ matte: photo('lines-matte'), cologne: photo('lines-cologne') }} />
+            <Lines photos={{ cologne: photo('lines-cologne') }} />
           </Suspense>
           <Suspense fallback={null}>
             <Partners photo={photo('partners-salon')} />
           </Suspense>
           <Suspense fallback={null}>
-            <Reviews portrait={photo('review-cherepovich')} />
+            <Reviews />
           </Suspense>
           <Suspense fallback={null}>
             <Lookbook photos={siteConfig.lookbook.map(photo)} />

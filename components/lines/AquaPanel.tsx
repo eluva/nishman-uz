@@ -36,7 +36,7 @@ export function AquaPanel({ products }: { products: Product[] }) {
         <p className="mt-4 max-w-sm text-bone/75">{t('lines.aqua.text')}</p>
         <AnimatePresence mode="wait" initial={false}>
           <m.div key={p.id} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.7, ease: EASE }} className="mt-8 lg:mt-auto">
-            <p className="display text-[clamp(3rem,8vw,6.5rem)] leading-[0.85]">
+            <p className="display text-[clamp(2.75rem,6.5vw,5rem)] !leading-none">
               <span className="text-bone/45">{p.code}</span> {p.name}
             </p>
             <div className="mt-5 space-y-3">

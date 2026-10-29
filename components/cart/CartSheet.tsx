@@ -65,7 +65,7 @@ export function CartSheet() {
                 <Image src={i.image} alt="" fill sizes="80px" quality={60} className="object-contain p-2" />
               </span>
               <div className="flex min-w-0 flex-1 flex-col">
-                <p className="truncate font-display font-extrabold uppercase">{i.title}</p>
+                <p className="truncate font-semibold tracking-[-0.015em]">{i.title}</p>
                 <p className="truncate text-xs text-muted">{[i.subtitle, i.shadeLabel].filter(Boolean).join(' · ')}</p>
                 <div className="mt-auto flex items-center justify-between gap-3 pt-2">
                   <div className="flex items-center rounded-full ring-1 ring-line">

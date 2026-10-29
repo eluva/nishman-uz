@@ -59,7 +59,7 @@ export function ColognePanel({ products, photo }: { products: Product[]; photo: 
                       shown ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-2 opacity-0'
                     }`}
                   >
-                    <span className="truncate text-center font-display text-[0.7rem] font-extrabold uppercase">{p.name}</span>
+                    <span className="truncate text-center text-[0.7rem] font-semibold tracking-[-0.015em]">{p.name}</span>
                     <button
                       type="button"
                       tabIndex={shown ? 0 : -1}
@@ -81,7 +81,7 @@ export function ColognePanel({ products, photo }: { products: Product[]; photo: 
           </button>
         </div>
       </div>
-      <RevealImage image={photo} alt="" sizes="(min-width: 1024px) 25vw, 88vw" className="hidden h-full lg:block" cursor />
+      <RevealImage image={photo} alt="" sizes="(min-width: 1024px) 25vw, 88vw" className="hidden h-full lg:block" />
     </article>
   );
 }

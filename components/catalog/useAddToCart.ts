@@ -31,7 +31,7 @@ export function useAddToCart() {
         price: vol.price,
         title: productTitle(p),
         subtitle: [p.code, p.name ? p.type : null, formatVolume(vol.value, vol.unit) || null, p.scent].filter(Boolean).join(' · '),
-        image: p.image.src,
+        image: shade?.image?.src ?? p.image.src,
       });
       useUi.getState().showToast(t('added'));
       flyToCart(imgEl ?? null);

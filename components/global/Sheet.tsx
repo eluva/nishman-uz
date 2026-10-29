@@ -3,7 +3,7 @@
 import { AnimatePresence, m } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useEffect, useId, useRef, type ReactNode } from 'react';
-import { lockScroll } from '@/components/providers/SmoothScroll';
+import { lockScroll } from '@/components/providers/scroll-lock';
 import { useIsDesktop } from '@/components/providers/device';
 import { Icon } from '@/components/ui/Icon';
 import { EASE } from '@/lib/motion';
@@ -118,7 +118,7 @@ export function Sheet({ open, onClose, title, desktop = 'drawer', children, foot
                   <Icon name="close" />
                 </button>
               </div>
-              <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain" data-lenis-prevent>
+              <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
                 {children}
               </div>
               {footer && (

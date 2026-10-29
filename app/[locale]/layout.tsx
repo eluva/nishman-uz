@@ -1,37 +1,18 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter, Inter_Tight } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 import { CartMount } from '@/components/cart/CartMount';
-import { CustomCursor } from '@/components/global/CustomCursor';
 import { FloatingActions } from '@/components/global/FloatingActions';
 import { CartHydrator } from '@/components/global/FlyToCart';
 import { MobileBar } from '@/components/global/MobileBar';
-import { ScrollProgress } from '@/components/global/ScrollProgress';
 import { Toast } from '@/components/global/Toast';
 import { Header } from '@/components/header/Header';
 import { MotionProvider } from '@/components/providers/MotionProvider';
-import { SmoothScroll } from '@/components/providers/SmoothScroll';
 import { routing } from '@/i18n/routing';
 import { siteConfig } from '@/site.config';
 import '../globals.css';
-
-const interTight = Inter_Tight({
-  subsets: ['latin', 'cyrillic'],
-  weight: ['800', '900'],
-  variable: '--font-inter-tight',
-  display: 'swap',
-  preload: true,
-});
-const inter = Inter({
-  subsets: ['latin', 'cyrillic'],
-  weight: ['400', '500', '600'],
-  variable: '--font-inter',
-  display: 'swap',
-  preload: false,
-});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -85,23 +66,25 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const clientMessages = Object.fromEntries(Object.entries(await getMessages()).filter(([ns]) => !SERVER_ONLY_MESSAGES.includes(ns)));
 
   return (
-    <html lang={locale} className={`${interTight.variable} ${inter.variable}`}>
+    // suppressHydrationWarning: inline-скрипт ниже добавляет класс .js до гидратации
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        {/* С JS блоки появляются при прокрутке; без JS — видны сразу */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
       <body>
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-accent focus:px-5 focus:py-3 focus:text-ink">
           {t('skip')}
         </a>
         <NextIntlClientProvider messages={clientMessages}>
           <MotionProvider>
-            <SmoothScroll />
             <CartHydrator />
-            <ScrollProgress />
             <Header />
             {children}
             <MobileBar />
             <FloatingActions />
             <CartMount />
             <Toast />
-            <CustomCursor />
           </MotionProvider>
         </NextIntlClientProvider>
         <div className="grain" aria-hidden="true" />

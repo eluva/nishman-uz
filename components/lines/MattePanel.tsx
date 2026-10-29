@@ -1,102 +1,67 @@
 'use client';
 
-import { AnimatePresence, m } from 'framer-motion';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
-import { effectKey } from '@/components/catalog/useAddToCart';
-import { RevealImage } from '@/components/motion/RevealImage';
-import { HoldDots } from '@/components/ui/HoldDots';
-import type { ImageAsset, Product } from '@/lib/catalog/types';
-import { EASE } from '@/lib/motion';
-import { useFilters, useUi } from '@/lib/store/ui';
+import { Icon } from '@/components/ui/Icon';
+import type { Product } from '@/lib/catalog/types';
+import { useFilters } from '@/lib/store/ui';
 
-/** (б) Матовая линейка и Spider Wax на шкале фиксации 1–5 */
-export function MattePanel({ products, photo }: { products: Product[]; photo: ImageAsset }) {
+const GROUPS = [
+  { line: 'matte', hero: 'M2', text: 'matteText' },
+  { line: 'spider-wax', hero: 'S1', text: 'spiderText' },
+] as const;
+
+/** (б) Матовая линейка и Spider Wax: две простые карточки — нажатие открывает линейку в каталоге */
+export function MattePanel({ products }: { products: Product[] }) {
   const t = useTranslations();
   const apply = useFilters((s) => s.apply);
-  const openQuickView = useUi((s) => s.openQuickView);
-  const [focus, setFocus] = useState<Product>(products.find((p) => p.code === 'M2') ?? products[0]);
-  const columns = [1, 2, 3, 4, 5].map((h) => products.filter((p) => p.hold === h));
 
   return (
-    <article className="relative grid h-full min-h-[34rem] overflow-hidden rounded-[1.5rem] bg-surface ring-1 ring-line lg:grid-cols-[0.8fr_1.4fr]">
-      <RevealImage image={photo} alt="" sizes="(min-width: 1024px) 30vw, 88vw" className="hidden h-full lg:block" cursor />
-      <div className="flex flex-col p-6 lg:p-10">
-        <h3 className="display text-3xl lg:text-5xl">{t('lines.matte.title')}</h3>
-        <p className="mt-3 max-w-lg text-bone/70">{t('lines.matte.text')}</p>
-
-        {/* шкала фиксации */}
-        <div className="mt-6 grid flex-1 grid-cols-5 gap-1.5 lg:mt-8 lg:gap-2">
-          {columns.map((col, i) => (
-            <div key={i} className="flex flex-col">
-              <div className="flex flex-1 flex-col-reverse justify-start gap-1.5">
-                {col.map((p) => (
-                  <button
-                    key={p.id}
-                    type="button"
-                    onPointerEnter={(e) => e.pointerType === 'mouse' && setFocus(p)}
-                    onFocus={() => setFocus(p)}
-                    onClick={() => (focus.id === p.id ? openQuickView(p.id) : setFocus(p))}
-                    aria-label={`${p.code} ${p.name ?? p.type}`}
-                    className={`flex min-h-11 items-center justify-center gap-1 rounded-lg px-1 text-[0.68rem] font-bold transition-colors duration-500 lg:justify-start lg:px-2 ${
-                      focus.id === p.id ? 'bg-accent text-ink' : 'bg-raised text-bone/80 hover:bg-line'
-                    }`}
-                  >
-                    <span className="relative hidden h-7 w-7 shrink-0 lg:block">
-                      <Image src={p.image.src} alt="" fill sizes="28px" quality={50} className="object-contain" />
-                    </span>
-                    {p.code}
-                  </button>
-                ))}
-              </div>
-              <div className="mt-2 border-t border-line pt-2 text-center">
-                <span className="font-display text-lg font-extrabold">{i + 1}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="mt-1 flex justify-between text-[0.66rem] uppercase tracking-[0.18em] text-muted">
-          <span>{t('lines.matte.soft')}</span>
-          <span>{t('lines.matte.hard')}</span>
-        </div>
-
-        <AnimatePresence mode="wait" initial={false}>
-          <m.div
-            key={focus.id}
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.6, ease: EASE }}
-            className="mt-6 flex items-center gap-4 rounded-2xl bg-raised p-3"
-          >
-            <span className="relative h-16 w-20 shrink-0 rounded-xl bg-tile">
-              <Image src={focus.image.src} alt="" fill sizes="80px" quality={60} className="object-contain p-1.5" />
-            </span>
-            <span className="min-w-0">
-              <span className="block text-xs text-muted">
-                {focus.lineName} · {focus.type}
-              </span>
-              <span className="block truncate font-display font-extrabold uppercase">
-                {focus.code} {focus.name}
-              </span>
-              <span className="mt-1 flex flex-wrap gap-1">
-                {focus.effect && <span className="pill !bg-ink">{t(`product.effects.${effectKey(focus.effect)}`)}</span>}
-                <HoldDots hold={focus.hold} className="!bg-ink" label={false} />
-              </span>
-            </span>
-          </m.div>
-        </AnimatePresence>
-
-        <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
-          <button type="button" onClick={() => apply({ line: 'matte' })} className="btn btn-ghost">
-            {t('lines.cta')}
-          </button>
-          <button type="button" onClick={() => apply({ line: 'spider-wax' })} className="link-u inline-flex min-h-11 items-center text-sm font-semibold uppercase tracking-[0.12em]">
-            Spider Wax →
-          </button>
-        </div>
-      </div>
+    <article className="flex h-full flex-col rounded-[1.5rem] bg-surface p-6 ring-1 ring-line lg:p-10">
+      <h3 className="display text-3xl lg:text-5xl">{t('lines.matte.title')}</h3>
+      <p className="mt-3 max-w-lg text-bone/70">{t('lines.matte.text')}</p>
+      <ul className="mt-6 grid flex-1 gap-3 md:grid-cols-2 lg:mt-8 lg:gap-4">
+        {GROUPS.map((g) => {
+          const items = products.filter((p) => p.line === g.line);
+          if (!items.length) return null;
+          const hero = items.find((p) => p.code === g.hero) ?? items[0];
+          const holds = items.map((p) => p.hold ?? 0).filter(Boolean);
+          const min = Math.min(...holds);
+          const max = Math.max(...holds);
+          return (
+            <li key={g.line}>
+              <button
+                type="button"
+                onClick={() => apply({ line: g.line })}
+                className="group flex h-full w-full items-center gap-4 rounded-2xl bg-raised p-4 text-left ring-1 ring-line transition-shadow duration-500 hover:ring-bone/30 md:flex-col md:items-stretch lg:p-6"
+              >
+                <span className="relative h-24 w-24 shrink-0 overflow-hidden rounded-xl bg-tile md:h-44 md:w-full lg:h-56">
+                  <Image
+                    src={hero.image.src}
+                    alt=""
+                    fill
+                    sizes="(min-width: 768px) 30vw, 96px"
+                    quality={70}
+                    className="object-contain p-3 transition-transform duration-700 ease-lux group-hover:scale-[1.04]"
+                  />
+                </span>
+                <span className="flex min-w-0 flex-1 flex-col">
+                  <span className="text-xl font-semibold tracking-[-0.02em] lg:text-2xl">{hero.lineName}</span>
+                  <span className="mt-1 text-sm text-bone/70 lg:text-base">{t(`lines.matte.${g.text}`)}</span>
+                  <span className="mt-3 flex flex-wrap gap-1.5">
+                    <span className="pill !bg-ink">{t('catalog.count', { count: items.length })}</span>
+                    <span className="pill !bg-ink">{t('product.holdValue', { value: min === max ? String(min) : `${min}–${max}` })}</span>
+                  </span>
+                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-accent md:mt-auto md:pt-5">
+                    {t('lines.cta')}
+                    <Icon name="arrowRight" size={16} className="transition-transform duration-500 ease-lux group-hover:translate-x-1" />
+                  </span>
+                </span>
+              </button>
+            </li>
+          );
+        })}
+      </ul>
     </article>
   );
 }

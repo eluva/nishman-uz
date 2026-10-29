@@ -4,7 +4,8 @@ import { RevealText } from '@/components/motion/RevealText';
 import { FadeIn } from '@/components/motion/FadeIn';
 import { photo } from '@/lib/photos';
 
-const ADVANTAGES = ['original', 'delivery', 'barbers'] as const;
+// доставка — только в секции «Адреса»
+const ADVANTAGES = ['original', 'barbers'] as const;
 
 /** О бренде: история Asil Group (без цифр hero), фото, гигантский слоган, статус дистрибьютора, 3 преимущества */
 export function About() {
@@ -29,8 +30,6 @@ export function About() {
             sizes="(min-width: 1024px) 40vw, 100vw"
             className="aspect-[4/5] rounded-[1.25rem] lg:col-span-6 lg:col-start-7 lg:aspect-[5/6]"
             imgClassName="object-[50%_35%]"
-            parallax={8}
-            cursor
           />
         </div>
 
@@ -38,19 +37,19 @@ export function About() {
           <RevealText
             as="blockquote"
             lines={slogan}
-            className="display text-[clamp(2.4rem,9.6vw,10rem)] leading-[0.88] text-bone"
+            className="display text-[clamp(2.25rem,7vw,6rem)] text-bone"
             accentIndex={slogan.length - 1}
           />
-          <figcaption className="mt-6 font-display text-xs font-bold uppercase tracking-[0.32em] text-muted">NISHMAN</figcaption>
+          <figcaption className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-muted">NISHMAN</figcaption>
         </figure>
 
         <FadeIn className="mt-20 border-t border-line pt-10 lg:mt-28">
-          <p className="max-w-3xl font-display text-xl font-bold uppercase tracking-[-0.01em] lg:text-2xl">{t('distributor')}</p>
-          <ul className="mt-10 grid gap-8 md:grid-cols-3 md:gap-0">
+          <p className="display max-w-3xl text-2xl lg:text-3xl">{t('distributor')}</p>
+          <ul className="mt-10 grid gap-8 md:grid-cols-2 md:gap-0">
             {ADVANTAGES.map((k, i) => (
               <li key={k} className={`md:px-8 ${i === 0 ? 'md:pl-0' : 'md:border-l md:border-line'}`}>
                 <span className="font-display text-xs font-bold tracking-[0.2em] text-accent">0{i + 1}</span>
-                <h3 className="mt-3 font-display text-lg font-bold uppercase">{t(`advantages.${k}.title`)}</h3>
+                <h3 className="mt-3 text-xl font-semibold tracking-[-0.02em]">{t(`advantages.${k}.title`)}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{t(`advantages.${k}.text`)}</p>
               </li>
             ))}
