@@ -44,7 +44,7 @@ function ProductCardBase({ product: p, priority }: { product: Product; priority?
           sizes="(min-width: 1440px) 300px, (min-width: 1024px) 23vw, (min-width: 768px) 31vw, 46vw"
           priority={priority}
           quality={75}
-          className="absolute inset-x-[10%] top-[18%] mx-auto h-[62%] w-[80%] object-contain transition-transform duration-[1200ms] ease-lux group-hover:scale-[1.04]"
+          className="packshot absolute inset-x-[10%] top-[18%] mx-auto h-[62%] w-[80%] object-contain transition-transform duration-[1200ms] ease-lux group-hover:scale-[1.04]"
         />
         <button
           type="button"

@@ -78,7 +78,7 @@ function Body({ product: p, related }: { product: Product; related: Product[] })
                 fill
                 sizes="(min-width: 1024px) 520px, 100vw"
                 quality={85}
-                className={isPackshot ? 'object-contain p-[12%]' : 'photo-tone rounded-xl object-cover'}
+                className={isPackshot ? 'packshot object-contain p-[12%]' : 'photo-tone rounded-xl object-cover'}
               />
             </m.div>
           </AnimatePresence>
@@ -93,7 +93,7 @@ function Body({ product: p, related }: { product: Product; related: Product[] })
                 aria-selected={i === index}
                 aria-label={`${i + 1} / ${images.length}`}
                 onClick={() => setIndex(i)}
-                className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-white/60 transition-shadow duration-500 ${i === index ? 'ring-2 ring-tile-ink' : 'ring-1 ring-tile-ink/10'}`}
+                className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-white transition-shadow duration-500 ${i === index ? 'ring-2 ring-tile-ink' : 'ring-1 ring-tile-ink/10'}`}
               >
                 <Image src={img.src} alt="" fill sizes="64px" quality={60} className={img.src.includes('/products/') ? 'object-contain p-1.5' : 'object-cover'} />
               </button>
@@ -185,7 +185,7 @@ function Body({ product: p, related }: { product: Product; related: Product[] })
                     aria-label={`${r.code ?? ''} ${productTitle(r)}`.trim()}
                   >
                     <span className="relative h-16 w-full">
-                      <Image src={r.image.src} alt="" fill sizes="96px" quality={60} className="object-contain" />
+                      <Image src={r.image.src} alt="" fill sizes="96px" quality={60} className="packshot object-contain" />
                     </span>
                     <span className="w-full truncate text-center text-[0.68rem] font-semibold uppercase">{r.code ?? productTitle(r)}</span>
                   </button>

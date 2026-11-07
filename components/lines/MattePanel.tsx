@@ -42,7 +42,7 @@ export function MattePanel({ products }: { products: Product[] }) {
                     fill
                     sizes="(min-width: 768px) 30vw, 96px"
                     quality={70}
-                    className="object-contain p-3 transition-transform duration-700 ease-lux group-hover:scale-[1.04]"
+                    className="packshot object-contain p-3 transition-transform duration-700 ease-lux group-hover:scale-[1.04]"
                   />
                 </span>
                 <span className="flex min-w-0 flex-1 flex-col">

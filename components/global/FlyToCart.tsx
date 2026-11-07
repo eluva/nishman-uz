@@ -19,6 +19,12 @@ export function flyToCart(img: HTMLElement | null) {
     width: `${size}px`,
     height: `${size}px`,
     objectFit: 'contain',
+    // фото товара на белом фоне: летит белой карточкой, без «multiply» с тёмной страницей
+    background: '#fff',
+    borderRadius: '14px',
+    padding: '6px',
+    boxSizing: 'border-box',
+    mixBlendMode: 'normal',
     zIndex: '95',
     pointerEvents: 'none',
     margin: '0',

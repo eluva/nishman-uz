@@ -63,7 +63,7 @@ export function AquaPanel({ products }: { products: Product[] }) {
       </div>
 
       <div className="relative z-10 flex flex-1 flex-col justify-between p-6 pt-0 lg:p-12">
-        <div className="relative mx-auto aspect-[3/2] w-full max-w-[34rem] flex-1">
+        <div className="relative mx-auto aspect-[3/2] w-full max-w-[34rem] flex-1 overflow-hidden rounded-2xl bg-white">
           <AnimatePresence mode="popLayout" initial={false}>
             <m.div
               key={p.id}
@@ -73,7 +73,7 @@ export function AquaPanel({ products }: { products: Product[] }) {
               exit={{ opacity: 0, y: -16, rotate: 3 }}
               transition={{ duration: 0.9, ease: EASE }}
             >
-              <Image ref={img} src={p.image.src} alt={`${p.code} ${p.name}`} fill sizes="(min-width: 1024px) 34rem, 80vw" quality={85} className="object-contain drop-shadow-[0_30px_40px_rgba(0,0,0,0.45)]" />
+              <Image ref={img} src={p.image.src} alt={`${p.code} ${p.name}`} fill sizes="(min-width: 1024px) 34rem, 80vw" quality={85} className="object-contain p-[4%]" />
             </m.div>
           </AnimatePresence>
         </div>
@@ -91,8 +91,8 @@ export function AquaPanel({ products }: { products: Product[] }) {
                 i === active ? 'bg-raised ring-1 ring-bone/40' : 'hover:bg-raised/60'
               }`}
             >
-              <span className="relative h-2/3 w-4/5">
-                <Image src={x.image.src} alt="" fill sizes="64px" quality={60} className="object-contain" />
+              <span className="relative h-2/3 w-[88%] overflow-hidden rounded-lg bg-white">
+                <Image src={x.image.src} alt="" fill sizes="64px" quality={60} className="object-contain p-0.5" />
               </span>
               <span className={`text-[0.62rem] font-bold ${i === active ? 'text-accent' : 'text-muted'}`}>{x.code}</span>
             </button>

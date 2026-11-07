@@ -43,8 +43,8 @@
   "swatch": "#2563c9",
   "image": {
    "src": "/media/products/aqua-wax-01.webp",
-   "width": 972,
-   "height": 546
+   "width": 1008,
+   "height": 584
   },
   "gallery": [],
   "shadeImages": [],
@@ -92,8 +92,8 @@
   "swatch": "#f25a1f",
   "image": {
    "src": "/media/products/aqua-wax-02.webp",
-   "width": 972,
-   "height": 563
+   "width": 1008,
+   "height": 599
   },
   "gallery": [],
   "shadeImages": [],
@@ -147,8 +147,8 @@
   "swatch": "#d4202a",
   "image": {
    "src": "/media/products/aqua-wax-03.webp",
-   "width": 972,
-   "height": 550
+   "width": 1008,
+   "height": 586
   },
   "gallery": [],
   "shadeImages": [],
@@ -202,8 +202,8 @@
   "swatch": "#7b2fa8",
   "image": {
    "src": "/media/products/aqua-wax-04.webp",
-   "width": 972,
-   "height": 557
+   "width": 1008,
+   "height": 585
   },
   "gallery": [],
   "shadeImages": [],
@@ -251,8 +251,8 @@
   "swatch": "#5fc54a",
   "image": {
    "src": "/media/products/aqua-wax-05.webp",
-   "width": 972,
-   "height": 541
+   "width": 1008,
+   "height": 577
   },
   "gallery": [],
   "shadeImages": [],
@@ -300,8 +300,8 @@
   "swatch": "#e9e6e1",
   "image": {
    "src": "/media/products/aqua-wax-06.webp",
-   "width": 972,
-   "height": 564
+   "width": 1008,
+   "height": 598
   },
   "gallery": [],
   "shadeImages": [],
@@ -355,8 +355,8 @@
   "swatch": "#c9a24a",
   "image": {
    "src": "/media/products/aqua-wax-07.webp",
-   "width": 972,
-   "height": 525
+   "width": 1008,
+   "height": 561
   },
   "gallery": [],
   "shadeImages": [],
@@ -404,8 +404,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/aqua-wax-08.webp",
-   "width": 972,
-   "height": 558
+   "width": 1008,
+   "height": 590
   },
   "gallery": [],
   "shadeImages": [],
@@ -453,8 +453,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/aqua-wax-09.webp",
-   "width": 972,
-   "height": 566
+   "width": 1008,
+   "height": 603
   },
   "gallery": [],
   "shadeImages": [],
@@ -496,8 +496,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/aqua-wax-10.webp",
-   "width": 972,
-   "height": 594
+   "width": 1008,
+   "height": 636
   },
   "gallery": [],
   "shadeImages": [],
@@ -539,8 +539,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/aqua-wax-milky.webp",
-   "width": 972,
-   "height": 521
+   "width": 1008,
+   "height": 590
   },
   "gallery": [],
   "shadeImages": [],
@@ -583,8 +583,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/coloring-wax-c1.webp",
-   "width": 972,
-   "height": 556
+   "width": 1008,
+   "height": 600
   },
   "gallery": [
    {
@@ -633,8 +633,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/coloring-wax-c2.webp",
-   "width": 972,
-   "height": 558
+   "width": 1008,
+   "height": 609
   },
   "gallery": [],
   "shadeImages": [],
@@ -677,8 +677,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/coloring-wax-c3.webp",
-   "width": 972,
-   "height": 554
+   "width": 1008,
+   "height": 586
   },
   "gallery": [],
   "shadeImages": [],
@@ -726,8 +726,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s1.webp",
-   "width": 972,
-   "height": 541
+   "width": 1008,
+   "height": 568
   },
   "gallery": [],
   "shadeImages": [],
@@ -775,8 +775,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s2.webp",
-   "width": 972,
-   "height": 537
+   "width": 1008,
+   "height": 576
   },
   "gallery": [],
   "shadeImages": [],
@@ -824,8 +824,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s3.webp",
-   "width": 972,
-   "height": 549
+   "width": 1008,
+   "height": 595
   },
   "gallery": [],
   "shadeImages": [],
@@ -867,8 +867,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s4.webp",
-   "width": 972,
-   "height": 533
+   "width": 1008,
+   "height": 585
   },
   "gallery": [],
   "shadeImages": [],
@@ -910,8 +910,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s5.webp",
-   "width": 972,
-   "height": 521
+   "width": 1008,
+   "height": 565
   },
   "gallery": [],
   "shadeImages": [],
@@ -959,8 +959,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/spider-wax-s6.webp",
-   "width": 972,
-   "height": 538
+   "width": 1008,
+   "height": 571
   },
   "gallery": [],
   "shadeImages": [],
@@ -1007,8 +1007,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m1.webp",
-   "width": 972,
-   "height": 547
+   "width": 1008,
+   "height": 598
   },
   "gallery": [],
   "shadeImages": [],
@@ -1054,8 +1054,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m2.webp",
-   "width": 972,
-   "height": 560
+   "width": 1008,
+   "height": 601
   },
   "gallery": [],
   "shadeImages": [],
@@ -1102,8 +1102,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m3.webp",
-   "width": 972,
-   "height": 574
+   "width": 1008,
+   "height": 631
   },
   "gallery": [
    {
@@ -1157,8 +1157,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m4.webp",
-   "width": 972,
-   "height": 569
+   "width": 1008,
+   "height": 622
   },
   "gallery": [
    {
@@ -1211,8 +1211,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m5.webp",
-   "width": 972,
-   "height": 561
+   "width": 1008,
+   "height": 622
   },
   "gallery": [
    {
@@ -1265,8 +1265,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m6.webp",
-   "width": 972,
-   "height": 545
+   "width": 1008,
+   "height": 597
   },
   "gallery": [],
   "shadeImages": [],
@@ -1307,8 +1307,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m7.webp",
-   "width": 972,
-   "height": 570
+   "width": 1008,
+   "height": 615
   },
   "gallery": [
    {
@@ -1356,8 +1356,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m8.webp",
-   "width": 972,
-   "height": 544
+   "width": 1008,
+   "height": 598
   },
   "gallery": [],
   "shadeImages": [],
@@ -1399,8 +1399,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m9.webp",
-   "width": 972,
-   "height": 571
+   "width": 1008,
+   "height": 626
   },
   "gallery": [
    {
@@ -1446,8 +1446,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m10.webp",
-   "width": 972,
-   "height": 535
+   "width": 1008,
+   "height": 573
   },
   "gallery": [],
   "shadeImages": [],
@@ -1487,8 +1487,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m11.webp",
-   "width": 972,
-   "height": 530
+   "width": 1008,
+   "height": 565
   },
   "gallery": [],
   "shadeImages": [],
@@ -1528,8 +1528,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-m12.webp",
-   "width": 972,
-   "height": 569
+   "width": 1008,
+   "height": 604
   },
   "gallery": [],
   "shadeImages": [],
@@ -1569,8 +1569,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/molding-paste-a2.webp",
-   "width": 309,
-   "height": 972
+   "width": 372,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -1611,8 +1611,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/matte-paste-u1.webp",
-   "width": 361,
-   "height": 972
+   "width": 460,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -1654,8 +1654,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-f1.webp",
-   "width": 968,
-   "height": 552
+   "width": 1008,
+   "height": 595
   },
   "gallery": [
    {
@@ -1703,8 +1703,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-w10.webp",
-   "width": 972,
-   "height": 521
+   "width": 1008,
+   "height": 554
   },
   "gallery": [],
   "shadeImages": [],
@@ -1746,8 +1746,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-w11.webp",
-   "width": 972,
-   "height": 598
+   "width": 1008,
+   "height": 665
   },
   "gallery": [],
   "shadeImages": [],
@@ -1787,8 +1787,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pomade-f2.webp",
-   "width": 972,
-   "height": 559
+   "width": 1008,
+   "height": 620
   },
   "gallery": [],
   "shadeImages": [],
@@ -1839,14 +1839,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/styling-cream-medium.webp",
-   "width": 972,
-   "height": 578
+   "width": 1008,
+   "height": 643
   },
   "gallery": [
    {
     "src": "/media/products/styling-cream-medium-2.webp",
-    "width": 972,
-    "height": 529
+    "width": 1008,
+    "height": 573
    },
    {
     "src": "/media/models/styling-cream-hands.webp",
@@ -1909,14 +1909,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/styling-cream-extra.webp",
-   "width": 972,
-   "height": 563
+   "width": 1008,
+   "height": 618
   },
   "gallery": [
    {
     "src": "/media/products/styling-cream-extra-2.webp",
-    "width": 972,
-    "height": 531
+    "width": 1008,
+    "height": 573
    }
   ],
   "shadeImages": [],
@@ -1961,8 +1961,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/styling-cream-brilliantine.webp",
-   "width": 972,
-   "height": 537
+   "width": 1008,
+   "height": 584
   },
   "gallery": [],
   "shadeImages": [],
@@ -2009,14 +2009,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/curl-cream.webp",
-   "width": 355,
-   "height": 972
+   "width": 419,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/curl-cream-2.webp",
-    "width": 366,
-    "height": 972
+    "width": 396,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -2058,8 +2058,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/foam-wax-sea-salt.webp",
-   "width": 302,
-   "height": 972
+   "width": 344,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2100,8 +2100,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/foam-wax-00.webp",
-   "width": 303,
-   "height": 972
+   "width": 348,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2143,8 +2143,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/seasalt-spray.webp",
-   "width": 317,
-   "height": 972
+   "width": 398,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2185,8 +2185,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/seasalt-spray-02.webp",
-   "width": 316,
-   "height": 972
+   "width": 394,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2278,14 +2278,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p1.webp",
-   "width": 728,
-   "height": 972
+   "width": 807,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/powder-p1-2.webp",
-    "width": 424,
-    "height": 972
+    "width": 526,
+    "height": 1008
    },
    {
     "src": "/media/models/powder-p1-box.webp",
@@ -2335,8 +2335,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p5plus.webp",
-   "width": 744,
-   "height": 972
+   "width": 829,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2380,8 +2380,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p1-fresh-look.webp",
-   "width": 756,
-   "height": 972
+   "width": 847,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2425,8 +2425,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p1-flaming.webp",
-   "width": 679,
-   "height": 972
+   "width": 780,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2470,8 +2470,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p1-sport.webp",
-   "width": 697,
-   "height": 972
+   "width": 783,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2515,8 +2515,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p1-gumgum.webp",
-   "width": 672,
-   "height": 972
+   "width": 740,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2558,8 +2558,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-x5-sea-salt.webp",
-   "width": 724,
-   "height": 972
+   "width": 825,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2601,8 +2601,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-p0.webp",
-   "width": 728,
-   "height": 972
+   "width": 819,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2644,8 +2644,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-x1.webp",
-   "width": 371,
-   "height": 972
+   "width": 484,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2687,8 +2687,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/powder-x1-barber.webp",
-   "width": 489,
-   "height": 972
+   "width": 590,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2729,8 +2729,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/texture-powder-spray.webp",
-   "width": 792,
-   "height": 972
+   "width": 885,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2821,8 +2821,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5.webp",
-   "width": 725,
-   "height": 972
+   "width": 786,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -2871,8 +2871,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5plus-argan.webp",
-   "width": 961,
-   "height": 954
+   "width": 996,
+   "height": 1001
   },
   "gallery": [],
   "shadeImages": [],
@@ -2921,14 +2921,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5plus-gum.webp",
-   "width": 932,
-   "height": 939
+   "width": 973,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/gel-5plus-gum-2.webp",
-    "width": 699,
-    "height": 972
+    "width": 784,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -2972,8 +2972,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-5plus-sea-salt.webp",
-   "width": 935,
-   "height": 961
+   "width": 969,
+   "height": 1004
   },
   "gallery": [],
   "shadeImages": [],
@@ -3015,8 +3015,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/jellyboom.webp",
-   "width": 553,
-   "height": 972
+   "width": 586,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3067,14 +3067,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-bg.webp",
-   "width": 925,
-   "height": 911
+   "width": 995,
+   "height": 969
   },
   "gallery": [
    {
     "src": "/media/products/gel-bg-2.webp",
-    "width": 353,
-    "height": 972
+    "width": 402,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -3120,8 +3120,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/grooming-spray.webp",
-   "width": 311,
-   "height": 972
+   "width": 354,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3166,8 +3166,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-spray-04.webp",
-   "width": 273,
-   "height": 972
+   "width": 372,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3211,8 +3211,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-spray-sea-salt.webp",
-   "width": 332,
-   "height": 972
+   "width": 442,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3265,14 +3265,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-spray-05.webp",
-   "width": 265,
-   "height": 972
+   "width": 372,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/hair-spray-05-2.webp",
-    "width": 259,
-    "height": 972
+    "width": 340,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -3314,8 +3314,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b1.webp",
-   "width": 972,
-   "height": 519
+   "width": 1008,
+   "height": 559
   },
   "gallery": [],
   "shadeImages": [],
@@ -3356,8 +3356,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b2.webp",
-   "width": 972,
-   "height": 528
+   "width": 1008,
+   "height": 569
   },
   "gallery": [],
   "shadeImages": [],
@@ -3398,8 +3398,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b3.webp",
-   "width": 972,
-   "height": 542
+   "width": 1008,
+   "height": 581
   },
   "gallery": [],
   "shadeImages": [],
@@ -3440,8 +3440,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b4.webp",
-   "width": 972,
-   "height": 530
+   "width": 1008,
+   "height": 571
   },
   "gallery": [],
   "shadeImages": [],
@@ -3482,8 +3482,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b6.webp",
-   "width": 972,
-   "height": 524
+   "width": 1008,
+   "height": 563
   },
   "gallery": [],
   "shadeImages": [],
@@ -3524,8 +3524,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b7.webp",
-   "width": 972,
-   "height": 535
+   "width": 1008,
+   "height": 584
   },
   "gallery": [],
   "shadeImages": [],
@@ -3566,8 +3566,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gel-wax-b9.webp",
-   "width": 972,
-   "height": 519
+   "width": 1008,
+   "height": 560
   },
   "gallery": [],
   "shadeImages": [],
@@ -3627,8 +3627,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-shampoo-01.webp",
-   "width": 410,
-   "height": 972
+   "width": 464,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3688,8 +3688,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-shampoo-02.webp",
-   "width": 385,
-   "height": 972
+   "width": 440,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3749,14 +3749,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-shampoo-03.webp",
-   "width": 348,
-   "height": 972
+   "width": 393,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/pro-shampoo-03-2.webp",
-    "width": 419,
-    "height": 972
+    "width": 450,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -3809,14 +3809,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pro-conditioner.webp",
-   "width": 352,
-   "height": 972
+   "width": 408,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/pro-conditioner-2.webp",
-    "width": 413,
-    "height": 972
+    "width": 485,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -3865,8 +3865,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/salon-shampoo.webp",
-   "width": 757,
-   "height": 972
+   "width": 815,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -3956,8 +3956,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/pion-shampoo.webp",
-   "width": 753,
-   "height": 972
+   "width": 822,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4000,8 +4000,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/xl-shampoo-anti-hairloss.webp",
-   "width": 361,
-   "height": 972
+   "width": 421,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4044,8 +4044,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/xl-shampoo-garlic-nettle.webp",
-   "width": 382,
-   "height": 972
+   "width": 455,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4088,8 +4088,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/xl-shampoo-anti-dandruff.webp",
-   "width": 361,
-   "height": 972
+   "width": 425,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4140,8 +4140,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-mask.webp",
-   "width": 951,
-   "height": 972
+   "width": 1008,
+   "height": 992
   },
   "gallery": [
    {
@@ -4198,14 +4198,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hair-tonic.webp",
-   "width": 348,
-   "height": 972
+   "width": 406,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/hair-tonic-2.webp",
-    "width": 337,
-    "height": 972
+    "width": 385,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -4252,8 +4252,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/two-phase-conditioner.webp",
-   "width": 322,
-   "height": 972
+   "width": 391,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4299,8 +4299,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/two-phase-2.webp",
-   "width": 338,
-   "height": 972
+   "width": 386,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4346,8 +4346,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/two-phase-3.webp",
-   "width": 303,
-   "height": 972
+   "width": 361,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4393,8 +4393,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/two-phase-4.webp",
-   "width": 343,
-   "height": 972
+   "width": 372,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4440,8 +4440,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/two-phase-5.webp",
-   "width": 315,
-   "height": 972
+   "width": 382,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4481,8 +4481,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/milk-mousse.webp",
-   "width": 275,
-   "height": 972
+   "width": 357,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4523,8 +4523,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/sheen-spray.webp",
-   "width": 269,
-   "height": 972
+   "width": 355,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4565,8 +4565,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/minoxidil.webp",
-   "width": 950,
-   "height": 815
+   "width": 1008,
+   "height": 855
   },
   "gallery": [],
   "shadeImages": [],
@@ -4629,126 +4629,126 @@
   "gallery": [
    {
     "src": "/media/products/color-spray-2.webp",
-    "width": 415,
-    "height": 972
+    "width": 522,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-3.webp",
-    "width": 389,
-    "height": 972
+    "width": 487,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-4.webp",
-    "width": 370,
-    "height": 972
+    "width": 449,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-5.webp",
-    "width": 385,
-    "height": 972
+    "width": 468,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-6.webp",
-    "width": 382,
-    "height": 972
+    "width": 474,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-7.webp",
-    "width": 354,
-    "height": 972
+    "width": 458,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-8.webp",
-    "width": 334,
-    "height": 972
+    "width": 410,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-9.webp",
-    "width": 400,
-    "height": 972
+    "width": 504,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-10.webp",
-    "width": 365,
-    "height": 972
+    "width": 452,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-11.webp",
-    "width": 398,
-    "height": 972
+    "width": 510,
+    "height": 1008
    },
    {
     "src": "/media/products/color-spray-12.webp",
-    "width": 364,
-    "height": 972
+    "width": 479,
+    "height": 1008
    }
   ],
   "shadeImages": [
    {
     "shade": "purple",
     "src": "/media/products/color-spray-2.webp",
-    "width": 415,
-    "height": 972
+    "width": 522,
+    "height": 1008
    },
    {
     "shade": "silver",
     "src": "/media/products/color-spray-3.webp",
-    "width": 389,
-    "height": 972
+    "width": 487,
+    "height": 1008
    },
    {
     "shade": "yellow",
     "src": "/media/products/color-spray-4.webp",
-    "width": 370,
-    "height": 972
+    "width": 449,
+    "height": 1008
    },
    {
     "shade": "red",
     "src": "/media/products/color-spray-5.webp",
-    "width": 385,
-    "height": 972
+    "width": 468,
+    "height": 1008
    },
    {
     "shade": "glitterSilver",
     "src": "/media/products/color-spray-6.webp",
-    "width": 382,
-    "height": 972
+    "width": 474,
+    "height": 1008
    },
    {
     "shade": "pink",
     "src": "/media/products/color-spray-7.webp",
-    "width": 354,
-    "height": 972
+    "width": 458,
+    "height": 1008
    },
    {
     "shade": "glitterGold",
     "src": "/media/products/color-spray-8.webp",
-    "width": 334,
-    "height": 972
+    "width": 410,
+    "height": 1008
    },
    {
     "shade": "blue",
     "src": "/media/products/color-spray-9.webp",
-    "width": 400,
-    "height": 972
+    "width": 504,
+    "height": 1008
    },
    {
     "shade": "gold",
     "src": "/media/products/color-spray-10.webp",
-    "width": 365,
-    "height": 972
+    "width": 452,
+    "height": 1008
    },
    {
     "shade": "green",
     "src": "/media/products/color-spray-11.webp",
-    "width": 398,
-    "height": 972
+    "width": 510,
+    "height": 1008
    },
    {
     "shade": "white",
     "src": "/media/products/color-spray-12.webp",
-    "width": 364,
-    "height": 972
+    "width": 479,
+    "height": 1008
    }
   ],
   "source": {
@@ -4802,27 +4802,27 @@
   "gallery": [
    {
     "src": "/media/products/root-concealer-2.webp",
-    "width": 352,
-    "height": 972
+    "width": 428,
+    "height": 1008
    },
    {
     "src": "/media/products/root-concealer-3.webp",
-    "width": 324,
-    "height": 972
+    "width": 403,
+    "height": 1008
    }
   ],
   "shadeImages": [
    {
     "shade": "darkBrown",
     "src": "/media/products/root-concealer-2.webp",
-    "width": 352,
-    "height": 972
+    "width": 428,
+    "height": 1008
    },
    {
     "shade": "black",
     "src": "/media/products/root-concealer-3.webp",
-    "width": 324,
-    "height": 972
+    "width": 403,
+    "height": 1008
    }
   ],
   "source": {
@@ -4869,33 +4869,33 @@
   "swatch": null,
   "image": {
    "src": "/media/products/keratin-fiber.webp",
-   "width": 744,
-   "height": 972
+   "width": 800,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/keratin-fiber-2.webp",
-    "width": 704,
-    "height": 972
+    "width": 810,
+    "height": 1008
    },
    {
     "src": "/media/products/keratin-fiber-3.webp",
-    "width": 579,
-    "height": 972
+    "width": 704,
+    "height": 1008
    }
   ],
   "shadeImages": [
    {
     "shade": "darkBrown",
     "src": "/media/products/keratin-fiber-2.webp",
-    "width": 704,
-    "height": 972
+    "width": 810,
+    "height": 1008
    },
    {
     "shade": "black",
     "src": "/media/products/keratin-fiber-3.webp",
-    "width": 579,
-    "height": 972
+    "width": 704,
+    "height": 1008
    }
   ],
   "source": {
@@ -4937,8 +4937,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/color-shampoo-black.webp",
-   "width": 509,
-   "height": 972
+   "width": 645,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -4981,8 +4981,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/color-shampoo-brown.webp",
-   "width": 453,
-   "height": 972
+   "width": 536,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5026,8 +5026,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/color-shampoo-black-sachets.webp",
-   "width": 785,
-   "height": 972
+   "width": 860,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5087,14 +5087,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-blue.webp",
-   "width": 455,
-   "height": 972
+   "width": 543,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/shaving-gel-blue-2.webp",
-    "width": 401,
-    "height": 972
+    "width": 466,
+    "height": 1008
    },
    {
     "src": "/media/models/shaving-gel-hands.webp",
@@ -5160,14 +5160,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-colorless.webp",
-   "width": 448,
-   "height": 972
+   "width": 520,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/shaving-gel-colorless-2.webp",
-    "width": 405,
-    "height": 972
+    "width": 461,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -5221,8 +5221,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-gold-one.webp",
-   "width": 453,
-   "height": 972
+   "width": 525,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5269,8 +5269,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-red-edge.webp",
-   "width": 447,
-   "height": 972
+   "width": 529,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5313,8 +5313,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaving-gel-smooth.webp",
-   "width": 330,
-   "height": 972
+   "width": 404,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5365,8 +5365,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-1.webp",
-   "width": 342,
-   "height": 972
+   "width": 393,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5417,8 +5417,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-2.webp",
-   "width": 365,
-   "height": 972
+   "width": 427,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5469,8 +5469,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-3.webp",
-   "width": 369,
-   "height": 972
+   "width": 431,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5521,8 +5521,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-4.webp",
-   "width": 344,
-   "height": 972
+   "width": 431,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5573,8 +5573,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/cream-cologne-5.webp",
-   "width": 357,
-   "height": 972
+   "width": 428,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5619,8 +5619,8 @@
   "swatch": "#5cc73a",
   "image": {
    "src": "/media/products/cologne-0.webp",
-   "width": 372,
-   "height": 972
+   "width": 457,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5671,8 +5671,8 @@
   "swatch": "#3fb6e0",
   "image": {
    "src": "/media/products/cologne-1.webp",
-   "width": 330,
-   "height": 972
+   "width": 391,
+   "height": 1008
   },
   "gallery": [
    {
@@ -5729,8 +5729,8 @@
   "swatch": "#b77ad6",
   "image": {
    "src": "/media/products/cologne-2.webp",
-   "width": 357,
-   "height": 972
+   "width": 421,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5781,8 +5781,8 @@
   "swatch": "#ee8f8f",
   "image": {
    "src": "/media/products/cologne-3.webp",
-   "width": 359,
-   "height": 972
+   "width": 444,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5833,8 +5833,8 @@
   "swatch": "#e3e35a",
   "image": {
    "src": "/media/products/cologne-4.webp",
-   "width": 339,
-   "height": 972
+   "width": 408,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5885,8 +5885,8 @@
   "swatch": "#d62d5e",
   "image": {
    "src": "/media/products/cologne-5.webp",
-   "width": 353,
-   "height": 972
+   "width": 412,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5937,8 +5937,8 @@
   "swatch": "#1f8fd6",
   "image": {
    "src": "/media/products/cologne-06.webp",
-   "width": 385,
-   "height": 972
+   "width": 471,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -5989,8 +5989,8 @@
   "swatch": "#e3b23c",
   "image": {
    "src": "/media/products/cologne-07.webp",
-   "width": 344,
-   "height": 972
+   "width": 437,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6041,8 +6041,8 @@
   "swatch": "#ddd8cb",
   "image": {
    "src": "/media/products/cologne-08.webp",
-   "width": 335,
-   "height": 972
+   "width": 437,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6093,8 +6093,8 @@
   "swatch": "#8fcdf0",
   "image": {
    "src": "/media/products/cologne-09.webp",
-   "width": 353,
-   "height": 972
+   "width": 426,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6145,8 +6145,8 @@
   "swatch": "#f0a47a",
   "image": {
    "src": "/media/products/cologne-10.webp",
-   "width": 384,
-   "height": 972
+   "width": 472,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6197,8 +6197,8 @@
   "swatch": "#a9a6ef",
   "image": {
    "src": "/media/products/cologne-11.webp",
-   "width": 334,
-   "height": 972
+   "width": 398,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6249,8 +6249,8 @@
   "swatch": "#c4943f",
   "image": {
    "src": "/media/products/cologne-12.webp",
-   "width": 377,
-   "height": 972
+   "width": 451,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6301,8 +6301,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/after-shave-lotion.webp",
-   "width": 375,
-   "height": 972
+   "width": 446,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6347,8 +6347,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/talc-powder.webp",
-   "width": 418,
-   "height": 972
+   "width": 476,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6405,14 +6405,14 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-oil.webp",
-   "width": 520,
-   "height": 972
+   "width": 619,
+   "height": 1008
   },
   "gallery": [
    {
     "src": "/media/products/beard-oil-2.webp",
-    "width": 353,
-    "height": 972
+    "width": 480,
+    "height": 1008
    }
   ],
   "shadeImages": [],
@@ -6464,8 +6464,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-oil-gold-one.webp",
-   "width": 391,
-   "height": 972
+   "width": 544,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6509,8 +6509,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-shampoo.webp",
-   "width": 383,
-   "height": 972
+   "width": 418,
+   "height": 1008
   },
   "gallery": [
    {
@@ -6560,8 +6560,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-conditioner.webp",
-   "width": 393,
-   "height": 972
+   "width": 476,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6602,8 +6602,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-balm.webp",
-   "width": 817,
-   "height": 851
+   "width": 889,
+   "height": 904
   },
   "gallery": [],
   "shadeImages": [],
@@ -6646,8 +6646,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-perfume-adonis.webp",
-   "width": 462,
-   "height": 972
+   "width": 560,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6690,8 +6690,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-perfume-genius.webp",
-   "width": 463,
-   "height": 972
+   "width": 557,
+   "height": 1008
   },
   "gallery": [
    {
@@ -6740,8 +6740,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-foam-fc.webp",
-   "width": 318,
-   "height": 972
+   "width": 411,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6783,8 +6783,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-pen-brown.webp",
-   "width": 318,
-   "height": 972
+   "width": 489,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6826,8 +6826,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-pen-black.webp",
-   "width": 341,
-   "height": 972
+   "width": 443,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6867,8 +6867,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/beard-set.webp",
-   "width": 972,
-   "height": 659
+   "width": 1008,
+   "height": 687
   },
   "gallery": [],
   "shadeImages": [],
@@ -6918,8 +6918,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/peel-off-black.webp",
-   "width": 395,
-   "height": 972
+   "width": 447,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -6969,8 +6969,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/peel-off-gold.webp",
-   "width": 397,
-   "height": 972
+   "width": 452,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7020,8 +7020,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/peel-off-silver.webp",
-   "width": 377,
-   "height": 972
+   "width": 435,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7112,8 +7112,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/facial-scrub-apricot.webp",
-   "width": 780,
-   "height": 833
+   "width": 915,
+   "height": 884
   },
   "gallery": [
    {
@@ -7169,8 +7169,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/facial-scrub-avocado.webp",
-   "width": 825,
-   "height": 846
+   "width": 909,
+   "height": 892
   },
   "gallery": [],
   "shadeImages": [],
@@ -7213,8 +7213,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/sea-scrub.webp",
-   "width": 885,
-   "height": 932
+   "width": 960,
+   "height": 975
   },
   "gallery": [],
   "shadeImages": [],
@@ -7256,8 +7256,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/clay-mask.webp",
-   "width": 894,
-   "height": 949
+   "width": 956,
+   "height": 991
   },
   "gallery": [],
   "shadeImages": [],
@@ -7301,8 +7301,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-classic.webp",
-   "width": 835,
-   "height": 895
+   "width": 872,
+   "height": 931
   },
   "gallery": [
    {
@@ -7352,8 +7352,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-blackberry.webp",
-   "width": 803,
-   "height": 854
+   "width": 863,
+   "height": 889
   },
   "gallery": [],
   "shadeImages": [],
@@ -7397,8 +7397,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-olive.webp",
-   "width": 848,
-   "height": 875
+   "width": 879,
+   "height": 911
   },
   "gallery": [],
   "shadeImages": [],
@@ -7442,8 +7442,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-pomegranate.webp",
-   "width": 810,
-   "height": 851
+   "width": 856,
+   "height": 890
   },
   "gallery": [],
   "shadeImages": [],
@@ -7487,8 +7487,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hand-face-fig-grapefruit.webp",
-   "width": 874,
-   "height": 869
+   "width": 993,
+   "height": 941
   },
   "gallery": [],
   "shadeImages": [],
@@ -7531,8 +7531,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/exclusive-scrub-apricot.webp",
-   "width": 747,
-   "height": 861
+   "width": 858,
+   "height": 926
   },
   "gallery": [],
   "shadeImages": [],
@@ -7575,8 +7575,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/exclusive-scrub-avocado.webp",
-   "width": 754,
-   "height": 858
+   "width": 831,
+   "height": 949
   },
   "gallery": [],
   "shadeImages": [],
@@ -7619,8 +7619,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/exclusive-clay-mask.webp",
-   "width": 758,
-   "height": 768
+   "width": 786,
+   "height": 805
   },
   "gallery": [],
   "shadeImages": [],
@@ -7660,8 +7660,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/kabuto-clay-mask.webp",
-   "width": 750,
-   "height": 796
+   "width": 781,
+   "height": 852
   },
   "gallery": [],
   "shadeImages": [],
@@ -7703,8 +7703,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/face-tonic.webp",
-   "width": 342,
-   "height": 972
+   "width": 419,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7748,8 +7748,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/nose-strip.webp",
-   "width": 643,
-   "height": 972
+   "width": 738,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7789,8 +7789,8 @@
   "swatch": "#f4b223",
   "image": {
    "src": "/media/products/deodorant-01.webp",
-   "width": 347,
-   "height": 972
+   "width": 461,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7830,8 +7830,8 @@
   "swatch": "#3fb6d6",
   "image": {
    "src": "/media/products/deodorant-02.webp",
-   "width": 354,
-   "height": 972
+   "width": 429,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7871,8 +7871,8 @@
   "swatch": "#5cc73a",
   "image": {
    "src": "/media/products/deodorant-03.webp",
-   "width": 351,
-   "height": 972
+   "width": 431,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7912,8 +7912,8 @@
   "swatch": "#c97a2b",
   "image": {
    "src": "/media/products/deodorant-04.webp",
-   "width": 330,
-   "height": 972
+   "width": 465,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7953,8 +7953,8 @@
   "swatch": "#a7a9ac",
   "image": {
    "src": "/media/products/deodorant-05.webp",
-   "width": 391,
-   "height": 972
+   "width": 468,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -7994,8 +7994,8 @@
   "swatch": "#e9e6e1",
   "image": {
    "src": "/media/products/deodorant-06.webp",
-   "width": 353,
-   "height": 972
+   "width": 417,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -8036,8 +8036,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shower-scrub-strawberry.webp",
-   "width": 358,
-   "height": 972
+   "width": 404,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -8078,8 +8078,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shower-scrub-honey-peach.webp",
-   "width": 382,
-   "height": 972
+   "width": 467,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -8120,8 +8120,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shower-gel-pure-touch.webp",
-   "width": 346,
-   "height": 972
+   "width": 383,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -8162,8 +8162,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shower-gel-clean-comfort.webp",
-   "width": 371,
-   "height": 972
+   "width": 499,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -8204,8 +8204,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hard-wax-azulen.webp",
-   "width": 614,
-   "height": 972
+   "width": 663,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -8246,8 +8246,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/hard-wax-natural.webp",
-   "width": 650,
-   "height": 972
+   "width": 680,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -9330,8 +9330,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/barber-towel-orange.webp",
-   "width": 972,
-   "height": 480
+   "width": 1008,
+   "height": 518
   },
   "gallery": [],
   "shadeImages": [],
@@ -9371,8 +9371,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/barber-towel-black.webp",
-   "width": 972,
-   "height": 502
+   "width": 1008,
+   "height": 543
   },
   "gallery": [],
   "shadeImages": [],
@@ -9412,8 +9412,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/neck-strip.webp",
-   "width": 330,
-   "height": 972
+   "width": 407,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -9454,8 +9454,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/shaver-cleaner.webp",
-   "width": 321,
-   "height": 972
+   "width": 433,
+   "height": 1008
   },
   "gallery": [],
   "shadeImages": [],
@@ -9495,8 +9495,8 @@
   "swatch": null,
   "image": {
    "src": "/media/products/gift-set.webp",
-   "width": 972,
-   "height": 677
+   "width": 1008,
+   "height": 705
   },
   "gallery": [],
   "shadeImages": [],

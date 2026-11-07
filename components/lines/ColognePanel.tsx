@@ -27,7 +27,7 @@ export function ColognePanel({ products, photo }: { products: Product[]; photo: 
             return (
               <li key={p.id} className="relative">
                 <div
-                  className="group relative flex h-full min-h-[7.5rem] flex-col items-center justify-end overflow-hidden rounded-xl bg-raised pb-2 lg:min-h-[9.5rem]"
+                  className="group relative flex h-full min-h-[7.5rem] flex-col items-center justify-end overflow-hidden rounded-xl bg-white pb-2 lg:min-h-[9.5rem]"
                   onPointerEnter={(e) => e.pointerType === 'mouse' && setOpen(p.id)}
                   onPointerLeave={(e) => e.pointerType === 'mouse' && setOpen(null)}
                 >
@@ -49,10 +49,10 @@ export function ColognePanel({ products, photo }: { products: Product[]; photo: 
                       fill
                       sizes="(min-width: 1024px) 8vw, 20vw"
                       quality={70}
-                      className="object-contain transition-transform duration-[1000ms] ease-lux group-hover:-translate-y-1 group-hover:scale-[1.04]"
+                      className="packshot object-contain transition-transform duration-[1000ms] ease-lux group-hover:-translate-y-1 group-hover:scale-[1.04]"
                     />
                   </button>
-                  <span className="relative text-[0.66rem] font-bold text-muted">{p.code}</span>
+                  <span className="relative text-[0.66rem] font-bold text-tile-ink/60">{p.code}</span>
 
                   <div
                     className={`absolute inset-x-1 bottom-1 flex flex-col gap-1 rounded-lg bg-bone p-2 text-ink transition-[opacity,transform] duration-500 ease-lux ${

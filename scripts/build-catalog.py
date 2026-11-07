@@ -1,6 +1,6 @@
 """
 Собирает каталог из PDF и студийных фото (img/):
-  * public/media/products/<id>.webp     — фото товаров: студийное фото без белого фона (catalog_spec.STUDIO)
+  * public/media/products/<id>.webp     — фото товаров: студийное фото на белом фоне (catalog_spec.STUDIO)
                                           или композиция вшитых изображений ячейки PDF; <id>-N.webp — галерея
   * public/media/models/<name>.webp      — лайфстайл-фото (каждое используется на сайте один раз)
   * data/products.json, data/lines.json  — данные каталога
@@ -18,7 +18,6 @@ import fitz
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from scipy import ndimage
-from scipy.spatial import ConvexHull
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from catalog_spec import (  # noqa: E402
@@ -146,7 +145,7 @@ def composite(infos, max_side=900):
 # ---------------------------------------------------------- studio photos ----
 BG = 6        # чистый студийный фон: 255 - min(R,G,B) <= BG
 DARK = 60     # «тёмная масса» товара: крышки, этикетки, текст
-SHADOW = 40   # цвет тени при разложении «тёмная тень поверх белого»
+CONTENT = 12  # граница кадра: товар и его тень на полу
 
 
 def caption_row(rgb, d, dark, h):
@@ -170,49 +169,24 @@ def caption_row(rgb, d, dark, h):
     return cut - 2
 
 
-def hull_mask(mask):
-    """Выпуклые оболочки крупных тёмных компонент: внутри — товар целиком, включая белые части."""
-    h, w = mask.shape
-    out = Image.new("L", (w, h), 0)
-    draw = ImageDraw.Draw(out)
-    lab, n = ndimage.label(ndimage.binary_closing(mask, iterations=4))
-    if n:
-        sizes = ndimage.sum(np.ones(mask.shape), lab, range(1, n + 1))
-        for i, size in enumerate(sizes, 1):
-            if size < max(400, sizes.max() * 0.01):
-                continue
-            ys, xs = np.nonzero(lab == i)
-            pts = np.column_stack([xs, ys])
-            hull = ConvexHull(pts)
-            draw.polygon([tuple(map(int, pt)) for pt in pts[hull.vertices]], fill=255)
-    return ndimage.binary_dilation(np.asarray(out) > 0, iterations=2)
-
-
-def studio_cutout(path, max_side=900):
-    """Студийное фото на белом -> RGBA: фон прозрачный, тень полупрозрачная, подпись с объёмом удалена."""
+def studio_photo(path, max_side=900):
+    """Студийное фото как есть, на белом: без вырезки, только подпись («150 мл») убрана и кадр обрезан по товару."""
     rgb = np.asarray(Image.open(path).convert("RGB")).astype(np.float32)
     h = rgb.shape[0]
     d = 255 - rgb.min(axis=2)
-    dark = d >= DARK
-    cap = caption_row(rgb, d, dark, h)
+    cap = caption_row(rgb, d, d >= DARK, h)
     if cap is not None:
-        dark[cap:] = False
-    lab, _ = ndimage.label(d <= BG)
-    edge = np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))
-    bg = np.isin(lab, edge[edge > 0])
-    body = hull_mask(dark)
-    alpha = np.where(body & ~bg, 1.0, 0.0)
-    shade = ~body & ~bg
-    alpha[shade] = np.clip(d[shade] / (255 - SHADOW), 0, 1)
-    if cap is not None:
-        alpha[cap:][~body[cap:]] = 0
-    rgb[shade] = SHADOW
-    img = Image.fromarray(np.dstack([rgb, alpha * 255]).astype(np.uint8), "RGBA")
-    img = img.crop(img.getchannel("A").point(lambda a: 255 if a > 24 else 0).getbbox())
+        rgb[cap:] = 255
+        d[cap:] = 0
+    # фон бумаги (253–254) -> чистый белый 255, остальное растягивается без ступенек
+    rgb = 255 - np.clip((255 - rgb - BG) * 255 / (255 - BG), 0, 255)
+    content = ndimage.binary_opening(d > CONTENT, iterations=2)
+    ys, xs = np.nonzero(content)
+    img = Image.fromarray(rgb.astype(np.uint8), "RGB").crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
     img.thumbnail((max_side, max_side), Image.LANCZOS)
-    pad = int(max(img.size) * 0.04)
-    framed = Image.new("RGBA", (img.width + pad * 2, img.height + pad * 2), (0, 0, 0, 0))
-    framed.alpha_composite(img, (pad, pad))
+    pad = int(max(img.size) * 0.06)
+    framed = Image.new("RGB", (img.width + pad * 2, img.height + pad * 2), (255, 255, 255))
+    framed.paste(img, (pad, pad))
     return framed
 
 
@@ -254,11 +228,11 @@ for pid, code, line, ptype, name, extra in PRODUCTS:
                 add_image(composite(cell_images(p2, c2, r2)))
     assert images or studio, f"no photo for {pid}"
     for key in studio:
-        add_image(studio_cutout(studio_path(key)))
+        add_image(studio_photo(studio_path(key)))
     shade_images = []
     for shade, key in SHADE_PHOTOS.get(pid, {}).items():
         assert shade in extra.get("shades", []), f"{pid}: shade photo for unknown shade {shade}"
-        shade_images.append({"shade": shade, **add_image(studio_cutout(studio_path(key)))})
+        shade_images.append({"shade": shade, **add_image(studio_photo(studio_path(key)))})
 
     features = PRODUCT_FEATURES.get(pid, LINE_FEATURES.get(line, []))
     features = [ALIASES.get(f, f) for f in features]

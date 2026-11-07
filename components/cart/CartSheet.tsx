@@ -61,8 +61,8 @@ export function CartSheet() {
         <ul className="divide-y divide-line">
           {items.map((i) => (
             <li key={i.key} className="flex gap-4 px-5 py-4 lg:px-7">
-              <span className="relative h-20 w-20 shrink-0 rounded-xl bg-tile">
-                <Image src={i.image} alt="" fill sizes="80px" quality={60} className="object-contain p-2" />
+              <span className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl bg-tile">
+                <Image src={i.image} alt="" fill sizes="80px" quality={60} className="packshot object-contain p-2" />
               </span>
               <div className="flex min-w-0 flex-1 flex-col">
                 <p className="truncate font-semibold tracking-[-0.015em]">{i.title}</p>

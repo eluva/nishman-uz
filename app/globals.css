@@ -8,9 +8,9 @@
   --color-muted: #9b988f;
   --color-line: #2a2a2d;
   --color-accent: #ffc72c;
-  --color-tile: #f2f1ed;
+  --color-tile: #ffffff;
   --color-tile-ink: #141416;
-  --color-ghost: #e4e2db;
+  --color-ghost: #eeede8;
 
   /* Системный стек как на apple.com (SF Pro нельзя подключать по лицензии — берётся из системы на устройствах Apple) */
   --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
@@ -272,6 +272,10 @@
   }
   .photo-tone {
     filter: saturate(0.82) contrast(1.04);
+  }
+  /* Фото товара на белом фоне: белое растворяется в светлой подложке, крупные цифры за товаром остаются видны */
+  .packshot {
+    mix-blend-mode: multiply;
   }
 }
 
